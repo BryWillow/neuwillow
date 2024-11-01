@@ -11,7 +11,7 @@ namespace neuWillow
       long getUniqueId() const { return _uniqueId; }
 
       private:
-
+      
         long _uniqueId;
   };     
 }

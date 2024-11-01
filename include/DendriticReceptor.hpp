@@ -1,8 +1,8 @@
+#pragma once
+
 #include <memory>
 #include <set>
 #include "include/NeuroTransmitter.hpp"
-
-using namespace std;
 
 namespace neuWillow
 {
@@ -49,5 +49,4 @@ namespace neuWillow
         PostSynapticBindingSite postSynapticBindingSite, 
         unique_ptr<Neurotransmitter> neuroTransmitter);
   };
-
-};
+}
