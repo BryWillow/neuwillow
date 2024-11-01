@@ -1,5 +1,6 @@
 #include "include/DendriticReceptor.hpp"
 #include "include/UniqueIdGenerator.hpp"
+#include "include/Neurotransmitter.hpp"
 
 namespace neuWillow
 {
@@ -14,7 +15,7 @@ namespace neuWillow
 
   ReceptorBindingResult DendriticReceptor::bind(
     PostSynapticBindingSite postSynapticBindingSite, 
-    unique_ptr<NeuroTransmitter> neuroTransmitter)
+    unique_ptr<Neurotransmitter> neuroTransmitter)
   {
     // TODO: check the state of the binding site
     return UnknownFailure;    
