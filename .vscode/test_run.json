@@ -1,0 +1,10 @@
+{
+  "neuron": [
+      {
+          "preSynapticVescileCount": 1,
+          "preSynapticVesicleContent": "Dopamine, Epinephrine",
+          "dendriteCount": 1
+      }
+  ],
+  "version": 4
+}

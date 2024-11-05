@@ -12,6 +12,6 @@ namespace neuWillow
       long generateId();
 
       private:
-        default_random_engine _randomGenerator;
+        std::default_random_engine _randomGenerator;
   };
 }

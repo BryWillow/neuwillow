@@ -2,7 +2,7 @@
 
 namespace neuWillow
 {
-  class AxonHillock
+  class IonChannel
   {
 
   };

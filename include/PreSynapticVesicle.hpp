@@ -17,7 +17,7 @@ namespace neuWillow
       std::set<Neurotransmitter> m_Neurotransmitters;
       
     public:
-      PreSynapticVesicle(std::set<Neurotransmitter> neurotransmitters)
+      PreSynapticVesicle(const std::set<Neurotransmitter>& neurotransmitters)
         : m_Neurotransmitters(neurotransmitters)
       {
         
