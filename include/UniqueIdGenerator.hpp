@@ -9,9 +9,9 @@ namespace neuWillow
   class UniqueIdGenerator
   {
     public:
-      long generateId();
+      unsigned long generateId();
 
-      private:
-        std::default_random_engine _randomGenerator;
+    private:
+      unsigned long m_uniqueId = 0;
   };
 }

@@ -5,10 +5,9 @@ namespace neuWillow
 {
     using namespace std;
 
-    long UniqueIdGenerator::generateId()
+    unsigned long UniqueIdGenerator::generateId()
     {
-        // TODO: I have not tested the performance of this.
-        // Revisit, Revist;
-        return _randomGenerator();
+        unsigned long valueToReturn = m_uniqueId++;
+        return valueToReturn;
     }
 }

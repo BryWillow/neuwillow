@@ -12,6 +12,7 @@
 //#include "../include/Soma.hpp"
 //#include "../include/Synapse.hpp"
 //#include "../include/UniqueIdGenerator.hpp"
+#include "../include/SimulationStarter.hpp"
 
 // Single Neuron Transfer -- How does a neuron trarnsfer -- broadcast, simulate spreading
 // Json Input Reader:
@@ -31,6 +32,8 @@ int main()
   // Step 6: Ion Channels / Open what gets inside
   // Step 7: Action Potential Generated
   // Step 8: 
-  std::cout << "Testing..." << std::endl;
+  neuWillow::SimulationStarter simulationStarter;
+  simulationStarter.start();
+
   return 0;
-}
+} 

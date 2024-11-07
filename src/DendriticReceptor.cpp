@@ -1,28 +1,24 @@
+#include <memory>
 #include "include/DendriticReceptor.hpp"
 #include "include/UniqueIdGenerator.hpp"
 #include "include/Neurotransmitter.hpp"
 
 namespace neuWillow
 {
-  DendriticReceptor::DendriticReceptor()
+  DendriticReceptor::DendriticReceptor(unsigned long uniqueId)
   {
-    // This doesn't need to be a class.
-    // I've made it a class for now so I can easily keep track
-    // and test all the scenarios where it's used.
-    UniqueIdGenerator generator;
-    _uniqueId = generator.generateId();
+    m_uniqueId = uniqueId;
   }
 
-  ReceptorBindingResult DendriticReceptor::bind(
+  void DendriticReceptor::bind(
     PostSynapticBindingSite postSynapticBindingSite, 
-    unique_ptr<Neurotransmitter> neuroTransmitter)
+    std::unique_ptr<Neurotransmitter> neuroTransmitter)
   {
     // TODO: check the state of the binding site
-    return UnknownFailure;    
   }
 
   long DendriticReceptor::getUniqueId() const
   {
-    return _uniqueId;;
+    return m_uniqueId;;
   }
 }

@@ -20,6 +20,10 @@ namespace neuWillow
    */
   class DendriticReceptor
   {      
+    public:
+      DendriticReceptor(unsigned long uniqueId);
+      ~DendriticReceptor();
+
     private:  
       /**
        * Each dendrite has many rectpors.
@@ -27,7 +31,7 @@ namespace neuWillow
        * Each receptor will continuously receive neurotransmitters from the synapse.
        * This should be automatically done in the ctor.
        */
-      long _uniqueId;
+      unsigned long m_uniqueId;
 
     public:
       /**
@@ -50,7 +54,7 @@ namespace neuWillow
        * be compatible with the site, the site might be damaged, etc.  
        * See: https://en.wikipedia.org/wiki/Neurotransmitter
        */ 
-      ReceptorBindingResult bind(
+      void bind(
         PostSynapticBindingSite postSynapticBindingSite, 
         unique_ptr<Neurotransmitter> neuroTransmitter);
   };

@@ -24,7 +24,7 @@ namespace neuWillow
   class Dendrite
   {
     public:
-      Dendrite(long uniqueId);
+      Dendrite(unsigned long uniqueId);
       ~Dendrite();
       
       long getUniqueId() const { return m_uniqueId; }
@@ -39,7 +39,7 @@ namespace neuWillow
       void dispatchSignal();
 
     private:
-      long m_uniqueId;
+      unsigned long m_uniqueId;
       std::vector<Neurotransmitter> m_Neurotransmitters;
   };
 } // namespace neuWillow

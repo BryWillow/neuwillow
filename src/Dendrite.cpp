@@ -6,9 +6,9 @@ using namespace std;
 namespace neuWillow
 {
 
-  Dendrite::Dendrite(long uniqueId)
+  Dendrite::Dendrite(unsigned long uniqueId)
   {
-    _uniqueId = uniqueId;
+    m_uniqueId = uniqueId;
   }
 
   Dendrite::~Dendrite()
