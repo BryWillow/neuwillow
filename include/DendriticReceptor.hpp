@@ -14,12 +14,17 @@ namespace neuWillow
      Success
   };
 
+  /**
+   * A DendriticReceptor is a protein that is located on the spines of dendrites.
+   * 
+   */
   class DendriticReceptor
   {      
     private:  
       /**
-       * We will have many instances of DendriticReceptors.
-       * This id allows us to find a specific instance.
+       * Each dendrite has many rectpors.
+       * Each receptor is identified by a unique id.
+       * Each receptor will continuously receive neurotransmitters from the synapse.
        * This should be automatically done in the ctor.
        */
       long _uniqueId;

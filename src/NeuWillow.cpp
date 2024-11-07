@@ -1,17 +1,17 @@
 #include <iostream>
 
-#include "../include/IonChannel.hpp"
-#include "../include/Neurotransmitter.hpp"
+//#include "../include/IonChannel.hpp"
+//#include "../include/Neurotransmitter.hpp"
 //#include "../include/Dendrite.hpp"
-#include "../include/MyelinSheath.hpp"
+//#include "../include/MyelinSheath.hpp"
 //#include "../include/DendriticReceptor.hpp"
 //#include "../Neuron.hpp"
-#include "../include/PostSynapticNeuron.hpp"
-#include "../include/PreSynapticNeuron.hpp"
-#include "../include/PreSynapticVesicle.hpp"
-#include "../include/Soma.hpp"
-#include "../include/Synapse.hpp"
-#include "../include/UniqueIdGenerator.hpp"
+//#include "../include/PostSynapticNeuron.hpp"
+//#include "../include/PreSynapticNeuron.hpp"
+//#include "../include/PreSynapticVesicle.hpp"
+//#include "../include/Soma.hpp"
+//#include "../include/Synapse.hpp"
+//#include "../include/UniqueIdGenerator.hpp"
 
 // Single Neuron Transfer -- How does a neuron trarnsfer -- broadcast, simulate spreading
 // Json Input Reader:

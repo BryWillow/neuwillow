@@ -2,6 +2,8 @@
 
 namespace neuWillow
 {
+  /// @brief A neuron's nucleus.
+  /// 
   class Soma
   {
     public:
