@@ -16,12 +16,7 @@ namespace neuWillow
 
   }
 
-  void Dendrite::processNeurotransmitter(Neurotransmitter *pNeurotransmitter)
-  {
-
-  }
-
-  void Dendrite::dispatchSignal()
+  void Dendrite::processNeurotransmitters(const std::vector<Neurotransmitter>& neurotransmitters)
   {
 
   }

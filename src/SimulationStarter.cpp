@@ -19,6 +19,8 @@ namespace neuWillow
 
   void SimulationStarter::start()
   {
+    // Start simple: Create one of every component.
+    
     UniqueIdGenerator synapseIdGenerator;
     unsigned long synapseId = synapseIdGenerator.generateId();
     Synapse synapse(synapseId);
@@ -26,5 +28,17 @@ namespace neuWillow
     UniqueIdGenerator dendriteIdGenerator;
     unsigned long dendriteId = dendriteIdGenerator.generateId();
     Dendrite dendrite(dendriteId);
+
+    UniqueIdGenerator dendriticReceptorIdGenerator;
+    unsigned long dendriticReceptorId = dendriticReceptorIdGenerator.generateId();
+    DendriticReceptor dendriticReceptor(dendriticReceptorId);
+
+    UniqueIdGenerator somaIdGenerator;
+    unsigned long somaId = somaIdGenerator.generateId();
+    Soma soma(somaId);
+
+    UniqueIdGenerator axonHillockIdGenerator;
+    unsigned long axonHillockId = axonHillockIdGenerator.generateId();
+    AxonHillock axonHillock(axonHillockId);
   }
 }

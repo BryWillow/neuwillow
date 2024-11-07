@@ -54,8 +54,6 @@ namespace neuWillow
        * be compatible with the site, the site might be damaged, etc.  
        * See: https://en.wikipedia.org/wiki/Neurotransmitter
        */ 
-      void bind(
-        PostSynapticBindingSite postSynapticBindingSite, 
-        unique_ptr<Neurotransmitter> neuroTransmitter);
+      void bind();
   };
 }

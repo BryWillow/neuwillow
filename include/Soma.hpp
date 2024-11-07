@@ -7,9 +7,12 @@ namespace neuWillow
   class Soma
   {
     public:
-      Soma();
+      Soma(unsigned long uniqueId);
       ~Soma();
 
       void processSignal(long signal);
+
+    private:
+      unsigned long m_uniqueId;
   };
 }

@@ -3,7 +3,7 @@
 
 namespace neuWillow
 {
-  AxonHillock::AxonHillock(long uniqueId)
+  AxonHillock::AxonHillock(unsigned long uniqueId)
   {
     std::cout << "AxonHillock - Creating new instance." << std::endl;
     m_uniqueId = uniqueId;

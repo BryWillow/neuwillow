@@ -10,9 +10,7 @@ namespace neuWillow
     m_uniqueId = uniqueId;
   }
 
-  void DendriticReceptor::bind(
-    PostSynapticBindingSite postSynapticBindingSite, 
-    std::unique_ptr<Neurotransmitter> neuroTransmitter)
+  void DendriticReceptor::bind()
   {
     // TODO: check the state of the binding site
   }

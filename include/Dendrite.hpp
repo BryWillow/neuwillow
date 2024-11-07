@@ -27,16 +27,13 @@ namespace neuWillow
       Dendrite(unsigned long uniqueId);
       ~Dendrite();
       
-      long getUniqueId() const { return m_uniqueId; }
-
       /// @brief 
       /// The same dendrite will repeatedly receive new bundles of neurotransmitters.
       /// That is why we can't take a vector of neurotransmitters in the ctor.
       /// @param neurotransmitters 
-      void processNeurotransmitters(std::vector<Neurotransmitter> neurotransmitters);
+      void processNeurotransmitters(const std::vector<Neurotransmitter>& neurotransmitters);
 
     private: 
-      void dispatchSignal();
 
     private:
       unsigned long m_uniqueId;
