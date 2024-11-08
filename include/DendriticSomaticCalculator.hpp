@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector>
-#include "../include/Dendrite.hpp"
+#include "Dendrite.hpp"
 
 namespace neuWillow
 {
@@ -10,8 +10,6 @@ namespace neuWillow
     public:
       DendriticSomaticCalculator(unsigned long uniqueId);
       ~DendriticSomaticCalculator();
-
-      long calculateOutputToSoma(const std::vector<Dendrite>& dendrites);
 
     private:
       unsigned long m_uniqueId;

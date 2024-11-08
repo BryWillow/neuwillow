@@ -2,7 +2,7 @@
 
 #include <memory>
 #include <set>
-#include "include/NeuroTransmitter.hpp"
+#include "NeuroTransmitter.hpp"
 
 namespace neuWillow
 {

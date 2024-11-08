@@ -1,5 +1,5 @@
-#include "include/Dendrite.hpp"
-#include "include/Neurotransmitter.hpp"
+#include "../include/Dendrite.hpp"
+#include "../include/Neurotransmitter.hpp"
 
 using namespace std;
 

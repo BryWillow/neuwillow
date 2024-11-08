@@ -1,9 +1,7 @@
-#pragma once
-
 #include "../include/SimulationStarter.hpp"
-#include "../include/UniqueIdGenerator.hpp"
-#include "../include/Synapse.hpp"
-#include "../include/Dendrite.hpp"
+//#include "../include/UniqueIdGenerator.hpp"
+//#include "../include/Synapse.hpp"
+//#include "../include/Dendrite.hpp"
 
 namespace neuWillow
 {
@@ -21,6 +19,7 @@ namespace neuWillow
   {
     // Start simple: Create one of every component.
     
+    /*
     UniqueIdGenerator synapseIdGenerator;
     unsigned long synapseId = synapseIdGenerator.generateId();
     Synapse synapse(synapseId);
@@ -39,6 +38,6 @@ namespace neuWillow
 
     UniqueIdGenerator axonHillockIdGenerator;
     unsigned long axonHillockId = axonHillockIdGenerator.generateId();
-    AxonHillock axonHillock(axonHillockId);
+    AxonHillock axonHillock(axonHillockId);*/
   }
 }

@@ -1,4 +1,4 @@
-#include "include/Neurotransmitter.hpp"
+#include "../include/Neurotransmitter.hpp"
 
 namespace neuWillow
 {

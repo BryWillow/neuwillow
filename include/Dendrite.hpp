@@ -1,10 +1,10 @@
 #pragma once
 
 #include <memory>
-#include "include/DendriticReceptor.hpp"
-#include "include/NeuroTransmitter.hpp"
-#include "include/Neuron.hpp"
-#include "include/Synapse.hpp"
+#include "DendriticReceptor.hpp"
+#include "NeuroTransmitter.hpp"
+#include "Neuron.hpp"
+#include "Synapse.hpp"
 
 namespace neuWillow
 {

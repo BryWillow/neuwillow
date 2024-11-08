@@ -1,13 +1,18 @@
 #include <memory>
-#include "include/DendriticReceptor.hpp"
-#include "include/UniqueIdGenerator.hpp"
-#include "include/Neurotransmitter.hpp"
+#include "../include/DendriticReceptor.hpp"
+#include "../include/UniqueIdGenerator.hpp"
+#include "../include/Neurotransmitter.hpp"
 
 namespace neuWillow
 {
   DendriticReceptor::DendriticReceptor(unsigned long uniqueId)
   {
     m_uniqueId = uniqueId;
+  }
+
+  DendriticReceptor::~DendriticReceptor()
+  {
+    
   }
 
   void DendriticReceptor::bind()

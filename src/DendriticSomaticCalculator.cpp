@@ -11,9 +11,4 @@ namespace neuWillow
   {
 
   }
-
-  unsigned long DendriticSomaticCalculator::calculateOutputToSoma(const std::vector<Dendrite>& dendrites)
-  {
-    return 0;
-  }
 }
