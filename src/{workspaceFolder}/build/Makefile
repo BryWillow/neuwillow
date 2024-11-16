@@ -527,6 +527,30 @@ NeuWillow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/NeuWillow.cpp.s
 .PHONY : NeuWillow.cpp.s
 
+Soma.o: Soma.cpp.o
+.PHONY : Soma.o
+
+# target to build an object file
+Soma.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Soma.cpp.o
+.PHONY : Soma.cpp.o
+
+Soma.i: Soma.cpp.i
+.PHONY : Soma.i
+
+# target to preprocess a source file
+Soma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Soma.cpp.i
+.PHONY : Soma.cpp.i
+
+Soma.s: Soma.cpp.s
+.PHONY : Soma.s
+
+# target to generate assembly for a file
+Soma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Soma.cpp.s
+.PHONY : Soma.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -568,6 +592,9 @@ help:
 	@echo "... NeuWillow.o"
 	@echo "... NeuWillow.i"
 	@echo "... NeuWillow.s"
+	@echo "... Soma.o"
+	@echo "... Soma.i"
+	@echo "... Soma.s"
 .PHONY : help
 
 

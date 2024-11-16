@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp" "CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o" "gcc" "CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o.d"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp" "CMakeFiles/NeuWillow.dir/Soma.cpp.o" "gcc" "CMakeFiles/NeuWillow.dir/Soma.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

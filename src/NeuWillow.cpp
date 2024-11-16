@@ -1,13 +1,14 @@
 #include <iostream>
+#include <string>
+#include <memory>
 #include "../include/SimulationStarter.hpp"
+#include "../include/Axon.hpp"
+
+using namespace neuWillow;
 
 int main()
 {
-  std::cout << "Simulation starting..." << sdt::endl;
+  SimulationStarter* pSimulationStarter = new SimulationStarter("OneNeuron");
 
-  neuWillow::SimulationStarter simulationStarter;
-  simulationStarter.start();
-
-  std::cout << "Simulation ended." << std::endl;
   return 0;
 }

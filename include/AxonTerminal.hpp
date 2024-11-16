@@ -1,14 +1,32 @@
- #pragma once
+#pragma once
 
- namespace neuWillow
- {
+#include <unordered_map>
+#include <memory>
+#include "UniqueIdGenerator.hpp"
+
+namespace neuWillow
+{
   class AxonTerminal
   {
     public:
-      AxonTerminal(long m_uniqueId);
+      AxonTerminal(unsigned long uniqueId);
       ~AxonTerminal();
 
+      unsigned long getId() const;
+
     private:
-      long m_uniqueId;
+      unsigned long _id;
   };
- }
+
+  class AxonTerminalFactory
+  {
+    public:
+      std::shared_ptr<AxonTerminal> create();
+      std::shared_ptr<AxonTerminal> find(unsigned long axonTerminalId);
+      bool destroy(unsigned long axonTerminalId);
+
+    private:
+      std::unordered_map<unsigned long, std::shared_ptr<AxonTerminal> > _createdAxonTerminals;
+      UniqueIdGenerator _idGenerator;
+  }; 
+}

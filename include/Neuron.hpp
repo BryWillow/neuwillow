@@ -1,47 +1,34 @@
 #pragma once
 
-#include "Axon.hpp"
-#include "AxonHillock.hpp"
-#include "AxonTerminal.hpp"
-#include "Dendrite.hpp"
-#include "Soma.hpp"
+#include <unordered_map>
+#include <memory>
+#include "UniqueIdGenerator.hpp"
 
 namespace neuWillow
 {
   class Neuron
   {      
     public:
-      Neuron(
-        const vector<Dendrite>& dendrites,
-        const Soma& soma,
-        const AxonHillock& axonHillock,
-        const Axon& axon,
-        const AxonTerminal& axonTerminal) :
-          m_dendrites(dendrites),
-          m_soma(soma),
-          m_axonHillock(axonHillock),
-          m_axon(axon),
-          m_axonTerminal(axonTerminal)
-      {
-        if (dendrites.size() == 0)
-        {
-          // This is a damaged neuron and cannot be repaired.
-          // TODO: add to a global collection of damaged neurons.
-        }
+      Neuron(unsigned long id);
+      ~Neuron();
 
-        // TODO: register this neuron with a global collection.
-        m_neuronId++;
-      }
-
-      long getNeuronId() const { return m_neuronId; }
+      unsigned long getNeuronId() const;
 
     private:
-      vector<Dendrite> m_dendrites;
-      Soma m_soma;
-      AxonHillock m_axonHillock;
-      Axon m_axon;
-      AxonTerminal m_axonTerminal;
-
-      static unsigned long m_neuronId;
+      unsigned long _id;
   };
+
+  class NeuronFactory
+  {
+    public:
+      NeuronFactory();
+
+      std::shared_ptr<Neuron> create();
+      std::shared_ptr<Neuron> find(unsigned long neuronId);
+      bool destroy(unsigned long neuronId);
+
+    private:
+      std::unordered_map<unsigned long, std::shared_ptr<Neuron> > _createdNeurons;
+      UniqueIdGenerator _uniqueIdGenerator;
+  };  
 }

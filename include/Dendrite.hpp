@@ -1,42 +1,32 @@
 #pragma once
 
+#include <unordered_map>
 #include <memory>
-#include "DendriticReceptor.hpp"
-#include "NeuroTransmitter.hpp"
-#include "Neuron.hpp"
-#include "Synapse.hpp"
+#include "UniqueIdGenerator.hpp"
 
 namespace neuWillow
 {
-  struct DendriteProcessedEventArgs
-  {
-    unique_ptr<Neuron> PreSynapticNeuron;    
-    unique_ptr<Synapse> Synapse;
-    set<unique_ptr<DendriticReceptor>> Receptors;
-    set<unique_ptr<Neurotransmitter>> NeurotransmittersReceived;
-    unique_ptr<Dendrite> Trigger;
-    int LigandGatedIonChannelsOpen;
-    long VoltageInside;
-    long VoltageOutside;
-    long CalciumOutside;
-  };
-  
   class Dendrite
   {
     public:
       Dendrite(unsigned long uniqueId);
       ~Dendrite();
-      
-      /// @brief 
-      /// The same dendrite will repeatedly receive new bundles of neurotransmitters.
-      /// That is why we can't take a vector of neurotransmitters in the ctor.
-      /// @param neurotransmitters 
-      void processNeurotransmitters(const std::vector<Neurotransmitter>& neurotransmitters);
 
-    private: 
+      unsigned long getId() const;
 
     private:
-      unsigned long m_uniqueId;
-      std::vector<Neurotransmitter> m_Neurotransmitters;
+      unsigned long _id;
   };
-} // namespace neuWillow
+
+  class DendriteFactory
+  {
+    public:
+      std::shared_ptr<Dendrite> create();
+      std::shared_ptr<Dendrite> find(unsigned long dendriteId);
+      bool destroy(unsigned long dendriteId);
+
+    private:
+      std::unordered_map<unsigned long, std::shared_ptr<Dendrite> > _createdDendrites;
+      UniqueIdGenerator _idGenerator;
+  }; 
+}

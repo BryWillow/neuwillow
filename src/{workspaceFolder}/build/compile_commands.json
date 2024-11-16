@@ -1,8 +1,14 @@
 [
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../build -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp",
   "output": "CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o"
+},
+{
+  "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../build -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Soma.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp",
+  "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp",
+  "output": "CMakeFiles/NeuWillow.dir/Soma.cpp.o"
 }
 ]

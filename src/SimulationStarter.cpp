@@ -1,43 +1,47 @@
+#include <iostream>
+#include <memory>
 #include "../include/SimulationStarter.hpp"
-//#include "../include/UniqueIdGenerator.hpp"
-//#include "../include/Synapse.hpp"
-//#include "../include/Dendrite.hpp"
+#include "../include/Synapse.hpp"
+#include "../include/DendriteReceptor.hpp"
+#include "../include/Dendrite.hpp"
+#include "../include/Soma.hpp"
+#include "../include/AxonHillock.hpp"
+#include "../include/PreSynapticVesicle.hpp"
+#include "../include/Axon.hpp"
 
 namespace neuWillow
 {
-  SimulationStarter::SimulationStarter()
+  SimulationStarter::SimulationStarter(const std::string& simulationName)
   {
-    
+    _simlulationName = simulationName;
   }
 
   SimulationStarter::~SimulationStarter()
   {
-
+    
   }
 
   void SimulationStarter::start()
   {
-    // Start simple: Create one of every component.
-    
-    /*
-    UniqueIdGenerator synapseIdGenerator;
-    unsigned long synapseId = synapseIdGenerator.generateId();
-    Synapse synapse(synapseId);
+    SynapseFactory synapseFactory;
+    std::shared_ptr<Synapse> synapse = synapseFactory.create();
 
-    UniqueIdGenerator dendriteIdGenerator;
-    unsigned long dendriteId = dendriteIdGenerator.generateId();
-    Dendrite dendrite(dendriteId);
+    DendriteReceptorFactory dendriteReceptorFactory;
+    std::shared_ptr<DendriteReceptor> dendriteReceptor = dendriteReceptorFactory.create();
 
-    UniqueIdGenerator dendriticReceptorIdGenerator;
-    unsigned long dendriticReceptorId = dendriticReceptorIdGenerator.generateId();
-    DendriticReceptor dendriticReceptor(dendriticReceptorId);
+    DendriteFactory dendriteFactory;
+    std::shared_ptr<Dendrite> dendrite = dendriteFactory.create();
 
-    UniqueIdGenerator somaIdGenerator;
-    unsigned long somaId = somaIdGenerator.generateId();
-    Soma soma(somaId);
+    SomaFactory somaFactory;
+    std::shared_ptr<Soma> soma = somaFactory.create();
 
-    UniqueIdGenerator axonHillockIdGenerator;
-    unsigned long axonHillockId = axonHillockIdGenerator.generateId();
-    AxonHillock axonHillock(axonHillockId);*/
+    AxonHillockFactory axonHillockFactory;
+    std::shared_ptr<AxonHillock> axonHillock = axonHillockFactory.create();
+
+    PreSynapticVesicleFactory preSynapticVesicleFactory;
+    std::shared_ptr<PreSynapticVesicle> preSynapticVesicle = preSynapticVesicleFactory.create();
+
+    AxonFactory axonFactory;
+    std::shared_ptr<Axon> axon = axonFactory.create();
   }
 }

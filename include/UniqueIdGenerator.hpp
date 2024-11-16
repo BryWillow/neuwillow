@@ -8,6 +8,6 @@ namespace neuWillow
       unsigned long generateId();
 
     private:
-      unsigned long m_uniqueId = 0;
+      unsigned long m_uniqueId;
   };
 }

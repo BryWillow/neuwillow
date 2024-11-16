@@ -1,32 +1,32 @@
 #pragma once
 
-#include "Neurotransmitter.hpp"
-#include <set>
+#include <unordered_map>
+#include <memory>
+#include "UniqueIdGenerator.hpp"
 
 namespace neuWillow
 {
-  /**
-  * A pre-synaptic vesicle "owns" (see memory below), 
-  * i.e., contains a unique collection of neurotransmitters
-  * that will be distributed as part of the synapse.
-  */
-
   class PreSynapticVesicle
   {
-    private:   
-      std::set<Neurotransmitter> m_Neurotransmitters;
-      
     public:
-      PreSynapticVesicle(const std::set<Neurotransmitter>& neurotransmitters)
-        : m_Neurotransmitters(neurotransmitters)
-      {
-        
-      }
+      PreSynapticVesicle(unsigned long uniqueId);
+      ~PreSynapticVesicle();
 
-      PreSynapticVesicle(std::set<Neurotransmitter>&& neurotransmitters)
-        : m_Neurotransmitters(neurotransmitters)
-      {
+      unsigned long getId() const;
 
-      }  
+    private:
+      unsigned long _id;
   };
+
+  class PreSynapticVesicleFactory
+  {
+    public:
+      std::shared_ptr<PreSynapticVesicle> create();
+      std::shared_ptr<PreSynapticVesicle> find(unsigned long preSynapticVesicleId);
+      bool destroy(unsigned long preSynapticVesicleId);
+
+    private:
+      std::unordered_map<unsigned long, std::shared_ptr<PreSynapticVesicle> > _createdPreSynapticVesicles;
+      UniqueIdGenerator _idGenerator;
+  }; 
 }

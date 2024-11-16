@@ -1,7 +1,8 @@
 #pragma once
 
-#include <vector>
-#include "IonChannel.hpp"
+#include <unordered_map>
+#include <memory>
+#include "UniqueIdGenerator.hpp"
 
 namespace neuWillow
 {
@@ -16,16 +17,24 @@ namespace neuWillow
   class Axon
   {
     public:
-      Axon(
-        unsigned long uniqueId,
-        MyelinationType myelinationType,
-        double lengthMillimeters,
-        double diameterMicorometers);
+      Axon(unsigned long uniqueId);
+      ~Axon();
+
+      unsigned long getId() const;
 
     private:
-      unsigned long m_uniqueId;
-      MyelinationType m_myelinationType;
-      double m_lengthInMillimeters;
-      double m_diameterInMicrometers;
+      unsigned long _id;
+  };
+
+  class AxonFactory
+  {
+    public:
+      std::shared_ptr<Axon> create();
+      std::shared_ptr<Axon> find(unsigned long axonId);
+      bool destroy(unsigned long axonId);
+
+    private:
+      std::unordered_map<unsigned long, std::shared_ptr<Axon> > _createdAxons;
+      UniqueIdGenerator _idGenerator;
   };
 }

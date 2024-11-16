@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/NeuWillow.dir/Axon.cpp.o"
+  "CMakeFiles/NeuWillow.dir/Axon.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o"
+  "CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o"
+  "CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/Dendrite.cpp.o"
+  "CMakeFiles/NeuWillow.dir/Dendrite.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o"
+  "CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o"
+  "CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/MyelinSheath.cpp.o"
+  "CMakeFiles/NeuWillow.dir/MyelinSheath.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o"
+  "CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/Neuron.cpp.o"
+  "CMakeFiles/NeuWillow.dir/Neuron.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o"
+  "CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o"
+  "CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o"
+  "CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/Soma.cpp.o"
+  "CMakeFiles/NeuWillow.dir/Soma.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/Synapse.cpp.o"
+  "CMakeFiles/NeuWillow.dir/Synapse.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o"
+  "CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+  "CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+  "CMakeFiles/NeuWillow.dir/{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o.d"
+  "NeuWillow"
+  "NeuWillow.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/NeuWillow.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
