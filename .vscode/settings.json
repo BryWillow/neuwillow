@@ -2,5 +2,6 @@
   "cmake.sourceDirectory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src",
   "files.associations": {
     "unordered_map": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }

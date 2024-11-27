@@ -130,6 +130,30 @@ NeuWillow/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/build
 .PHONY : NeuWillow/fast
 
+ActionPotential.o: ActionPotential.cpp.o
+.PHONY : ActionPotential.o
+
+# target to build an object file
+ActionPotential.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ActionPotential.cpp.o
+.PHONY : ActionPotential.cpp.o
+
+ActionPotential.i: ActionPotential.cpp.i
+.PHONY : ActionPotential.i
+
+# target to preprocess a source file
+ActionPotential.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ActionPotential.cpp.i
+.PHONY : ActionPotential.cpp.i
+
+ActionPotential.s: ActionPotential.cpp.s
+.PHONY : ActionPotential.s
+
+# target to generate assembly for a file
+ActionPotential.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ActionPotential.cpp.s
+.PHONY : ActionPotential.cpp.s
+
 Axon.o: Axon.cpp.o
 .PHONY : Axon.o
 
@@ -202,6 +226,30 @@ AxonTerminal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.s
 .PHONY : AxonTerminal.cpp.s
 
+ChemicalSynapse.o: ChemicalSynapse.cpp.o
+.PHONY : ChemicalSynapse.o
+
+# target to build an object file
+ChemicalSynapse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o
+.PHONY : ChemicalSynapse.cpp.o
+
+ChemicalSynapse.i: ChemicalSynapse.cpp.i
+.PHONY : ChemicalSynapse.i
+
+# target to preprocess a source file
+ChemicalSynapse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.i
+.PHONY : ChemicalSynapse.cpp.i
+
+ChemicalSynapse.s: ChemicalSynapse.cpp.s
+.PHONY : ChemicalSynapse.s
+
+# target to generate assembly for a file
+ChemicalSynapse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.s
+.PHONY : ChemicalSynapse.cpp.s
+
 Dendrite.o: Dendrite.cpp.o
 .PHONY : Dendrite.o
 
@@ -273,6 +321,30 @@ DendriticSomaticCalculator.s: DendriticSomaticCalculator.cpp.s
 DendriticSomaticCalculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.s
 .PHONY : DendriticSomaticCalculator.cpp.s
+
+Logger.o: Logger.cpp.o
+.PHONY : Logger.o
+
+# target to build an object file
+Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Logger.cpp.o
+.PHONY : Logger.cpp.o
+
+Logger.i: Logger.cpp.i
+.PHONY : Logger.i
+
+# target to preprocess a source file
+Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Logger.cpp.i
+.PHONY : Logger.cpp.i
+
+Logger.s: Logger.cpp.s
+.PHONY : Logger.s
+
+# target to generate assembly for a file
+Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Logger.cpp.s
+.PHONY : Logger.cpp.s
 
 MyelinSheath.o: MyelinSheath.cpp.o
 .PHONY : MyelinSheath.o
@@ -442,30 +514,6 @@ Soma.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Soma.cpp.s
 .PHONY : Soma.cpp.s
 
-Synapse.o: Synapse.cpp.o
-.PHONY : Synapse.o
-
-# target to build an object file
-Synapse.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Synapse.cpp.o
-.PHONY : Synapse.cpp.o
-
-Synapse.i: Synapse.cpp.i
-.PHONY : Synapse.i
-
-# target to preprocess a source file
-Synapse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Synapse.cpp.i
-.PHONY : Synapse.cpp.i
-
-Synapse.s: Synapse.cpp.s
-.PHONY : Synapse.s
-
-# target to generate assembly for a file
-Synapse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Synapse.cpp.s
-.PHONY : Synapse.cpp.s
-
 UniqueIdGenerator.o: UniqueIdGenerator.cpp.o
 .PHONY : UniqueIdGenerator.o
 
@@ -547,6 +595,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NeuWillow"
+	@echo "... ActionPotential.o"
+	@echo "... ActionPotential.i"
+	@echo "... ActionPotential.s"
 	@echo "... Axon.o"
 	@echo "... Axon.i"
 	@echo "... Axon.s"
@@ -556,6 +607,9 @@ help:
 	@echo "... AxonTerminal.o"
 	@echo "... AxonTerminal.i"
 	@echo "... AxonTerminal.s"
+	@echo "... ChemicalSynapse.o"
+	@echo "... ChemicalSynapse.i"
+	@echo "... ChemicalSynapse.s"
 	@echo "... Dendrite.o"
 	@echo "... Dendrite.i"
 	@echo "... Dendrite.s"
@@ -565,6 +619,9 @@ help:
 	@echo "... DendriticSomaticCalculator.o"
 	@echo "... DendriticSomaticCalculator.i"
 	@echo "... DendriticSomaticCalculator.s"
+	@echo "... Logger.o"
+	@echo "... Logger.i"
+	@echo "... Logger.s"
 	@echo "... MyelinSheath.o"
 	@echo "... MyelinSheath.i"
 	@echo "... MyelinSheath.s"
@@ -586,9 +643,6 @@ help:
 	@echo "... Soma.o"
 	@echo "... Soma.i"
 	@echo "... Soma.s"
-	@echo "... Synapse.o"
-	@echo "... Synapse.i"
-	@echo "... Synapse.s"
 	@echo "... UniqueIdGenerator.o"
 	@echo "... UniqueIdGenerator.i"
 	@echo "... UniqueIdGenerator.s"

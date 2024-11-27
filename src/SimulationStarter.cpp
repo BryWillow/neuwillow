@@ -1,7 +1,7 @@
 #include <iostream>
 #include <memory>
 #include "../include/SimulationStarter.hpp"
-#include "../include/Synapse.hpp"
+#include "../include/ChemicalSynapse.hpp"
 #include "../include/DendriteReceptor.hpp"
 #include "../include/Dendrite.hpp"
 #include "../include/Soma.hpp"
@@ -23,8 +23,8 @@ namespace neuWillow
 
   void SimulationStarter::start()
   {
-    SynapseFactory synapseFactory;
-    std::shared_ptr<Synapse> synapse = synapseFactory.create();
+    ChemicalSynapseFactory chemicalSynapseFactory;
+    std::shared_ptr<ChemicalSynapse> chemicalSynapse = chemicalSynapseFactory.create();
 
     DendriteReceptorFactory dendriteReceptorFactory;
     std::shared_ptr<DendriteReceptor> dendriteReceptor = dendriteReceptorFactory.create();

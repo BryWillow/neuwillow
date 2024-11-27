@@ -3,6 +3,7 @@
 #include <unordered_map>
 #include <memory>
 #include "UniqueIdGenerator.hpp"
+#include "ActionPotential.hpp"
 
 namespace neuWillow
 {

@@ -2,9 +2,11 @@
 
 namespace neuWillow
 {
-  Dendrite::Dendrite(unsigned long uniqueId)
+  Dendrite::Dendrite(
+    unsigned long dendriteId, 
+    std::vector<std::shared_ptr<DendriteReceptor> > dendriteReceptors)
   {
-    _id = uniqueId;
+    _dendriteId = dendriteId;
   }
 
   Dendrite::~Dendrite()
@@ -12,15 +14,24 @@ namespace neuWillow
 
   }
 
-  unsigned long Dendrite::getId() const
+  unsigned long Dendrite::getDendriteId() const
   {
-    return _id;
+    return _dendriteId;
   }
 
   std::shared_ptr<Dendrite> DendriteFactory::create()
   {
       unsigned long dendriteId = _idGenerator.generateId();
-      std::shared_ptr<Dendrite> newDendrite = std::make_shared<Dendrite>(dendriteId);
+
+      // Add a dendrite's receptors.
+      // TODO: Read the dendrite receptor count from config.
+      const int HARDCODED_RECEPTOR_COUNT = 10;
+      std::vector< std::shared_ptr<DendriteReceptor> > receptors(HARDCODED_RECEPTOR_COUNT);
+      for(int i = 0; i < HARDCODED_RECEPTOR_COUNT; i++)
+      {
+        receptors[i] = _dendriteReceptorFactory.create();
+      }
+      std::shared_ptr<Dendrite> newDendrite = std::make_shared<Dendrite>(dendriteId, receptors);
       _createdDendrites[dendriteId] = newDendrite;
       return newDendrite;
   }    

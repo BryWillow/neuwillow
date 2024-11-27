@@ -1,6 +1,12 @@
 [
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/ActionPotential.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ActionPotential.cpp",
+  "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ActionPotential.cpp",
+  "output": "CMakeFiles/NeuWillow.dir/ActionPotential.cpp.o"
+},
+{
+  "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",
   "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Axon.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axon.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axon.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Axon.cpp.o"
@@ -19,6 +25,12 @@
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ChemicalSynapse.cpp",
+  "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ChemicalSynapse.cpp",
+  "output": "CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o"
+},
+{
+  "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",
   "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Dendrite.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Dendrite.cpp.o"
@@ -34,6 +46,12 @@
   "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriticSomaticCalculator.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriticSomaticCalculator.cpp",
   "output": "CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o"
+},
+{
+  "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Logger.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Logger.cpp",
+  "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Logger.cpp",
+  "output": "CMakeFiles/NeuWillow.dir/Logger.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",
@@ -76,12 +94,6 @@
   "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Soma.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Soma.cpp.o"
-},
-{
-  "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",
-  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Synapse.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Synapse.cpp",
-  "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Synapse.cpp",
-  "output": "CMakeFiles/NeuWillow.dir/Synapse.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",

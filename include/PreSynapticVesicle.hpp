@@ -3,6 +3,7 @@
 #include <unordered_map>
 #include <memory>
 #include "UniqueIdGenerator.hpp"
+#include "Neurotransmitter.hpp"
 
 namespace neuWillow
 {
@@ -13,6 +14,7 @@ namespace neuWillow
       ~PreSynapticVesicle();
 
       unsigned long getId() const;
+      void addNeurotransmitter(Neurotransmitter* pNeurotransmitter);
 
     private:
       unsigned long _id;

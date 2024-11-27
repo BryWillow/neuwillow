@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20241127-1903-Experimental"
+	Name="Bryans-MacBook-Air.local"
+	Generator="ctest-3.31.0-rc3"
+	CompilerName="/Library/Developer/CommandLineTools/usr/bin/c++"
+	CompilerVersion="14.0.3.14030022"
+	OSName="macOS"
+	Hostname="Mac.attlocal.net"
+	OSRelease="15.0.1"
+	OSVersion="24A348"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M2"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="3072"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Nov 27 13:34 CST</StartDateTime>
+		<StartTestTime>1732736091</StartTestTime>
+		<TestList/>
+		<EndDateTime>Nov 27 13:34 CST</EndDateTime>
+		<EndTestTime>1732736091</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
