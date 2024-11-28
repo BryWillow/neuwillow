@@ -1,0 +1,14 @@
+# Windows
+*.exe
+*.dll
+*.lib
+*.suo
+*.pdb
+
+*.so
+*.dylib
+*.out
+*.log
+*DS_store
+
+/build
