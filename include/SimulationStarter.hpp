@@ -1,4 +1,6 @@
-#pragma once
+#ifndef _SIMSTARTER_H
+#define _SIMSTARTER_H
+#endif
 
 #include <string>
 

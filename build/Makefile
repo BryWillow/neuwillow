@@ -113,7 +113,6 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -177,30 +176,6 @@ Axon.s: Axon.cpp.s
 Axon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Axon.cpp.s
 .PHONY : Axon.cpp.s
-
-AxonHillock.o: AxonHillock.cpp.o
-.PHONY : AxonHillock.o
-
-# target to build an object file
-AxonHillock.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o
-.PHONY : AxonHillock.cpp.o
-
-AxonHillock.i: AxonHillock.cpp.i
-.PHONY : AxonHillock.i
-
-# target to preprocess a source file
-AxonHillock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/AxonHillock.cpp.i
-.PHONY : AxonHillock.cpp.i
-
-AxonHillock.s: AxonHillock.cpp.s
-.PHONY : AxonHillock.s
-
-# target to generate assembly for a file
-AxonHillock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/AxonHillock.cpp.s
-.PHONY : AxonHillock.cpp.s
 
 AxonTerminal.o: AxonTerminal.cpp.o
 .PHONY : AxonTerminal.o
@@ -346,29 +321,77 @@ Logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Logger.cpp.s
 .PHONY : Logger.cpp.s
 
-MyelinSheath.o: MyelinSheath.cpp.o
-.PHONY : MyelinSheath.o
+Myelination/Internode.o: Myelination/Internode.cpp.o
+.PHONY : Myelination/Internode.o
 
 # target to build an object file
-MyelinSheath.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/MyelinSheath.cpp.o
-.PHONY : MyelinSheath.cpp.o
+Myelination/Internode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o
+.PHONY : Myelination/Internode.cpp.o
 
-MyelinSheath.i: MyelinSheath.cpp.i
-.PHONY : MyelinSheath.i
+Myelination/Internode.i: Myelination/Internode.cpp.i
+.PHONY : Myelination/Internode.i
 
 # target to preprocess a source file
-MyelinSheath.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/MyelinSheath.cpp.i
-.PHONY : MyelinSheath.cpp.i
+Myelination/Internode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.i
+.PHONY : Myelination/Internode.cpp.i
 
-MyelinSheath.s: MyelinSheath.cpp.s
-.PHONY : MyelinSheath.s
+Myelination/Internode.s: Myelination/Internode.cpp.s
+.PHONY : Myelination/Internode.s
 
 # target to generate assembly for a file
-MyelinSheath.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/MyelinSheath.cpp.s
-.PHONY : MyelinSheath.cpp.s
+Myelination/Internode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.s
+.PHONY : Myelination/Internode.cpp.s
+
+Myelination/MyelinSheath.o: Myelination/MyelinSheath.cpp.o
+.PHONY : Myelination/MyelinSheath.o
+
+# target to build an object file
+Myelination/MyelinSheath.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o
+.PHONY : Myelination/MyelinSheath.cpp.o
+
+Myelination/MyelinSheath.i: Myelination/MyelinSheath.cpp.i
+.PHONY : Myelination/MyelinSheath.i
+
+# target to preprocess a source file
+Myelination/MyelinSheath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.i
+.PHONY : Myelination/MyelinSheath.cpp.i
+
+Myelination/MyelinSheath.s: Myelination/MyelinSheath.cpp.s
+.PHONY : Myelination/MyelinSheath.s
+
+# target to generate assembly for a file
+Myelination/MyelinSheath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.s
+.PHONY : Myelination/MyelinSheath.cpp.s
+
+Myelination/RanvierNode.o: Myelination/RanvierNode.cpp.o
+.PHONY : Myelination/RanvierNode.o
+
+# target to build an object file
+Myelination/RanvierNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o
+.PHONY : Myelination/RanvierNode.cpp.o
+
+Myelination/RanvierNode.i: Myelination/RanvierNode.cpp.i
+.PHONY : Myelination/RanvierNode.i
+
+# target to preprocess a source file
+Myelination/RanvierNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.i
+.PHONY : Myelination/RanvierNode.cpp.i
+
+Myelination/RanvierNode.s: Myelination/RanvierNode.cpp.s
+.PHONY : Myelination/RanvierNode.s
+
+# target to generate assembly for a file
+Myelination/RanvierNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.s
+.PHONY : Myelination/RanvierNode.cpp.s
 
 NeuWillow.o: NeuWillow.cpp.o
 .PHONY : NeuWillow.o
@@ -538,54 +561,6 @@ UniqueIdGenerator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.s
 .PHONY : UniqueIdGenerator.cpp.s
 
-build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.o: build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-.PHONY : build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.o
-
-# target to build an object file
-build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-.PHONY : build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-
-build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.i: build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.i
-
-# target to preprocess a source file
-build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-
-build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.s: build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.s
-
-# target to generate assembly for a file
-build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-
-{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.o: {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-.PHONY : {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.o
-
-# target to build an object file
-{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-.PHONY : {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-
-{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.i: {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.i
-
-# target to preprocess a source file
-{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-
-{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.s: {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.s
-
-# target to generate assembly for a file
-{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -601,9 +576,6 @@ help:
 	@echo "... Axon.o"
 	@echo "... Axon.i"
 	@echo "... Axon.s"
-	@echo "... AxonHillock.o"
-	@echo "... AxonHillock.i"
-	@echo "... AxonHillock.s"
 	@echo "... AxonTerminal.o"
 	@echo "... AxonTerminal.i"
 	@echo "... AxonTerminal.s"
@@ -622,9 +594,15 @@ help:
 	@echo "... Logger.o"
 	@echo "... Logger.i"
 	@echo "... Logger.s"
-	@echo "... MyelinSheath.o"
-	@echo "... MyelinSheath.i"
-	@echo "... MyelinSheath.s"
+	@echo "... Myelination/Internode.o"
+	@echo "... Myelination/Internode.i"
+	@echo "... Myelination/Internode.s"
+	@echo "... Myelination/MyelinSheath.o"
+	@echo "... Myelination/MyelinSheath.i"
+	@echo "... Myelination/MyelinSheath.s"
+	@echo "... Myelination/RanvierNode.o"
+	@echo "... Myelination/RanvierNode.i"
+	@echo "... Myelination/RanvierNode.s"
 	@echo "... NeuWillow.o"
 	@echo "... NeuWillow.i"
 	@echo "... NeuWillow.s"
@@ -646,12 +624,6 @@ help:
 	@echo "... UniqueIdGenerator.o"
 	@echo "... UniqueIdGenerator.i"
 	@echo "... UniqueIdGenerator.s"
-	@echo "... build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.o"
-	@echo "... build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.i"
-	@echo "... build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.s"
-	@echo "... {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.o"
-	@echo "... {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.i"
-	@echo "... {workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.s"
 .PHONY : help
 
 
@@ -663,7 +635,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

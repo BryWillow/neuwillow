@@ -85,12 +85,12 @@ clean: CMakeFiles/NeuWillow.dir/clean
 CMakeFiles/NeuWillow.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target NeuWillow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target NeuWillow"
 .PHONY : CMakeFiles/NeuWillow.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NeuWillow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NeuWillow.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles 0
 .PHONY : CMakeFiles/NeuWillow.dir/rule
@@ -116,7 +116,6 @@ CMakeFiles/NeuWillow.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -100,24 +100,10 @@ CMakeFiles/NeuWillow.dir/Axon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Axon.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axon.cpp -o CMakeFiles/NeuWillow.dir/Axon.cpp.s
 
-CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
-CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonHillock.cpp
-CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o -MF CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o.d -o CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonHillock.cpp
-
-CMakeFiles/NeuWillow.dir/AxonHillock.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/AxonHillock.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonHillock.cpp > CMakeFiles/NeuWillow.dir/AxonHillock.cpp.i
-
-CMakeFiles/NeuWillow.dir/AxonHillock.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/AxonHillock.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonHillock.cpp -o CMakeFiles/NeuWillow.dir/AxonHillock.cpp.s
-
 CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonTerminal.cpp
 CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o -MF CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o.d -o CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonTerminal.cpp
 
 CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.i: cmake_force
@@ -131,7 +117,7 @@ CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.s: cmake_force
 CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ChemicalSynapse.cpp
 CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o -MF CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o.d -o CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ChemicalSynapse.cpp
 
 CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.i: cmake_force
@@ -145,7 +131,7 @@ CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.s: cmake_force
 CMakeFiles/NeuWillow.dir/Dendrite.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/Dendrite.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp
 CMakeFiles/NeuWillow.dir/Dendrite.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NeuWillow.dir/Dendrite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NeuWillow.dir/Dendrite.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Dendrite.cpp.o -MF CMakeFiles/NeuWillow.dir/Dendrite.cpp.o.d -o CMakeFiles/NeuWillow.dir/Dendrite.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp
 
 CMakeFiles/NeuWillow.dir/Dendrite.cpp.i: cmake_force
@@ -159,7 +145,7 @@ CMakeFiles/NeuWillow.dir/Dendrite.cpp.s: cmake_force
 CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriteReceptor.cpp
 CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o -MF CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o.d -o CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriteReceptor.cpp
 
 CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.i: cmake_force
@@ -173,7 +159,7 @@ CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.s: cmake_force
 CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriticSomaticCalculator.cpp
 CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o -MF CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o.d -o CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriticSomaticCalculator.cpp
 
 CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.i: cmake_force
@@ -187,7 +173,7 @@ CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.s: cmake_force
 CMakeFiles/NeuWillow.dir/Logger.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/Logger.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Logger.cpp
 CMakeFiles/NeuWillow.dir/Logger.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NeuWillow.dir/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NeuWillow.dir/Logger.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Logger.cpp.o -MF CMakeFiles/NeuWillow.dir/Logger.cpp.o.d -o CMakeFiles/NeuWillow.dir/Logger.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Logger.cpp
 
 CMakeFiles/NeuWillow.dir/Logger.cpp.i: cmake_force
@@ -198,66 +184,10 @@ CMakeFiles/NeuWillow.dir/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Logger.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Logger.cpp -o CMakeFiles/NeuWillow.dir/Logger.cpp.s
 
-CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
-CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp
-CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o -MF CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o.d -o CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp
-
-CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp > CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.i
-
-CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp -o CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.s
-
-CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
-CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp
-CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o -MF CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o.d -o CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp
-
-CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp > CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.i
-
-CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp -o CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.s
-
-CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
-CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp
-CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o -MF CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o.d -o CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp
-
-CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp > CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.i
-
-CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp -o CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.s
-
-CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
-CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp
-CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o -MF CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o.d -o CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp
-
-CMakeFiles/NeuWillow.dir/NeuWillow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/NeuWillow.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp > CMakeFiles/NeuWillow.dir/NeuWillow.cpp.i
-
-CMakeFiles/NeuWillow.dir/NeuWillow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/NeuWillow.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp -o CMakeFiles/NeuWillow.dir/NeuWillow.cpp.s
-
 CMakeFiles/NeuWillow.dir/Neuron.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/Neuron.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neuron.cpp
 CMakeFiles/NeuWillow.dir/Neuron.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NeuWillow.dir/Neuron.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NeuWillow.dir/Neuron.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Neuron.cpp.o -MF CMakeFiles/NeuWillow.dir/Neuron.cpp.o.d -o CMakeFiles/NeuWillow.dir/Neuron.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neuron.cpp
 
 CMakeFiles/NeuWillow.dir/Neuron.cpp.i: cmake_force
@@ -271,7 +201,7 @@ CMakeFiles/NeuWillow.dir/Neuron.cpp.s: cmake_force
 CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neurotransmitter.cpp
 CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o -MF CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o.d -o CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neurotransmitter.cpp
 
 CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.i: cmake_force
@@ -282,10 +212,24 @@ CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neurotransmitter.cpp -o CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.s
 
+CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
+CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp
+CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o -MF CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o.d -o CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp
+
+CMakeFiles/NeuWillow.dir/NeuWillow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/NeuWillow.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp > CMakeFiles/NeuWillow.dir/NeuWillow.cpp.i
+
+CMakeFiles/NeuWillow.dir/NeuWillow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/NeuWillow.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp -o CMakeFiles/NeuWillow.dir/NeuWillow.cpp.s
+
 CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/PreSynapticVesicle.cpp
 CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o -MF CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o.d -o CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/PreSynapticVesicle.cpp
 
 CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.i: cmake_force
@@ -299,7 +243,7 @@ CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.s: cmake_force
 CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/SimulationStarter.cpp
 CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o -MF CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o.d -o CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/SimulationStarter.cpp
 
 CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.i: cmake_force
@@ -313,7 +257,7 @@ CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.s: cmake_force
 CMakeFiles/NeuWillow.dir/Soma.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/Soma.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp
 CMakeFiles/NeuWillow.dir/Soma.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/NeuWillow.dir/Soma.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NeuWillow.dir/Soma.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Soma.cpp.o -MF CMakeFiles/NeuWillow.dir/Soma.cpp.o.d -o CMakeFiles/NeuWillow.dir/Soma.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp
 
 CMakeFiles/NeuWillow.dir/Soma.cpp.i: cmake_force
@@ -327,7 +271,7 @@ CMakeFiles/NeuWillow.dir/Soma.cpp.s: cmake_force
 CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/UniqueIdGenerator.cpp
 CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o -MF CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o.d -o CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/UniqueIdGenerator.cpp
 
 CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.i: cmake_force
@@ -338,85 +282,93 @@ CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/UniqueIdGenerator.cpp -o CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.s
 
-CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
-CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp
-CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -MF CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o.d -o CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
+CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp
+CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o -MF CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o.d -o CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp
 
-CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp > CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp > CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.i
 
-CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp -o CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp -o CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.s
 
-CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
-CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp
-CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -MF CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o.d -o CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
+CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp
+CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o -MF CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o.d -o CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp
 
-CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp > CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp > CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.i
 
-CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp -o CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp -o CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.s
+
+CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
+CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp
+CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o -MF CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o.d -o CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp
+
+CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp > CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.i
+
+CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp -o CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.s
 
 # Object files for target NeuWillow
 NeuWillow_OBJECTS = \
 "CMakeFiles/NeuWillow.dir/ActionPotential.cpp.o" \
 "CMakeFiles/NeuWillow.dir/Axon.cpp.o" \
-"CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o" \
 "CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o" \
 "CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o" \
 "CMakeFiles/NeuWillow.dir/Dendrite.cpp.o" \
 "CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o" \
 "CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o" \
 "CMakeFiles/NeuWillow.dir/Logger.cpp.o" \
-"CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o" \
-"CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o" \
-"CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o" \
-"CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o" \
 "CMakeFiles/NeuWillow.dir/Neuron.cpp.o" \
 "CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o" \
+"CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o" \
 "CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o" \
 "CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o" \
 "CMakeFiles/NeuWillow.dir/Soma.cpp.o" \
 "CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o" \
-"CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o" \
-"CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+"CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o" \
+"CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o" \
+"CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o"
 
 # External object files for target NeuWillow
 NeuWillow_EXTERNAL_OBJECTS =
 
 NeuWillow: CMakeFiles/NeuWillow.dir/ActionPotential.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/Axon.cpp.o
-NeuWillow: CMakeFiles/NeuWillow.dir/AxonHillock.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/Dendrite.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/Logger.cpp.o
-NeuWillow: CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o
-NeuWillow: CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o
-NeuWillow: CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o
-NeuWillow: CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/Neuron.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o
+NeuWillow: CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/Soma.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o
-NeuWillow: CMakeFiles/NeuWillow.dir/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-NeuWillow: CMakeFiles/NeuWillow.dir/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+NeuWillow: CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o
+NeuWillow: CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o
+NeuWillow: CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/build.make
 NeuWillow: CMakeFiles/NeuWillow.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable NeuWillow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable NeuWillow"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeuWillow.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,21 +1,25 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(
+    VERSION 3.10)
 
-project(NeuWillow VERSION 0.1.0 LANGUAGES C CXX)
+project(
+    NeuWillow 
+    VERSION 0.1.0 
+    LANGUAGES C CXX)
 
-file (GLOB_RECURSE NeuWillow_SOURCES CONFIGURE_DEPENDS "*.cpp")
-file (GLOB_RECURSE NeuWillow_HEADERS CONFIGURE_DEPENDS "include/*.hpp")
+set(
+    SOURCES 
+    ActionPotential.cpp 
+    Axon.cpp AxonTerminal.cpp
+    ChemicalSynapse.cpp 
+    Dendrite.cpp DendriteReceptor.cpp DendriticSomaticCalculator.cpp 
+    Logger.cpp 
+    Neuron.cpp 
+    Neurotransmitter.cpp 
+    NeuWillow.cpp 
+    PreSynapticVesicle.cpp 
+    SimulationStarter.cpp 
+    Soma.cpp 
+    UniqueIdGenerator.cpp 
+    Myelination/Internode.cpp Myelination/MyelinSheath.cpp Myelination/RanvierNode.cpp)
 
-find_package(CMAKE)
-set (NeuWillow_INCLUDE_DIRS "")
-foreach (_headerFile ${NeuWillow_HEADERS})
-    get_filename_component(_dir ${_headerFile} PATH)
-    list (APPEND NeuWillow_INCLUDE_DIRS ${_dir})
-endforeach()
-list (REMOVE_DUPLICATES NeuWillow_INCLUDE_DIRS)
-
-if(SPDLOG_BUILD_EXAMPLE_HO)
-    target_link_libraries(example_header_only PRIVATE spdlog::spdlog_header_only)
-endif()
-
-add_executable(NeuWillow ${NeuWillow_SOURCES})
-target_include_directories(NeuWillow PRIVATE ${NeuWillow_INCLUDE_DIRS})
+add_executable(NeuWillow ${SOURCES})

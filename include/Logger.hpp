@@ -6,7 +6,7 @@ namespace neuWillow
   class Logger
   {
     public:
-      static void initialize();
+      //static void initialize();
       //inline static shared_ptr<spdlog::logger>& getLogger() { return _logger; }
 
     private:

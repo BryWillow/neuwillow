@@ -26,6 +26,7 @@ set(OLD_GLOB
   "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/UniqueIdGenerator.cpp"
   "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles/3.31.0-rc3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles/3.31.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -33,8 +34,29 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # NeuWillow_HEADERS at CMakeLists.txt:6 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/include/*.hpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/*.hpp")
 set(OLD_GLOB
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/ActionPotential.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Axon.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/AxonHillock.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/AxonTerminal.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/ChemicalSynapse.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Dendrite.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/DendriteReceptor.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/DendriticSomaticCalculator.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/IonChannel.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Logger.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Myelin/Internode.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Myelin/MyelinSheath.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Myelin/RanvierNode.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Neuron.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Neurotransmitter.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/ObjectCache.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/PreSynapticVesicle.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/SimulationSettingsLoader.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/SimulationStarter.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Soma.hpp"
+  "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/UniqueIdGenerator.hpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

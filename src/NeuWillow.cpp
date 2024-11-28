@@ -2,13 +2,10 @@
 #include <string>
 #include <memory>
 #include "../include/SimulationStarter.hpp"
-#include "../include/Axon.hpp"
 
-using namespace neuWillow;
-
-int main()
+int main(int argc, char* argv[])
 {
-  SimulationStarter* pSimulationStarter = new SimulationStarter("OneNeuron");
+  neuWillow::SimulationStarter* pSimulationStarter = new neuWillow::SimulationStarter("OneNeuron");
 
   return 0;
 }

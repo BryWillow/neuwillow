@@ -23,8 +23,8 @@ namespace neuWillow
       std::shared_ptr<Axon> newAxon = std::make_shared<Axon>(axonId);
       _createdAxons[axonId] = newAxon;
 
-      ObjectCache<std::shared_ptr<Axon> > axonCache;
-      std::shared_ptr<Axon> a = axonCache.find(axonId);
+      //ObjectCache<std::shared_ptr<Axon> > axonCache;
+      //std::shared_ptr<Axon> a = axonCache.find(axonId);
 
       return newAxon;
   }    
