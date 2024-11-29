@@ -645,7 +645,6 @@ CMakeFiles/NeuWillow.dir/Axon.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/ne
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Axon.hpp \
-  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/ObjectCache.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/UniqueIdGenerator.hpp
 
 CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonTerminal.cpp \
@@ -4762,8 +4761,8 @@ CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o: /Users/bryancamp/SoftwareD
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
-  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/RanvierNode.hpp \
-  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/Internode.hpp
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/Internode.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/RanvierNode.hpp
 
 CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/Availability.h \
@@ -5405,8 +5404,8 @@ CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o: /Users/bryancamp/Softwa
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/Internode.hpp \
-  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/RanvierNode.hpp \
-  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/MyelinSheath.hpp
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/MyelinSheath.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/RanvierNode.hpp
 
 CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Myelin/RanvierNode.hpp
@@ -8922,8 +8921,6 @@ CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o: /Users/bryancamp/SoftwareDevel
 /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/AxonTerminal.hpp:
 
 /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/UniqueIdGenerator.hpp:
-
-/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/ObjectCache.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h:
 

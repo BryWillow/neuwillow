@@ -1298,6 +1298,18 @@
 			"value" : "1500"
 		},
 		{
+			"name" : "EVEN_BETTER_TOML_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for EVEN_BETTER_TOML."
+				}
+			],
+			"type" : "PATH",
+			"value" : "EVEN_BETTER_TOML_DIR-NOTFOUND"
+		},
+		{
 			"name" : "MAKECOMMAND",
 			"properties" : 
 			[

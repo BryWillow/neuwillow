@@ -9,7 +9,7 @@ namespace neuWillow
 
     ChemicalSynapse::~ChemicalSynapse()
     {
-
+        
     }
 
     unsigned long ChemicalSynapse::getId() const
