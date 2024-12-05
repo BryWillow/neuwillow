@@ -1,4 +1,5 @@
 #include <iostream>
+#include <filesystem>
 #include "../include/Configuration.hpp"
 #include "../include/Simulation.hpp"
 
@@ -15,6 +16,16 @@ std::string checkUsageOrExit(int argc, char* argv[])
   }
 
   std::string configFile = argv[1];
+  bool fileExists = std::filesystem::exists(configFile);
+  if (!fileExists)
+  {
+    std::cout << std::endl << "Usage: NeuWillow [Full Path to Config File]" << std::endl;
+    std::cout << " E.g.: ./NeuWillow ../configs/myconfig.ini"   << std::endl << std::endl;
+    std::cout << "Error: File " << configFile << " does not exist." << configFile << std::endl;
+    std::cout << std:: endl;
+    exit(0);
+  }
+
   return configFile;
 }
 

@@ -871,7 +871,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0.1.0"
+			"value" : "3.30"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
@@ -883,7 +883,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MINOR",
@@ -895,7 +895,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1"
+			"value" : "30"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_PATCH",
@@ -907,7 +907,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_TWEAK",

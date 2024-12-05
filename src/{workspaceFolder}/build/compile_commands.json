@@ -1,115 +1,115 @@
 [
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/ActionPotential.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ActionPotential.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/ActionPotential.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ActionPotential.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ActionPotential.cpp",
   "output": "CMakeFiles/NeuWillow.dir/ActionPotential.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Axon.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axon.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Axon.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axon.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axon.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Axon.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonTerminal.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonTerminal.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonTerminal.cpp",
   "output": "CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ChemicalSynapse.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ChemicalSynapse.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ChemicalSynapse.cpp",
   "output": "CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Configuration.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Configuration.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Configuration.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Configuration.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Configuration.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Configuration.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Dendrite.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Dendrite.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Dendrite.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriteReceptor.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriteReceptor.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriteReceptor.cpp",
   "output": "CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriticSomaticCalculator.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriticSomaticCalculator.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriticSomaticCalculator.cpp",
   "output": "CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Logger.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Logger.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Logger.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Logger.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Logger.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Logger.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Neuron.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neuron.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Neuron.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neuron.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neuron.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Neuron.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neurotransmitter.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neurotransmitter.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neurotransmitter.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/NeuWillow.cpp",
   "output": "CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/PreSynapticVesicle.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/PreSynapticVesicle.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/PreSynapticVesicle.cpp",
   "output": "CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Simulation.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Simulation.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Simulation.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Soma.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Soma.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Soma.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/UniqueIdGenerator.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/UniqueIdGenerator.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/UniqueIdGenerator.cpp",
   "output": "CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp",
   "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/RanvierNode.cpp",
   "output": "CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o"
 }
