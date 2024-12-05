@@ -254,19 +254,19 @@ CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/PreSynapticVesicle.cpp -o CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.s
 
-CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
-CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/SimulationStarter.cpp
-CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o -MF CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o.d -o CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/SimulationStarter.cpp
+CMakeFiles/NeuWillow.dir/Simulation.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
+CMakeFiles/NeuWillow.dir/Simulation.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp
+CMakeFiles/NeuWillow.dir/Simulation.cpp.o: CMakeFiles/NeuWillow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NeuWillow.dir/Simulation.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuWillow.dir/Simulation.cpp.o -MF CMakeFiles/NeuWillow.dir/Simulation.cpp.o.d -o CMakeFiles/NeuWillow.dir/Simulation.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp
 
-CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/SimulationStarter.cpp > CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.i
+CMakeFiles/NeuWillow.dir/Simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuWillow.dir/Simulation.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp > CMakeFiles/NeuWillow.dir/Simulation.cpp.i
 
-CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/SimulationStarter.cpp -o CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.s
+CMakeFiles/NeuWillow.dir/Simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuWillow.dir/Simulation.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp -o CMakeFiles/NeuWillow.dir/Simulation.cpp.s
 
 CMakeFiles/NeuWillow.dir/Soma.cpp.o: CMakeFiles/NeuWillow.dir/flags.make
 CMakeFiles/NeuWillow.dir/Soma.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp
@@ -353,7 +353,7 @@ NeuWillow_OBJECTS = \
 "CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o" \
 "CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o" \
 "CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o" \
-"CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o" \
+"CMakeFiles/NeuWillow.dir/Simulation.cpp.o" \
 "CMakeFiles/NeuWillow.dir/Soma.cpp.o" \
 "CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o" \
 "CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o" \
@@ -376,7 +376,7 @@ NeuWillow: CMakeFiles/NeuWillow.dir/Neuron.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o
-NeuWillow: CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o
+NeuWillow: CMakeFiles/NeuWillow.dir/Simulation.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/Soma.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o
 NeuWillow: CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o

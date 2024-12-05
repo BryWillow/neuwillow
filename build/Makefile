@@ -513,29 +513,29 @@ PreSynapticVesicle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.s
 .PHONY : PreSynapticVesicle.cpp.s
 
-SimulationStarter.o: SimulationStarter.cpp.o
-.PHONY : SimulationStarter.o
+Simulation.o: Simulation.cpp.o
+.PHONY : Simulation.o
 
 # target to build an object file
-SimulationStarter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o
-.PHONY : SimulationStarter.cpp.o
+Simulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Simulation.cpp.o
+.PHONY : Simulation.cpp.o
 
-SimulationStarter.i: SimulationStarter.cpp.i
-.PHONY : SimulationStarter.i
+Simulation.i: Simulation.cpp.i
+.PHONY : Simulation.i
 
 # target to preprocess a source file
-SimulationStarter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.i
-.PHONY : SimulationStarter.cpp.i
+Simulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Simulation.cpp.i
+.PHONY : Simulation.cpp.i
 
-SimulationStarter.s: SimulationStarter.cpp.s
-.PHONY : SimulationStarter.s
+Simulation.s: Simulation.cpp.s
+.PHONY : Simulation.s
 
 # target to generate assembly for a file
-SimulationStarter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.s
-.PHONY : SimulationStarter.cpp.s
+Simulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Simulation.cpp.s
+.PHONY : Simulation.cpp.s
 
 Soma.o: Soma.cpp.o
 .PHONY : Soma.o
@@ -642,9 +642,9 @@ help:
 	@echo "... PreSynapticVesicle.o"
 	@echo "... PreSynapticVesicle.i"
 	@echo "... PreSynapticVesicle.s"
-	@echo "... SimulationStarter.o"
-	@echo "... SimulationStarter.i"
-	@echo "... SimulationStarter.s"
+	@echo "... Simulation.o"
+	@echo "... Simulation.i"
+	@echo "... Simulation.s"
 	@echo "... Soma.o"
 	@echo "... Soma.i"
 	@echo "... Soma.s"

@@ -79,9 +79,9 @@
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/SimulationStarter.cpp",
-  "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/SimulationStarter.cpp",
-  "output": "CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o"
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/NeuWillow.dir/Simulation.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp",
+  "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp",
+  "output": "CMakeFiles/NeuWillow.dir/Simulation.cpp.o"
 },
 {
   "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build",
