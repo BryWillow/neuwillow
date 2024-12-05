@@ -6,7 +6,10 @@
 
 void usage()
 {
-  std::cout << "Usage: NeuWillow [config_file]" << std::endl;
+  std::cout << std::endl;
+  std::cout << "Usage: NeuWillow [full_path_to_config_file]"  << std::endl;
+  std::cout << " E.g.: ./NeuWillow ../configs/myconfig.ini"   << std::endl;
+  std::cout << std::endl;
 }
 
 int main(int argc, char* argv[])
