@@ -1,17 +1,24 @@
 #include <iostream>
+#include <sstream>
 #include <filesystem>
 #include "../include/Configuration.hpp"
 #include "../include/Simulation.hpp"
 
 std::string checkUsageOrExit(int argc, char* argv[])
 {
-  constexpr int expectedParamCount = 2;
-  if (argc != 2)
+  const std::string baseErrorMessage = "usage: NeuWillow <config_file_path>";
+
+  if (argc == 1)
   {
-    std::cout << std::endl << "Usage: NeuWillow [Full Path to Config File]" << std::endl;
-    std::cout << " E.g.: ./NeuWillow ../configs/myconfig.ini"   << std::endl << std::endl;
-    std::cout << "Error: Expected " << expectedParamCount << " parameters, but received " << argc << std::endl;
-    std::cout << std:: endl;
+    std::cout << baseErrorMessage << std::endl;
+    std::cout << "   error: no config file specified.\n";
+    exit(1);
+  }
+
+  if (argc > 2)
+  {
+    std::cout << baseErrorMessage << std::endl;
+    std::cout << "   error: too many arguments specified.\n";
     exit(0);
   }
 
@@ -19,10 +26,8 @@ std::string checkUsageOrExit(int argc, char* argv[])
   bool fileExists = std::filesystem::exists(configFile);
   if (!fileExists)
   {
-    std::cout << std::endl << "Usage: NeuWillow [Full Path to Config File]" << std::endl;
-    std::cout << " E.g.: ./NeuWillow ../configs/myconfig.ini"   << std::endl << std::endl;
-    std::cout << "Error: File " << configFile << " does not exist." << configFile << std::endl;
-    std::cout << std:: endl;
+    std::cout << baseErrorMessage << std::endl;
+    std::cout << "   error: config file does not exist.\n";
     exit(0);
   }
 
