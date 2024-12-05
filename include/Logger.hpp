@@ -1,3 +1,6 @@
+#ifndef _LOGGER_H
+#define _LOGGER_H
+
 #include <memory>
 //#include "../lib/spdlog/include/spdlog/spdlog.h"
 //#include "../lib/spdlog/include/spdlog/common.h"
@@ -15,3 +18,5 @@ namespace neuWillow
 
   //#define LOG_INFO(Logger::getLogger()
 }
+
+#endif

@@ -225,6 +225,30 @@ ChemicalSynapse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.s
 .PHONY : ChemicalSynapse.cpp.s
 
+Configuration.o: Configuration.cpp.o
+.PHONY : Configuration.o
+
+# target to build an object file
+Configuration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Configuration.cpp.o
+.PHONY : Configuration.cpp.o
+
+Configuration.i: Configuration.cpp.i
+.PHONY : Configuration.i
+
+# target to preprocess a source file
+Configuration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Configuration.cpp.i
+.PHONY : Configuration.cpp.i
+
+Configuration.s: Configuration.cpp.s
+.PHONY : Configuration.s
+
+# target to generate assembly for a file
+Configuration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Configuration.cpp.s
+.PHONY : Configuration.cpp.s
+
 Dendrite.o: Dendrite.cpp.o
 .PHONY : Dendrite.o
 
@@ -489,29 +513,29 @@ PreSynapticVesicle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.s
 .PHONY : PreSynapticVesicle.cpp.s
 
-SimulationStarter.o: SimulationStarter.cpp.o
-.PHONY : SimulationStarter.o
+Simulation.o: Simulation.cpp.o
+.PHONY : Simulation.o
 
 # target to build an object file
-SimulationStarter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.o
-.PHONY : SimulationStarter.cpp.o
+Simulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Simulation.cpp.o
+.PHONY : Simulation.cpp.o
 
-SimulationStarter.i: SimulationStarter.cpp.i
-.PHONY : SimulationStarter.i
+Simulation.i: Simulation.cpp.i
+.PHONY : Simulation.i
 
 # target to preprocess a source file
-SimulationStarter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.i
-.PHONY : SimulationStarter.cpp.i
+Simulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Simulation.cpp.i
+.PHONY : Simulation.cpp.i
 
-SimulationStarter.s: SimulationStarter.cpp.s
-.PHONY : SimulationStarter.s
+Simulation.s: Simulation.cpp.s
+.PHONY : Simulation.s
 
 # target to generate assembly for a file
-SimulationStarter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/SimulationStarter.cpp.s
-.PHONY : SimulationStarter.cpp.s
+Simulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Simulation.cpp.s
+.PHONY : Simulation.cpp.s
 
 Soma.o: Soma.cpp.o
 .PHONY : Soma.o
@@ -582,6 +606,9 @@ help:
 	@echo "... ChemicalSynapse.o"
 	@echo "... ChemicalSynapse.i"
 	@echo "... ChemicalSynapse.s"
+	@echo "... Configuration.o"
+	@echo "... Configuration.i"
+	@echo "... Configuration.s"
 	@echo "... Dendrite.o"
 	@echo "... Dendrite.i"
 	@echo "... Dendrite.s"
@@ -615,9 +642,9 @@ help:
 	@echo "... PreSynapticVesicle.o"
 	@echo "... PreSynapticVesicle.i"
 	@echo "... PreSynapticVesicle.s"
-	@echo "... SimulationStarter.o"
-	@echo "... SimulationStarter.i"
-	@echo "... SimulationStarter.s"
+	@echo "... Simulation.o"
+	@echo "... Simulation.i"
+	@echo "... Simulation.s"
 	@echo "... Soma.o"
 	@echo "... Soma.i"
 	@echo "... Soma.s"

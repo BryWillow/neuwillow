@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _DENDRITE_SOMATIC_CALCULATOR_H
+#define _DENDRITE_SOMATIC_CALCULATOR_H
 
 #include <vector>
 #include "Dendrite.hpp"
@@ -15,3 +16,5 @@ namespace neuWillow
       unsigned long m_uniqueId;
   };
 }
+
+#endif

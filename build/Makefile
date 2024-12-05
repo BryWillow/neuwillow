@@ -225,6 +225,30 @@ ChemicalSynapse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.s
 .PHONY : ChemicalSynapse.cpp.s
 
+Configuration.o: Configuration.cpp.o
+.PHONY : Configuration.o
+
+# target to build an object file
+Configuration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Configuration.cpp.o
+.PHONY : Configuration.cpp.o
+
+Configuration.i: Configuration.cpp.i
+.PHONY : Configuration.i
+
+# target to preprocess a source file
+Configuration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Configuration.cpp.i
+.PHONY : Configuration.cpp.i
+
+Configuration.s: Configuration.cpp.s
+.PHONY : Configuration.s
+
+# target to generate assembly for a file
+Configuration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Configuration.cpp.s
+.PHONY : Configuration.cpp.s
+
 Dendrite.o: Dendrite.cpp.o
 .PHONY : Dendrite.o
 
@@ -582,6 +606,9 @@ help:
 	@echo "... ChemicalSynapse.o"
 	@echo "... ChemicalSynapse.i"
 	@echo "... ChemicalSynapse.s"
+	@echo "... Configuration.o"
+	@echo "... Configuration.i"
+	@echo "... Configuration.s"
 	@echo "... Dendrite.o"
 	@echo "... Dendrite.i"
 	@echo "... Dendrite.s"

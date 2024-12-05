@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
-#include "../include/SimulationStarter.hpp"
+#include "../include/Simulation.hpp"
+
 /*
 #include "../include/ChemicalSynapse.hpp"
 #include "../include/DendriteReceptor.hpp"
@@ -12,21 +13,9 @@
 */
 namespace neuWillow
 {
-  SimulationStarter::SimulationStarter(const std::string& simulationName)
+  bool Simulation::start(const std::string& configurationFile)
   {
-    _simlulationName = simulationName;
-  }
-
-  SimulationStarter::~SimulationStarter()
-  {
-    
-  }
-
-  void SimulationStarter::start()
-  {
-    // This factory is responsible for creating all the synapses used by this simulation.
-    // The synapse it provides is retrievable by its id property, and is mutable.
-    //ChemicalSynapseFactory chemicalSynapseFactory;
+    // This factory is responsible for creating alctory;
 
     // TODO: synapse config.
     // Genetic makeup => what neurotransmitters are released. This is constant.
@@ -68,5 +57,44 @@ namespace neuWillow
     //std::shared_ptr<ChemicalSynapse> postSynapse = chemicalSynapseFactory.create();
 
     // repeat this process repeats.
+    return true;
   }
+
+    void Simulation::stop()
+    {
+
+    }
+
+    void Simulation::recordEvent(
+      const std::string& simulationEvent)
+      {
+
+      }
+
+    void Simulation::recordEvent(
+      const std::string& simulationEvent,
+      NeuronComponent neuronComponent)
+      {
+
+      }
+
+    void Simulation::recordResult(
+      const std::string& simulationResult,
+      NeuronComponent neuronComponent)
+      {
+
+      }
+
+    void Simulation::recordError(
+      const std::string& simulationError)
+      {
+
+      }
+
+    void Simulation::recordError(
+      const std::string& simulationError,
+      NeuronComponent neuronComponent)
+      {
+
+      }
 }

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _ACTION_POTENTIAL_H
+#define _ACTION_POTENTIAL_H
 
 namespace neuWillow
 {
@@ -8,3 +9,5 @@ namespace neuWillow
     ~ActionPotential();
   };
 }
+
+#endif

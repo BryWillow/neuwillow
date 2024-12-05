@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _DENDRITE_RECEPTOR_H
+#define _DENDRITE_RECEPTOR_H
 
 #include <unordered_map>
 #include <memory>
@@ -30,3 +31,5 @@ namespace neuWillow
       UniqueIdGenerator _idGenerator;
   }; 
 }
+
+#endif

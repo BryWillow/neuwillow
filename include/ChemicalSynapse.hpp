@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _CHEMICAL_SYNAPSE_H
+#define _CHEMICAL_SYNAPSE_H
 
 #include <unordered_map>
 #include <memory>
@@ -30,3 +31,5 @@ namespace neuWillow
       UniqueIdGenerator _idGenerator;
   };       
 }
+
+#endif

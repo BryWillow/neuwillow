@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _UNIQUE_ID_GENERATOR_H
+#define _UNIQUE_ID_GENERATOR_H
 
 namespace neuWillow
 {
@@ -11,3 +12,5 @@ namespace neuWillow
       unsigned long m_uniqueId;
   };
 }
+
+#endif

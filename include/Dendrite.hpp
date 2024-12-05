@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _DENDRITE_H
+#define _DENDRITE_H
 
 #include <vector>
 #include <unordered_map>
@@ -35,3 +36,5 @@ namespace neuWillow
       UniqueIdGenerator _idGenerator;
   }; 
 }
+
+#endif

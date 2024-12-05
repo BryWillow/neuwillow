@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _AXON_TERMINAL_H
+#define _AXON_TERMINAL_H
 
 #include <unordered_map>
 #include <memory>
@@ -30,3 +31,5 @@ namespace neuWillow
       UniqueIdGenerator _idGenerator;
   }; 
 }
+
+#endif

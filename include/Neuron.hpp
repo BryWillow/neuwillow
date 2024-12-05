@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _NEURON_H
+#define _NEURON_H
 
 #include <unordered_map>
 #include <memory>
@@ -31,5 +32,10 @@ namespace neuWillow
     private:
       std::unordered_map<unsigned long, std::shared_ptr<Neuron> > _createdNeurons;
       UniqueIdGenerator _uniqueIdGenerator;
+
+      //constexpr int x = 5;
+      //constexpr std::string _foobar = "1";
   };  
 }
+
+#endif

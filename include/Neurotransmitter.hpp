@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _NEUROTRANSMITTER_H
+#define _NEUROTRANSMITTER_H
 
 namespace neuWillow
 {
@@ -55,3 +56,5 @@ namespace neuWillow
   };
 
 } // namespace neuWillow
+
+#endif

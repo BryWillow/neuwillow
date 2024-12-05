@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _PRE_SYNAPTIC_VESICLE_H
+#define _PRE_SYNAPTIC_VESICLE_H
 
 #include <unordered_map>
 #include <memory>
@@ -32,3 +33,5 @@ namespace neuWillow
       UniqueIdGenerator _idGenerator;
   }; 
 }
+
+#endif

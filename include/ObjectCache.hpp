@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _OBJECT_CACHE_H
+#define _OBJECT_CACHE_H
 
 #include <unordered_map> 
  
@@ -38,3 +39,5 @@
       std::unordered_map<unsigned long, T> _idToObject;
   };
  }*/
+
+#endif

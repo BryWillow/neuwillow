@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o.d"
   "CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o"
   "CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o.d"
+  "CMakeFiles/NeuWillow.dir/Configuration.cpp.o"
+  "CMakeFiles/NeuWillow.dir/Configuration.cpp.o.d"
   "CMakeFiles/NeuWillow.dir/Dendrite.cpp.o"
   "CMakeFiles/NeuWillow.dir/Dendrite.cpp.o.d"
   "CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o"
