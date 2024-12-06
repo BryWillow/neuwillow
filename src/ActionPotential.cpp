@@ -1,6 +1,6 @@
 #include "../include/ActionPotential.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   ActionPotential::ActionPotential()
   {

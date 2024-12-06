@@ -3,7 +3,7 @@
 
 #include "Neurotransmitter.hpp""
 
-namespace neuWillow
+namespace neuwillow
 {
   struct SimulationParameters
   {

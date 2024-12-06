@@ -1,6 +1,6 @@
 #include "../include/DendriteReceptor.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   DendriteReceptor::DendriteReceptor(unsigned long uniqueId)
   {

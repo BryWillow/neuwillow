@@ -4,9 +4,9 @@
 #include "Internode.hpp"
 #include "RanvierNode.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
-  namespace Myelination
+  namespace myelination
   {
     /// Notes:
     ///

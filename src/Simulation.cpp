@@ -11,7 +11,7 @@
 #include "../include/PreSynapticVesicle.hpp"
 #include "../include/Axon.hpp"
 */
-namespace neuWillow
+namespace neuwillow
 {
   bool Simulation::start(const std::string& configurationFile)
   {

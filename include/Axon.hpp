@@ -6,7 +6,7 @@
 #include "UniqueIdGenerator.hpp"
 //#include "ObjectCache.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   enum MyelinationType
   {

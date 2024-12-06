@@ -4,7 +4,7 @@
 #include <vector>
 #include "Dendrite.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   class DendriticSomaticCalculator
   {

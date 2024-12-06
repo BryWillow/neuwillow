@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "NeuWillow"
+			"path" : "neuwillow"
 		}
 	],
 	"backtrace" : 1,
@@ -71,7 +71,7 @@
 			]
 		}
 	],
-	"id" : "NeuWillow::@6890427a1f51a3e7e1df",
+	"id" : "neuwillow::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -87,8 +87,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "NeuWillow",
-	"nameOnDisk" : "NeuWillow",
+	"name" : "neuwillow",
+	"nameOnDisk" : "neuwillow",
 	"paths" : 
 	{
 		"build" : ".",

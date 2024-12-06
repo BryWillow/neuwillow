@@ -1,25 +1,26 @@
 #include <iostream>
 #include <sstream>
 #include <filesystem>
+
 #include "../include/Configuration.hpp"
 #include "../include/Simulation.hpp"
 
-std::string checkUsageOrExit(int argc, char* argv[])
+bool validateCommandLine(int argc, char* argv[], std::string& configFilePath)
 {
-  const std::string baseErrorMessage = "usage: NeuWillow <config_file_path>";
+  const std::string baseErrorMessage = "usage: neuwillow <config_file_path>";
 
   if (argc == 1)
   {
     std::cout << baseErrorMessage << std::endl;
     std::cout << "   error: no config file specified.\n";
-    exit(1);
+    return false;
   }
 
   if (argc > 2)
   {
     std::cout << baseErrorMessage << std::endl;
     std::cout << "   error: too many arguments specified.\n";
-    exit(0);
+    return false;
   }
 
   std::string configFile = argv[1];
@@ -27,15 +28,18 @@ std::string checkUsageOrExit(int argc, char* argv[])
   if (!fileExists)
   {
     std::cout << baseErrorMessage << std::endl;
-    std::cout << "   error: config file does not exist.\n";
-    exit(0);
+    std::cout << "   error: config file not found.\n";
+    return false;
   }
 
-  return configFile;
+  configFilePath = configFile;
+  return true;
 }
 
 int main(int argc, char* argv[])
 {
-  std::string configFile = checkUsageOrExit(argc, argv);
-  neuWillow::Simulation::start(configFile);
+  std::string configFilePath;
+  if (!validateCommandLine(argc, argv, configFilePath))
+    exit(0);
+  neuwillow::Simulation::start(configFilePath);
 }

@@ -4,7 +4,7 @@
 #include <unordered_map> 
  
  /*
- namespace neuWillow
+ namespace neuwillow
  {
   template<typename T>
   class ObjectCache

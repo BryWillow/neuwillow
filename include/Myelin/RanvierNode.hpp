@@ -1,8 +1,8 @@
 #pragma once
 
-namespace neuWillow
+namespace neuwillow
 {
-  namespace Myelination
+  namespace myelination
   {
     /// Notes:
     /// The Nodes of Ranvier are the gaps in the Internodes of the Myelin Sheath.

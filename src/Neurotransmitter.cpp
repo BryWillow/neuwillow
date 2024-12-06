@@ -1,6 +1,6 @@
 #include "../include/Neurotransmitter.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
 
   Neurotransmitter::Neurotransmitter()
@@ -13,4 +13,4 @@ namespace neuWillow
 
   }
 
-} // namespace neuWillow
+} // namespace neuwillow

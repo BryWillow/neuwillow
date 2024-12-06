@@ -1,6 +1,6 @@
 #include "../include/Soma.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   Soma::Soma(unsigned long uniqueId)
   {

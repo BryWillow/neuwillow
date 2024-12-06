@@ -1,8 +1,8 @@
 #include "../../include/Myelin/Internode.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
-  namespace Myelination
+  namespace myelination
   {
     Internode::Internode(std::shared_ptr<RanvierNode> previousNode, std::shared_ptr<RanvierNode> nextNode)
     {

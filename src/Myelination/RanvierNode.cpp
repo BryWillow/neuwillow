@@ -1,8 +1,8 @@
 #include "../../include/Myelin/RanvierNode.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
-  namespace Myelination
+  namespace myelination
   {
     RanvierNode::RanvierNode()
     {

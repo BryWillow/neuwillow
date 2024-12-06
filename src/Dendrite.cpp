@@ -1,6 +1,6 @@
 #include "../include/Dendrite.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   Dendrite::Dendrite(
     unsigned long dendriteId, 

@@ -7,7 +7,7 @@
 #include "UniqueIdGenerator.hpp"
 #include "DendriteReceptor.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   class Dendrite
   {

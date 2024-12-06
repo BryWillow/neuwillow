@@ -1,6 +1,6 @@
 #include "../include/PreSynapticVesicle.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   PreSynapticVesicle::PreSynapticVesicle(unsigned long uniqueId)
   {

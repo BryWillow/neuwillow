@@ -5,7 +5,7 @@
 #include <memory>
 #include "UniqueIdGenerator.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   class AxonTerminal
   {

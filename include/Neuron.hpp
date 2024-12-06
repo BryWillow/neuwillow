@@ -6,7 +6,7 @@
 #include "UniqueIdGenerator.hpp"
 #include "ActionPotential.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   class Neuron
   {      

@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{works
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/NeuWillow.dir/all
+all: CMakeFiles/neuwillow.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/NeuWillow.dir/codegen
+codegen: CMakeFiles/neuwillow.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,39 +75,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/NeuWillow.dir/clean
+clean: CMakeFiles/neuwillow.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/NeuWillow.dir
+# Target rules for target CMakeFiles/neuwillow.dir
 
 # All Build rule for target.
-CMakeFiles/NeuWillow.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target NeuWillow"
-.PHONY : CMakeFiles/NeuWillow.dir/all
+CMakeFiles/neuwillow.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target neuwillow"
+.PHONY : CMakeFiles/neuwillow.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/NeuWillow.dir/rule: cmake_check_build_system
+CMakeFiles/neuwillow.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles 20
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NeuWillow.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/neuwillow.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/{workspaceFolder}/build/CMakeFiles 0
-.PHONY : CMakeFiles/NeuWillow.dir/rule
+.PHONY : CMakeFiles/neuwillow.dir/rule
 
 # Convenience name for target.
-NeuWillow: CMakeFiles/NeuWillow.dir/rule
-.PHONY : NeuWillow
+neuwillow: CMakeFiles/neuwillow.dir/rule
+.PHONY : neuwillow
 
 # codegen rule for target.
-CMakeFiles/NeuWillow.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/codegen
-.PHONY : CMakeFiles/NeuWillow.dir/codegen
+CMakeFiles/neuwillow.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/codegen
+.PHONY : CMakeFiles/neuwillow.dir/codegen
 
 # clean rule for target.
-CMakeFiles/NeuWillow.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/clean
-.PHONY : CMakeFiles/NeuWillow.dir/clean
+CMakeFiles/neuwillow.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/clean
+.PHONY : CMakeFiles/neuwillow.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

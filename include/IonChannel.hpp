@@ -3,7 +3,7 @@
 
 #include <time.h>
 
-namespace neuWillow
+namespace neuwillow
 {
   class IonChannel
   {

@@ -6,7 +6,7 @@
 #include <list>
 #include "Neuron.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   class Configuration
   {

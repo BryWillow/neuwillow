@@ -1,7 +1,7 @@
 #include <memory>
 #include "../include/Neuron.hpp"    
 
-namespace neuWillow
+namespace neuwillow
 {
   Neuron::Neuron(unsigned long uniqueId)
   {

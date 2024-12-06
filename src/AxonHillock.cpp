@@ -1,6 +1,6 @@
 #include "../include/AxonHillock.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   AxonHillock::AxonHillock(unsigned long uniqueId)
   {

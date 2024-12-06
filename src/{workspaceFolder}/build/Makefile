@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named NeuWillow
+# Target rules for targets named neuwillow
 
 # Build rule for target.
-NeuWillow: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NeuWillow
-.PHONY : NeuWillow
+neuwillow: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 neuwillow
+.PHONY : neuwillow
 
 # fast build rule for target.
-NeuWillow/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/build
-.PHONY : NeuWillow/fast
+neuwillow/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/build
+.PHONY : neuwillow/fast
 
 ActionPotential.o: ActionPotential.cpp.o
 .PHONY : ActionPotential.o
 
 # target to build an object file
 ActionPotential.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ActionPotential.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/ActionPotential.cpp.o
 .PHONY : ActionPotential.cpp.o
 
 ActionPotential.i: ActionPotential.cpp.i
@@ -142,7 +142,7 @@ ActionPotential.i: ActionPotential.cpp.i
 
 # target to preprocess a source file
 ActionPotential.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ActionPotential.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/ActionPotential.cpp.i
 .PHONY : ActionPotential.cpp.i
 
 ActionPotential.s: ActionPotential.cpp.s
@@ -150,7 +150,7 @@ ActionPotential.s: ActionPotential.cpp.s
 
 # target to generate assembly for a file
 ActionPotential.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ActionPotential.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/ActionPotential.cpp.s
 .PHONY : ActionPotential.cpp.s
 
 Axon.o: Axon.cpp.o
@@ -158,7 +158,7 @@ Axon.o: Axon.cpp.o
 
 # target to build an object file
 Axon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Axon.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Axon.cpp.o
 .PHONY : Axon.cpp.o
 
 Axon.i: Axon.cpp.i
@@ -166,7 +166,7 @@ Axon.i: Axon.cpp.i
 
 # target to preprocess a source file
 Axon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Axon.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Axon.cpp.i
 .PHONY : Axon.cpp.i
 
 Axon.s: Axon.cpp.s
@@ -174,7 +174,7 @@ Axon.s: Axon.cpp.s
 
 # target to generate assembly for a file
 Axon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Axon.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Axon.cpp.s
 .PHONY : Axon.cpp.s
 
 AxonTerminal.o: AxonTerminal.cpp.o
@@ -182,7 +182,7 @@ AxonTerminal.o: AxonTerminal.cpp.o
 
 # target to build an object file
 AxonTerminal.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/AxonTerminal.cpp.o
 .PHONY : AxonTerminal.cpp.o
 
 AxonTerminal.i: AxonTerminal.cpp.i
@@ -190,7 +190,7 @@ AxonTerminal.i: AxonTerminal.cpp.i
 
 # target to preprocess a source file
 AxonTerminal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/AxonTerminal.cpp.i
 .PHONY : AxonTerminal.cpp.i
 
 AxonTerminal.s: AxonTerminal.cpp.s
@@ -198,7 +198,7 @@ AxonTerminal.s: AxonTerminal.cpp.s
 
 # target to generate assembly for a file
 AxonTerminal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/AxonTerminal.cpp.s
 .PHONY : AxonTerminal.cpp.s
 
 ChemicalSynapse.o: ChemicalSynapse.cpp.o
@@ -206,7 +206,7 @@ ChemicalSynapse.o: ChemicalSynapse.cpp.o
 
 # target to build an object file
 ChemicalSynapse.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/ChemicalSynapse.cpp.o
 .PHONY : ChemicalSynapse.cpp.o
 
 ChemicalSynapse.i: ChemicalSynapse.cpp.i
@@ -214,7 +214,7 @@ ChemicalSynapse.i: ChemicalSynapse.cpp.i
 
 # target to preprocess a source file
 ChemicalSynapse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/ChemicalSynapse.cpp.i
 .PHONY : ChemicalSynapse.cpp.i
 
 ChemicalSynapse.s: ChemicalSynapse.cpp.s
@@ -222,7 +222,7 @@ ChemicalSynapse.s: ChemicalSynapse.cpp.s
 
 # target to generate assembly for a file
 ChemicalSynapse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/ChemicalSynapse.cpp.s
 .PHONY : ChemicalSynapse.cpp.s
 
 Configuration.o: Configuration.cpp.o
@@ -230,7 +230,7 @@ Configuration.o: Configuration.cpp.o
 
 # target to build an object file
 Configuration.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Configuration.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Configuration.cpp.o
 .PHONY : Configuration.cpp.o
 
 Configuration.i: Configuration.cpp.i
@@ -238,7 +238,7 @@ Configuration.i: Configuration.cpp.i
 
 # target to preprocess a source file
 Configuration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Configuration.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Configuration.cpp.i
 .PHONY : Configuration.cpp.i
 
 Configuration.s: Configuration.cpp.s
@@ -246,7 +246,7 @@ Configuration.s: Configuration.cpp.s
 
 # target to generate assembly for a file
 Configuration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Configuration.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Configuration.cpp.s
 .PHONY : Configuration.cpp.s
 
 Dendrite.o: Dendrite.cpp.o
@@ -254,7 +254,7 @@ Dendrite.o: Dendrite.cpp.o
 
 # target to build an object file
 Dendrite.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Dendrite.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Dendrite.cpp.o
 .PHONY : Dendrite.cpp.o
 
 Dendrite.i: Dendrite.cpp.i
@@ -262,7 +262,7 @@ Dendrite.i: Dendrite.cpp.i
 
 # target to preprocess a source file
 Dendrite.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Dendrite.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Dendrite.cpp.i
 .PHONY : Dendrite.cpp.i
 
 Dendrite.s: Dendrite.cpp.s
@@ -270,7 +270,7 @@ Dendrite.s: Dendrite.cpp.s
 
 # target to generate assembly for a file
 Dendrite.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Dendrite.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Dendrite.cpp.s
 .PHONY : Dendrite.cpp.s
 
 DendriteReceptor.o: DendriteReceptor.cpp.o
@@ -278,7 +278,7 @@ DendriteReceptor.o: DendriteReceptor.cpp.o
 
 # target to build an object file
 DendriteReceptor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/DendriteReceptor.cpp.o
 .PHONY : DendriteReceptor.cpp.o
 
 DendriteReceptor.i: DendriteReceptor.cpp.i
@@ -286,7 +286,7 @@ DendriteReceptor.i: DendriteReceptor.cpp.i
 
 # target to preprocess a source file
 DendriteReceptor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/DendriteReceptor.cpp.i
 .PHONY : DendriteReceptor.cpp.i
 
 DendriteReceptor.s: DendriteReceptor.cpp.s
@@ -294,7 +294,7 @@ DendriteReceptor.s: DendriteReceptor.cpp.s
 
 # target to generate assembly for a file
 DendriteReceptor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/DendriteReceptor.cpp.s
 .PHONY : DendriteReceptor.cpp.s
 
 DendriticSomaticCalculator.o: DendriticSomaticCalculator.cpp.o
@@ -302,7 +302,7 @@ DendriticSomaticCalculator.o: DendriticSomaticCalculator.cpp.o
 
 # target to build an object file
 DendriticSomaticCalculator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/DendriticSomaticCalculator.cpp.o
 .PHONY : DendriticSomaticCalculator.cpp.o
 
 DendriticSomaticCalculator.i: DendriticSomaticCalculator.cpp.i
@@ -310,7 +310,7 @@ DendriticSomaticCalculator.i: DendriticSomaticCalculator.cpp.i
 
 # target to preprocess a source file
 DendriticSomaticCalculator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/DendriticSomaticCalculator.cpp.i
 .PHONY : DendriticSomaticCalculator.cpp.i
 
 DendriticSomaticCalculator.s: DendriticSomaticCalculator.cpp.s
@@ -318,7 +318,7 @@ DendriticSomaticCalculator.s: DendriticSomaticCalculator.cpp.s
 
 # target to generate assembly for a file
 DendriticSomaticCalculator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/DendriticSomaticCalculator.cpp.s
 .PHONY : DendriticSomaticCalculator.cpp.s
 
 Logger.o: Logger.cpp.o
@@ -326,7 +326,7 @@ Logger.o: Logger.cpp.o
 
 # target to build an object file
 Logger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Logger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Logger.cpp.o
 .PHONY : Logger.cpp.o
 
 Logger.i: Logger.cpp.i
@@ -334,7 +334,7 @@ Logger.i: Logger.cpp.i
 
 # target to preprocess a source file
 Logger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Logger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Logger.cpp.i
 .PHONY : Logger.cpp.i
 
 Logger.s: Logger.cpp.s
@@ -342,7 +342,7 @@ Logger.s: Logger.cpp.s
 
 # target to generate assembly for a file
 Logger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Logger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Logger.cpp.s
 .PHONY : Logger.cpp.s
 
 Myelination/Internode.o: Myelination/Internode.cpp.o
@@ -350,7 +350,7 @@ Myelination/Internode.o: Myelination/Internode.cpp.o
 
 # target to build an object file
 Myelination/Internode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Myelination/Internode.cpp.o
 .PHONY : Myelination/Internode.cpp.o
 
 Myelination/Internode.i: Myelination/Internode.cpp.i
@@ -358,7 +358,7 @@ Myelination/Internode.i: Myelination/Internode.cpp.i
 
 # target to preprocess a source file
 Myelination/Internode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Myelination/Internode.cpp.i
 .PHONY : Myelination/Internode.cpp.i
 
 Myelination/Internode.s: Myelination/Internode.cpp.s
@@ -366,7 +366,7 @@ Myelination/Internode.s: Myelination/Internode.cpp.s
 
 # target to generate assembly for a file
 Myelination/Internode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Myelination/Internode.cpp.s
 .PHONY : Myelination/Internode.cpp.s
 
 Myelination/MyelinSheath.o: Myelination/MyelinSheath.cpp.o
@@ -374,7 +374,7 @@ Myelination/MyelinSheath.o: Myelination/MyelinSheath.cpp.o
 
 # target to build an object file
 Myelination/MyelinSheath.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Myelination/MyelinSheath.cpp.o
 .PHONY : Myelination/MyelinSheath.cpp.o
 
 Myelination/MyelinSheath.i: Myelination/MyelinSheath.cpp.i
@@ -382,7 +382,7 @@ Myelination/MyelinSheath.i: Myelination/MyelinSheath.cpp.i
 
 # target to preprocess a source file
 Myelination/MyelinSheath.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Myelination/MyelinSheath.cpp.i
 .PHONY : Myelination/MyelinSheath.cpp.i
 
 Myelination/MyelinSheath.s: Myelination/MyelinSheath.cpp.s
@@ -390,7 +390,7 @@ Myelination/MyelinSheath.s: Myelination/MyelinSheath.cpp.s
 
 # target to generate assembly for a file
 Myelination/MyelinSheath.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Myelination/MyelinSheath.cpp.s
 .PHONY : Myelination/MyelinSheath.cpp.s
 
 Myelination/RanvierNode.o: Myelination/RanvierNode.cpp.o
@@ -398,7 +398,7 @@ Myelination/RanvierNode.o: Myelination/RanvierNode.cpp.o
 
 # target to build an object file
 Myelination/RanvierNode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Myelination/RanvierNode.cpp.o
 .PHONY : Myelination/RanvierNode.cpp.o
 
 Myelination/RanvierNode.i: Myelination/RanvierNode.cpp.i
@@ -406,7 +406,7 @@ Myelination/RanvierNode.i: Myelination/RanvierNode.cpp.i
 
 # target to preprocess a source file
 Myelination/RanvierNode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Myelination/RanvierNode.cpp.i
 .PHONY : Myelination/RanvierNode.cpp.i
 
 Myelination/RanvierNode.s: Myelination/RanvierNode.cpp.s
@@ -414,7 +414,7 @@ Myelination/RanvierNode.s: Myelination/RanvierNode.cpp.s
 
 # target to generate assembly for a file
 Myelination/RanvierNode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Myelination/RanvierNode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Myelination/RanvierNode.cpp.s
 .PHONY : Myelination/RanvierNode.cpp.s
 
 NeuWillow.o: NeuWillow.cpp.o
@@ -422,7 +422,7 @@ NeuWillow.o: NeuWillow.cpp.o
 
 # target to build an object file
 NeuWillow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/NeuWillow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/NeuWillow.cpp.o
 .PHONY : NeuWillow.cpp.o
 
 NeuWillow.i: NeuWillow.cpp.i
@@ -430,7 +430,7 @@ NeuWillow.i: NeuWillow.cpp.i
 
 # target to preprocess a source file
 NeuWillow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/NeuWillow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/NeuWillow.cpp.i
 .PHONY : NeuWillow.cpp.i
 
 NeuWillow.s: NeuWillow.cpp.s
@@ -438,7 +438,7 @@ NeuWillow.s: NeuWillow.cpp.s
 
 # target to generate assembly for a file
 NeuWillow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/NeuWillow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/NeuWillow.cpp.s
 .PHONY : NeuWillow.cpp.s
 
 Neuron.o: Neuron.cpp.o
@@ -446,7 +446,7 @@ Neuron.o: Neuron.cpp.o
 
 # target to build an object file
 Neuron.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Neuron.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Neuron.cpp.o
 .PHONY : Neuron.cpp.o
 
 Neuron.i: Neuron.cpp.i
@@ -454,7 +454,7 @@ Neuron.i: Neuron.cpp.i
 
 # target to preprocess a source file
 Neuron.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Neuron.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Neuron.cpp.i
 .PHONY : Neuron.cpp.i
 
 Neuron.s: Neuron.cpp.s
@@ -462,7 +462,7 @@ Neuron.s: Neuron.cpp.s
 
 # target to generate assembly for a file
 Neuron.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Neuron.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Neuron.cpp.s
 .PHONY : Neuron.cpp.s
 
 Neurotransmitter.o: Neurotransmitter.cpp.o
@@ -470,7 +470,7 @@ Neurotransmitter.o: Neurotransmitter.cpp.o
 
 # target to build an object file
 Neurotransmitter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Neurotransmitter.cpp.o
 .PHONY : Neurotransmitter.cpp.o
 
 Neurotransmitter.i: Neurotransmitter.cpp.i
@@ -478,7 +478,7 @@ Neurotransmitter.i: Neurotransmitter.cpp.i
 
 # target to preprocess a source file
 Neurotransmitter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Neurotransmitter.cpp.i
 .PHONY : Neurotransmitter.cpp.i
 
 Neurotransmitter.s: Neurotransmitter.cpp.s
@@ -486,7 +486,7 @@ Neurotransmitter.s: Neurotransmitter.cpp.s
 
 # target to generate assembly for a file
 Neurotransmitter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Neurotransmitter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Neurotransmitter.cpp.s
 .PHONY : Neurotransmitter.cpp.s
 
 PreSynapticVesicle.o: PreSynapticVesicle.cpp.o
@@ -494,7 +494,7 @@ PreSynapticVesicle.o: PreSynapticVesicle.cpp.o
 
 # target to build an object file
 PreSynapticVesicle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/PreSynapticVesicle.cpp.o
 .PHONY : PreSynapticVesicle.cpp.o
 
 PreSynapticVesicle.i: PreSynapticVesicle.cpp.i
@@ -502,7 +502,7 @@ PreSynapticVesicle.i: PreSynapticVesicle.cpp.i
 
 # target to preprocess a source file
 PreSynapticVesicle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/PreSynapticVesicle.cpp.i
 .PHONY : PreSynapticVesicle.cpp.i
 
 PreSynapticVesicle.s: PreSynapticVesicle.cpp.s
@@ -510,7 +510,7 @@ PreSynapticVesicle.s: PreSynapticVesicle.cpp.s
 
 # target to generate assembly for a file
 PreSynapticVesicle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/PreSynapticVesicle.cpp.s
 .PHONY : PreSynapticVesicle.cpp.s
 
 Simulation.o: Simulation.cpp.o
@@ -518,7 +518,7 @@ Simulation.o: Simulation.cpp.o
 
 # target to build an object file
 Simulation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Simulation.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Simulation.cpp.o
 .PHONY : Simulation.cpp.o
 
 Simulation.i: Simulation.cpp.i
@@ -526,7 +526,7 @@ Simulation.i: Simulation.cpp.i
 
 # target to preprocess a source file
 Simulation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Simulation.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Simulation.cpp.i
 .PHONY : Simulation.cpp.i
 
 Simulation.s: Simulation.cpp.s
@@ -534,7 +534,7 @@ Simulation.s: Simulation.cpp.s
 
 # target to generate assembly for a file
 Simulation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Simulation.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Simulation.cpp.s
 .PHONY : Simulation.cpp.s
 
 Soma.o: Soma.cpp.o
@@ -542,7 +542,7 @@ Soma.o: Soma.cpp.o
 
 # target to build an object file
 Soma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Soma.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Soma.cpp.o
 .PHONY : Soma.cpp.o
 
 Soma.i: Soma.cpp.i
@@ -550,7 +550,7 @@ Soma.i: Soma.cpp.i
 
 # target to preprocess a source file
 Soma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Soma.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Soma.cpp.i
 .PHONY : Soma.cpp.i
 
 Soma.s: Soma.cpp.s
@@ -558,7 +558,7 @@ Soma.s: Soma.cpp.s
 
 # target to generate assembly for a file
 Soma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/Soma.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/Soma.cpp.s
 .PHONY : Soma.cpp.s
 
 UniqueIdGenerator.o: UniqueIdGenerator.cpp.o
@@ -566,7 +566,7 @@ UniqueIdGenerator.o: UniqueIdGenerator.cpp.o
 
 # target to build an object file
 UniqueIdGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/UniqueIdGenerator.cpp.o
 .PHONY : UniqueIdGenerator.cpp.o
 
 UniqueIdGenerator.i: UniqueIdGenerator.cpp.i
@@ -574,7 +574,7 @@ UniqueIdGenerator.i: UniqueIdGenerator.cpp.i
 
 # target to preprocess a source file
 UniqueIdGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/UniqueIdGenerator.cpp.i
 .PHONY : UniqueIdGenerator.cpp.i
 
 UniqueIdGenerator.s: UniqueIdGenerator.cpp.s
@@ -582,7 +582,7 @@ UniqueIdGenerator.s: UniqueIdGenerator.cpp.s
 
 # target to generate assembly for a file
 UniqueIdGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuWillow.dir/build.make CMakeFiles/NeuWillow.dir/UniqueIdGenerator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuwillow.dir/build.make CMakeFiles/neuwillow.dir/UniqueIdGenerator.cpp.s
 .PHONY : UniqueIdGenerator.cpp.s
 
 # Help Target
@@ -593,7 +593,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... NeuWillow"
+	@echo "... neuwillow"
 	@echo "... ActionPotential.o"
 	@echo "... ActionPotential.i"
 	@echo "... ActionPotential.s"

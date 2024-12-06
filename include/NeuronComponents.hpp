@@ -1,7 +1,7 @@
 #ifndef _NEURON_COMPONENTS_H
 #define _NEURON_COMPONENTS_H
 
-namespace neuWillow
+namespace neuwillow
 {
   enum NeuronComponent
   {

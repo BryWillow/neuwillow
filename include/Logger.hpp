@@ -4,7 +4,7 @@
 #include <memory>
 //#include "../lib/spdlog/include/spdlog/spdlog.h"
 //#include "../lib/spdlog/include/spdlog/common.h"
-namespace neuWillow
+namespace neuwillow
 {
   class Logger
   {

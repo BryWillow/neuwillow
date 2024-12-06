@@ -29,4 +29,4 @@ set(
     UniqueIdGenerator.cpp 
     Myelination/Internode.cpp Myelination/MyelinSheath.cpp Myelination/RanvierNode.cpp)
 
-add_executable(NeuWillow ${SOURCES})
+add_executable(neuwillow ${SOURCES})

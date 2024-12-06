@@ -1,6 +1,6 @@
 #include "../include/DendriticSomaticCalculator.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   DendriticSomaticCalculator::DendriticSomaticCalculator(unsigned long uniqueId)
   {

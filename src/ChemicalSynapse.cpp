@@ -1,6 +1,6 @@
 #include "../include/ChemicalSynapse.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
     ChemicalSynapse::ChemicalSynapse(unsigned long uniqueId)
     {

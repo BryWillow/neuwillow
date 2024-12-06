@@ -1,6 +1,6 @@
 #include "../include/Axon.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
   Axon::Axon(unsigned long uniqueId)
   {

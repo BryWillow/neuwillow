@@ -1,6 +1,6 @@
 #include "../include/UniqueIdGenerator.hpp"
 
-namespace neuWillow
+namespace neuwillow
 {
     unsigned long UniqueIdGenerator::generateId()
     {
