@@ -12,10 +12,18 @@ namespace neuwillow
   {
     public:
       Configuration(std::string configurationFile);
-      //std::list<shared_ptr<Neuron>> getNeurons();
+
     private:
       void readConfigFile(std::string filePath);
       std::string _configFilePath;
+  };
+
+  struct SimulationParameters
+  {
+    unsigned long DendriteReceptorCount = 0;
+    unsigned long DendriteCount = 0;
+    unsigned long NeuronCount = 0;
+    Neurotransmitter PrimaryNeurotransmitter;
   };
 }
 
