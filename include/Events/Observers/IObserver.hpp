@@ -1,11 +1,13 @@
 #ifndef _IOBSERVER_H
 #define _IOBSERVER_H
 
+//#include "../Observers/IObserver.hpp"
+
 namespace neuwillow
 {
   // ISubject is essentially just a mechanism for dispatching events
   // to many listeners.
-  class ISubject
+  class IObserver
   {
     public:
       virtual ~IObserver() {};

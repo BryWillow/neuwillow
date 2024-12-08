@@ -1,7 +1,7 @@
 #ifndef _ISUBJECT_H
 #define _ISUBJECT_H
 
-#include <forward_list>
+#include <list>
 #include <map>
 #include <memory>
 
@@ -34,18 +34,37 @@
 //     ISubject instances it makes to create.
 //
 
-class ISubject
+namespace neuwillow
 {
-  virtual void AddObserver(int messageType, IObserver<T>* observer);
-  virtual void NotifyAll() 
+  class ISubject
   {
-    // TODO: simple impl
-  }
+    public:      
+      virtual void AddObserver(int messageType, std::shared_ptr<IObserver> observer)
+      {
+        auto it = _observersMap.find(messageType);
+        if (it == _observersMap.end())
+        { 
+          ObserversList observersList;
+          std::pair<int, ObserversList> p(messageType, observersList);
+          _observersMap.insert(p);
+        } 
+        _observersMap[messageType].push_back(observer); 
+      }
 
-  private:
-    typedef std::forward_list<std::shared_ptr<IObserver>> ObserversList;
-    typedef std::unordered_map<int, ObserversList> ObserversMap;
-    ObserversMap _observersMap;
-};
+      virtual void NotifyAll() 
+      {
+        //for (const auto& [key, value] : _observersMap) {
+        //  for (const auto& observer : value) {
+        //    observer->OnNotify();
+        //  }
+        //}
+      }
+
+    private:
+      typedef std::list<std::shared_ptr<IObserver>> ObserversList;
+      typedef std::map<int, ObserversList> ObserversMap;
+      ObserversMap _observersMap;
+  };
+}
 
 #endif

@@ -4,6 +4,7 @@
 #include <string>
 #include <memory>
 #include <list>
+#include "Neurotransmitter.hpp"
 #include "Neuron.hpp"
 
 namespace neuwillow
@@ -23,7 +24,7 @@ namespace neuwillow
     unsigned long DendriteReceptorCount = 0;
     unsigned long DendriteCount = 0;
     unsigned long NeuronCount = 0;
-    Neurotransmitter PrimaryNeurotransmitter;
+    //Neurotransmitter PrimaryNeurotransmitter;
   };
 }
 

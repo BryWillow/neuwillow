@@ -1,6 +1,8 @@
 #include <iostream>
 #include <memory>
 #include "../include/Simulation.hpp"
+#include "../include/Events/Observers/IObserver.hpp"
+#include "../include/Events/Subjects/ISubject.hpp"
 
 /*
 #include "../include/ChemicalSynapse.hpp"

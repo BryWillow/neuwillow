@@ -2742,6 +2742,7 @@ CMakeFiles/neuwillow.dir/Configuration.cpp.o: /Users/bryancamp/SoftwareDevelopme
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/ActionPotential.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Configuration.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Neuron.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Neurotransmitter.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/UniqueIdGenerator.hpp
 
 CMakeFiles/neuwillow.dir/Dendrite.cpp.o: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp \
@@ -7073,6 +7074,7 @@ CMakeFiles/neuwillow.dir/NeuWillow.cpp.o: /Users/bryancamp/SoftwareDevelopment/c
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Configuration.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Neuron.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/NeuronComponents.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Neurotransmitter.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Simulation.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/UniqueIdGenerator.hpp
 
@@ -8817,6 +8819,7 @@ CMakeFiles/neuwillow.dir/Simulation.cpp.o: /Users/bryancamp/SoftwareDevelopment/
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/timed_backoff_policy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_const.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_cv.h \
@@ -8987,8 +8990,10 @@ CMakeFiles/neuwillow.dir/Simulation.cpp.o: /Users/bryancamp/SoftwareDevelopment/
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iterator \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex \
@@ -9140,6 +9145,9 @@ CMakeFiles/neuwillow.dir/Simulation.cpp.o: /Users/bryancamp/SoftwareDevelopment/
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Observers/IObserver.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Observers/IObserver.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Subjects/ISubject.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/NeuronComponents.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Simulation.hpp
 
@@ -9810,15 +9818,15 @@ CMakeFiles/neuwillow.dir/UniqueIdGenerator.cpp.o: /Users/bryancamp/SoftwareDevel
 
 /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp:
 
+/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Subjects/ISubject.hpp:
+
+/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Observers/IObserver.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
 
 /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/PreSynapticVesicle.cpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_short.h:
-
-/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Neurotransmitter.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/transaction.h:
 
@@ -9837,6 +9845,12 @@ CMakeFiles/neuwillow.dir/UniqueIdGenerator.cpp.o: /Users/bryancamp/SoftwareDevel
 /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/DendriteReceptor.hpp:
 
 /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Dendrite.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_short.h:
+
+/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Neurotransmitter.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/min_max_result.h:
 
@@ -10387,6 +10401,8 @@ CMakeFiles/neuwillow.dir/UniqueIdGenerator.cpp.o: /Users/bryancamp/SoftwareDevel
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_array.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
 
