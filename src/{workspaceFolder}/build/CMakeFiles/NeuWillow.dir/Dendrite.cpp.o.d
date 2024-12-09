@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/Dendrite.cpp.o: \
+CMakeFiles/neuwillow.dir/Dendrite.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Dendrite.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/vector \

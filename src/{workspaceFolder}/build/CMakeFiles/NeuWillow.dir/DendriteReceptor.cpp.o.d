@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/DendriteReceptor.cpp.o: \
+CMakeFiles/neuwillow.dir/DendriteReceptor.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriteReceptor.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/DendriteReceptor.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_map \

@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/Simulation.cpp.o: \
+CMakeFiles/neuwillow.dir/Simulation.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
@@ -732,4 +732,12 @@ CMakeFiles/NeuWillow.dir/Simulation.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Simulation.hpp \
-  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/NeuronComponents.hpp
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/NeuronComponents.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Events/Observers/IObserver.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Events/Subjects/ISubject.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Events/Subjects/../Observers/IObserver.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Events/Observers/DendriteObserver.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Events/Subjects/DendriteSubject.hpp

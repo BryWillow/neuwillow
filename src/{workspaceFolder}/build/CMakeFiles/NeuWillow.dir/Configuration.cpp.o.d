@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/Configuration.cpp.o: \
+CMakeFiles/neuwillow.dir/Configuration.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Configuration.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
@@ -751,6 +751,7 @@ CMakeFiles/NeuWillow.dir/Configuration.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Configuration.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Neurotransmitter.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Neuron.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/UniqueIdGenerator.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/ActionPotential.hpp

@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/AxonTerminal.cpp.o: \
+CMakeFiles/neuwillow.dir/AxonTerminal.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/AxonTerminal.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/AxonTerminal.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_map \

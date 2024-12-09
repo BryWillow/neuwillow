@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/ChemicalSynapse.cpp.o: \
+CMakeFiles/neuwillow.dir/ChemicalSynapse.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ChemicalSynapse.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/ChemicalSynapse.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_map \

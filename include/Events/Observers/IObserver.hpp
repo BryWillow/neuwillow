@@ -1,8 +1,6 @@
 #ifndef _IOBSERVER_H
 #define _IOBSERVER_H
 
-//#include "../Observers/IObserver.hpp"
-
 namespace neuwillow
 {
   // Note: This interface is "event-handler" portion of the Observer pattern.
@@ -15,6 +13,7 @@ namespace neuwillow
   // 1. Implement a concrete class of this interface, obviously.
   // 2. Register that class with 1 or many implementations of ISubject.
   // 3. GetName() is simply a description of what this observer is listening to.
+
   class IObserver
   {
     public:

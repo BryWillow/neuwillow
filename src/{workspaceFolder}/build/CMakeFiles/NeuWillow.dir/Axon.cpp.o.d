@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/Axon.cpp.o: \
+CMakeFiles/neuwillow.dir/Axon.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axon.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Axon.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_map \

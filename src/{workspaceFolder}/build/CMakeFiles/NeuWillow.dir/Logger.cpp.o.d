@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/Logger.cpp.o: \
+CMakeFiles/neuwillow.dir/Logger.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Logger.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Logger.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory \

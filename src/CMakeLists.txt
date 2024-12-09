@@ -19,7 +19,7 @@ set(
     ChemicalSynapse.cpp 
     Configuration.cpp
     Dendrite.cpp DendriteReceptor.cpp DendriticSomaticCalculator.cpp 
-    Logger.cpp 
+    Logger.cpp
     Neuron.cpp 
     Neurotransmitter.cpp 
     NeuWillow.cpp 

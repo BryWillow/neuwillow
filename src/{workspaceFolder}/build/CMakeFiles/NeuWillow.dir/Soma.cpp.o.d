@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/Soma.cpp.o: \
+CMakeFiles/neuwillow.dir/Soma.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Soma.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/Soma.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_map \

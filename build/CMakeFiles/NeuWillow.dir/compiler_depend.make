@@ -9145,8 +9145,10 @@ CMakeFiles/neuwillow.dir/Simulation.cpp.o: /Users/bryancamp/SoftwareDevelopment/
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Observers/DendriteObserver.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Observers/IObserver.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Observers/IObserver.hpp \
+  /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Subjects/DendriteSubject.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Subjects/ISubject.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/NeuronComponents.hpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Simulation.hpp
@@ -9820,6 +9822,8 @@ CMakeFiles/neuwillow.dir/UniqueIdGenerator.cpp.o: /Users/bryancamp/SoftwareDevel
 
 /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Subjects/ISubject.hpp:
 
+/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Subjects/DendriteSubject.hpp:
+
 /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Observers/IObserver.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map:
@@ -9943,6 +9947,8 @@ CMakeFiles/neuwillow.dir/UniqueIdGenerator.cpp.o: /Users/bryancamp/SoftwareDevel
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mutex_base:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale:
+
+/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include/Events/Observers/DendriteObserver.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/rank.h:
 

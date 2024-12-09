@@ -3,7 +3,8 @@
 #include "../include/Simulation.hpp"
 #include "../include/Events/Observers/IObserver.hpp"
 #include "../include/Events/Subjects/ISubject.hpp"
-
+#include "../include/Events/Observers/DendriteObserver.hpp"
+#include "../include/Events/Subjects/DendriteSubject.hpp"
 /*
 #include "../include/ChemicalSynapse.hpp"
 #include "../include/DendriteReceptor.hpp"
@@ -17,6 +18,10 @@ namespace neuwillow
 {
   bool Simulation::start(const std::string& configurationFile)
   {
+    DendriteSubject dendriteSubject;
+    DendriteObserver dendriteObserver;
+    //dendriteSubject.AddObserver(DendriteCreating, dendriteObserver&);
+
     // This factory is responsible for creating alctory;
 
     // TODO: synapse config.

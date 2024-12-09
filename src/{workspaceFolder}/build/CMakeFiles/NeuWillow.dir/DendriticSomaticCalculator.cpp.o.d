@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/DendriticSomaticCalculator.cpp.o: \
+CMakeFiles/neuwillow.dir/DendriticSomaticCalculator.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriticSomaticCalculator.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/DendriticSomaticCalculator.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/vector \

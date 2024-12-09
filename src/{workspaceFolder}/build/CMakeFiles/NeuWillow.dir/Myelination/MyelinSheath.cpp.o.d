@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/Myelination/MyelinSheath.cpp.o: \
+CMakeFiles/neuwillow.dir/Myelination/MyelinSheath.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/../../include/Myelin/MyelinSheath.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/vector \

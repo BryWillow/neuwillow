@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/Myelination/Internode.cpp.o: \
+CMakeFiles/neuwillow.dir/Myelination/Internode.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/Internode.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/../../include/Myelin/Internode.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory \

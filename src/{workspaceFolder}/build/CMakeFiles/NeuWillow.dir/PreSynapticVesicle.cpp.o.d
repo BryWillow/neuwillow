@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/PreSynapticVesicle.cpp.o: \
+CMakeFiles/neuwillow.dir/PreSynapticVesicle.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/PreSynapticVesicle.cpp \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/../include/PreSynapticVesicle.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_map \

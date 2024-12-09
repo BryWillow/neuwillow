@@ -1,4 +1,4 @@
-CMakeFiles/NeuWillow.dir/Neuron.cpp.o: \
+CMakeFiles/neuwillow.dir/Neuron.cpp.o: \
   /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neuron.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/copy.h \
