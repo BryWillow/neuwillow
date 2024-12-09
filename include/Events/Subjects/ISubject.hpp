@@ -50,7 +50,7 @@ namespace neuwillow
         } 
         _observersMap[messageType].push_back(observer); 
       }
-
+      
       virtual void NotifyAll() 
       {
         //for (const auto& [key, value] : _observersMap) {
