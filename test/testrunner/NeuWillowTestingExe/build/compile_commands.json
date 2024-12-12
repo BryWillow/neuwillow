@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/test/testrunner/NeuWillowTestingExe/build",
-  "command": "/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -o CMakeFiles/NeuWillowTestingExe.dir/ExampleTests.cpp.o -c /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/test/testrunner/NeuWillowTestingExe/ExampleTests.cpp",
-  "file": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/test/testrunner/NeuWillowTestingExe/ExampleTests.cpp",
-  "output": "CMakeFiles/NeuWillowTestingExe.dir/ExampleTests.cpp.o"
-}
-]
