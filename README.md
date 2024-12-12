@@ -23,4 +23,4 @@ Building NeuWillow:
    * DI Container : googlefruit
 5. All dependencies are cross-platform, and provide their own CMakeLists.txt, along with examples.
 6. To upgrade any dependencies you can (a) download the new headers, or (b) adjust CMakeLists to use Fetch.
-7. Open the top-level "neuWillow" folder should automatically build the entire project.
+7. Open the top-level "neuWillow" folder and VSCode should automatically build the entire project.
