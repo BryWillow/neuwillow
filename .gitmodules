@@ -7,3 +7,6 @@
 [submodule "spdlog"]
 	path = spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "ext/config/toml/tomlplusplus"]
+	path = ext/config/toml/tomlplusplus
+	url = https://github.com/marzer/tomlplusplus.git
