@@ -21,5 +21,5 @@ Building NeuWillow:
    * Testing      : googletest
    * Config       : tomlplusplus
    * DI Container : googlefruit
-5.   All dependencies are cross-platform, and provide their own CMakeLists.txt, along with examples.
-6.. To upgrade any dependencies you can (a) download the new headers, or (b) adjust CMakeLists to use Fetch.
+5. All dependencies are cross-platform, and provide their own CMakeLists.txt, along with examples.
+6. To upgrade any dependencies you can (a) download the new headers, or (b) adjust CMakeLists to use Fetch.
