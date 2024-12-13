@@ -1,7 +1,14 @@
 # neuwillow
 
+Background:
+The purpose of NeuWillow is to be a neuroscience modeling platform.
+"Neu" stands for Neuron, and "Willow" stands for my favorite tree, the Weeping Willow.
+A Weeping Willow tree comes in so many sizes, variations, and number of connected branches, resembing denrdites.
+This particular tree can a lot of mystery to it, as often its branches touch the ground and you can't see inside.
+The toal of this project is to help remove and better understand some of this mystery.
+
 Project Overview:
-NeuWillow is designed to be a fun-filled neuroscience modeling platform. "Neu", you can probably guess is an abbreviation for neuron, and "Willow" is my favorite tree. This might seem like an odd name, but (1) it's memorable, and (2) the tree branches and leaves resemble the a neuron's dendrites. Maybe the name is kind of corny, but it makes sense to me.
+NeuWillow is designed to be a neuroscience modeling platform. "Neu", you can probably guess is an abbreviation for neuron, and "Willow" is my favorite tree. This might seem like an odd name, but (1) it's memorable, and (2) the tree branches and leaves resemble the a neuron's dendrites. Maybe the name is kind of corny, but it makes sense to me.
 
 Project Goals: High-Level:
 1. Create your own neural network, specifying the number of neurons you would like to participate.
