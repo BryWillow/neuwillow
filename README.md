@@ -1,6 +1,6 @@
 # neuwillow
 
-**Background:**
+****Background:****
 
 The purpose of NeuWillow is to be a neuroscience modeling platform.
 "Neu" stands for Neuron, and "Willow" stands for my favorite tree, the Weeping Willow.
@@ -8,11 +8,11 @@ A Weeping Willow tree comes in so many sizes, variations, and number of connecte
 This particular tree can a lot of mystery to it, as often its branches touch the ground and you can't see inside.
 The toal of this project is to help remove and better understand some of this mystery.
 
-**Project Overview:**
+****Project Overview:****
 
 NeuWillow is designed to be a neuroscience modeling platform. "Neu", you can probably guess is an abbreviation for neuron, and "Willow" is my favorite tree. This might seem like an odd name, but (1) it's memorable, and (2) the tree branches and leaves resemble the a neuron's dendrites. Maybe the name is kind of corny, but it makes sense to me.
 
-**Project Goals: High-Level:**
+****Project Goals: High-Level:****
 1. Create your own neural network, specifying the number of neurons you would like to participate.
 2. Provide an initial state / configuration about each neuron in JSON format. A README for config files will follow shortly.
 3. Observe the state and behavior of the neural network at each step: e.g.,
@@ -21,7 +21,7 @@ NeuWillow is designed to be a neuroscience modeling platform. "Neu", you can pro
     c. which neurotransmitters are packaged into pre-synaptic vesicles
     d. which neurotransmitters bind to the post-synaptic neurons, are diffused, or go through the re-uptake process.
 
-**Building NeuWillow:**
+****Building NeuWillow:****
 1. I created this project on MacOS Sequoia 15.0.1 using the clang 16.0.26.4 compiler.
 2. I used the following tools to create the project: VSCode, and the C/C++, C/C++ Extensions modules in VSCode. 
 3. I manually installed CMake from their website.
