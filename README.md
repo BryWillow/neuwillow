@@ -2,24 +2,23 @@
 
 ****Background:****
 
-The purpose of NeuWillow is to be a neuroscience modeling platform.
-"Neu" stands for Neuron, and "Willow" stands for my favorite tree, the Weeping Willow.
-A Weeping Willow tree comes in so many sizes, variations, and number of connected branches, resembing denrdites.
-This particular tree can a lot of mystery to it, as often its branches touch the ground and you can't see inside.
-The toal of this project is to help remove and better understand some of this mystery.
+The Weeping Willow is my favorite tree. I find the fascinating as often times they can grow so tall, 
+with branches so long, they touch the ground and form a canopy we can't see inside. When you part the 
+branches, walk inside, you can often disappear in the silence. You become aware of all its intricacies,
+overlapping paths, of branches, networks big and small, all of which contributed to its growth.
+To me this tree is mysterious, and I've wondered what what made it thrive, and what it was hiding.
+However, the lifespan of these trees can be relatiely short, and they are susceptible to disease.
+That said, "neu" is simply an abbreviation of neuron, and "willow", my favorite tree.
+I, personally, felt a lot of parallels between these two things and the human brain. Hence the name.
 
-****Project Overview:****
+****Project Overiew:****
 
-NeuWillow is designed to be a neuroscience modeling platform. "Neu", you can probably guess is an abbreviation for neuron, and "Willow" is my favorite tree. This might seem like an odd name, but (1) it's memorable, and (2) the tree branches and leaves resemble the a neuron's dendrites. Maybe the name is kind of corny, but it makes sense to me.
-
-****Project Goals: High-Level:****
-1. Create your own neural network, specifying the number of neurons you would like to participate.
-2. Provide an initial state / configuration about each neuron in JSON format. A README for config files will follow shortly.
-3. Observe the state and behavior of the neural network at each step: e.g.,
-    a. ion channels opening or closing 
-    b. whether or not an actioni potential might be fired 
-    c. which neurotransmitters are packaged into pre-synaptic vesicles
-    d. which neurotransmitters bind to the post-synaptic neurons, are diffused, or go through the re-uptake process.
+The purpose of the NeuWillow project is to be a fast, versatile, neuroscience modeling platform.
+Specifically, you can isolate the behavior of a single or netework of neurons.
+From creating creating portions of neurons, like the number of receptors each dendrite has,
+ion / leak channels, voltages, action potentials, myelin and axons, vesicles of neurotransmitters, etc.
+The idea is that you can either choose whether to have the network "learn" based on existing models,
+or create your own models from scratch. All simulations are highly configurable, which will be explained in detail.
 
 ****Building NeuWillow:****
 1. I created this project on MacOS Sequoia 15.0.1 using the clang 16.0.26.4 compiler.
