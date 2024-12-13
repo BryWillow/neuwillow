@@ -9,7 +9,7 @@ overlapping paths, of branches, networks big and small, all of which contributed
 To me this tree is mysterious, and I've wondered what what made it thrive, and what it hides.
 However, the lifespan of these trees can be relatiely short, and they are susceptible to disease.
 That said, "neu" is simply an abbreviation of neuron, and "willow", my favorite tree.
-I, personally, felt a lot of parallels between these two things and the human brain. Hence the name.
+I, personally, felt a lot of parallels between these two things and the human brain. Hence the name, "neuwillow".
 
 ****Project Overiew:****
 
