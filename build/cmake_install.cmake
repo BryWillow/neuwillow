@@ -1,4 +1,4 @@
-# Install script for directory: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src
+# Install script for directory: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

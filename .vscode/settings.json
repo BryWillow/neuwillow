@@ -1,5 +1,5 @@
 {
-  "cmake.sourceDirectory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src",
+  "cmake.sourceDirectory": "/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow",
   "files.associations": {
     "unordered_map": "cpp",
     "ostream": "cpp"
