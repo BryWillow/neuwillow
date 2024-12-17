@@ -2,10 +2,10 @@
 #define _DENDRITE_SUBJECT_H
 
 #include "ISubject.hpp"
+//#include "common.h"
 
 namespace neuwillow
 {
-  public:
     enum DendriteSubjects
     {
       DendriteCreating,

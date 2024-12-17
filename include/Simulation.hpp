@@ -13,9 +13,11 @@ namespace neuwillow
 
       static void stop();
 
+      
       static void recordEvent(
         const std::string& simulationEvent);
 
+      /*
       static void recordEvent(
         const std::string& simulationEvent,
         NeuronComponent neuronComponent);
@@ -29,7 +31,7 @@ namespace neuwillow
 
       static void recordError(
         const std::string& simulationError,
-        NeuronComponent neuronComponent);        
+        NeuronComponent neuronComponent);       */ 
   };
 }
 

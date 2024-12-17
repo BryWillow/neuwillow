@@ -7,17 +7,7 @@
 
 namespace neuwillow
 {
-  class DendriteReceptor
-  {
-    public:
-      DendriteReceptor(unsigned long uniqueId);
-      ~DendriteReceptor();
 
-      unsigned long getId() const;
-
-    private:
-      unsigned long _id;
-  };
 
   class DendriteReceptorFactory
   {

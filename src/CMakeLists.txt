@@ -1,32 +1,12 @@
-cmake_minimum_required(
-    VERSION 3.30)
+project(neuuwillow)
 
-project(
-    NeuWillow 
-    VERSION 3.30 
-    LANGUAGES C CXX)
+# Create the executable
+add_executable(${PROJECT_NAME} main.cpp)
 
-set(
-    CMAKE_CXX_STANDARD 23)
-
-set(
-    CXX_STANDARD_REQUIRED ON)
-
-set(
-    SOURCES 
-    ActionPotential.cpp 
-    Axon.cpp AxonTerminal.cpp
-    ChemicalSynapse.cpp 
-    Configuration.cpp
-    Dendrite.cpp DendriteReceptor.cpp DendriticSomaticCalculator.cpp 
-    Logger.cpp
-    Neuron.cpp 
-    Neurotransmitter.cpp 
-    NeuWillow.cpp 
-    PreSynapticVesicle.cpp 
-    Simulation.cpp 
-    Soma.cpp 
-    UniqueIdGenerator.cpp 
-    Myelination/Internode.cpp Myelination/MyelinSheath.cpp Myelination/RanvierNode.cpp)
-
-add_executable(neuwillow ${SOURCES})
+# Link the static library from subproject1 using its alias sub::lib1
+# Link the header only library from subproject2 using its alias sub::lib2
+# This will cause the include directories for that target to be added to this project
+target_link_libraries(${PROJECT_NAME}
+    sub::lib1
+    sub::lib2
+)
