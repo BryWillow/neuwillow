@@ -35,10 +35,10 @@ or create your own models from scratch. All simulations are highly configurable,
 8. Optionally you can make use of the top-level "neuWillow" CMakeLists.txt file directly.
 
 ****General Workflow:****
-[General Workflow]/WORKFLOW.md
+[General Workflow] (/WORKFLOW.md)
 
 ****Configuration:****
-[Configuration] /CONFIGURATION.md
+[Configuration Options] (CONFIGURATION.md)
 
 ****Current Limitations:****
-[Limitations] /LIMITATIONS.md
+[Current Limitations] (LIMITATIONS.md)
