@@ -19,8 +19,17 @@ namespace neuwillow
       std::string _configFilePath;
   };
 
+  struct PreSynapticNeuronParameters
+  {
+    unsigned long Synapse<
+    unsigned long SynapseCount = 0;
+  }
+
   struct SimulationParameters
   {
+    unsigned long PreSynapticNeuronSynapseCount = 0;
+
+
     unsigned long DendriteReceptorCount = 0;
     unsigned long DendriteCount = 0;
     unsigned long NeuronCount = 0;
