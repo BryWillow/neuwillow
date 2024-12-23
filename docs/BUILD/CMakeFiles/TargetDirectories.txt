@@ -1,0 +1,3 @@
+/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles/neuwillow.dir
+/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles/edit_cache.dir
+/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/CMakeFiles/rebuild_cache.dir
