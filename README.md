@@ -7,12 +7,12 @@ ion / leak channels, voltages, action potentials, myelin and axons, vesicles of 
 The idea is that you can either choose whether to have the network "learn" based on existing models,
 or create your own models from scratch. All simulations are highly configurable, which will be explained in detail.
 
-[NeuWillow Project Background](./src/docs/BACKGROUND.md)
+[NeuWillow Project Background](./src/markdown/BACKGROUND.md)
 
-[HOW TO: Configure NeuWillow](./src/docs/CONFIGURATION.md)
+[HOW TO: Configure NeuWillow](./src/markdown/CONFIGURATION.md)
 
-[HOW TO: Build NeuWillow](./src/docs/BUILD.md)
+[HOW TO: Build NeuWillow](./src/markdown/BUILD.md)
 
-[General Workflow](./src/docs/WORKFLOW.md)
+[General Workflow](./src/markdown/WORKFLOW.md)
 
-[Current Limitations](./src/docs/LIMITATIONS.md)
+[Current Limitations](./src/markdown/LIMITATIONS.md)
