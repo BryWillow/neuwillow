@@ -34,3 +34,11 @@ or create your own models from scratch. All simulations are highly configurable,
 7. Open the top-level "neuWillow" folder and (1) VSCode will  automatically build the entire project.
 8. Optionally you can make use of the top-level "neuWillow" CMakeLists.txt file directly.
 
+****General Workflow:****
+/WORKFLOW.md
+
+****Configuration:****
+/CONFIGURATION.md
+
+****Current Limitations:****
+/LIMITATIONS.md
