@@ -18,6 +18,4 @@ The purpose is to examine a *single* neuron.
 4. Depending on your configuration, 
 
 
-The Weeping Willow is my favorite tree. I find them fascinating as often times they can grow so tall, 
-with branches so long, they touch the ground and form a canopy we can't see inside. When you part the 
-branches, walk inside, you can often disappear in the silence. You become aware of all its intricacies,
+
