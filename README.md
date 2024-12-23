@@ -21,10 +21,10 @@ The idea is that you can either choose whether to have the network "learn" based
 or create your own models from scratch. All simulations are highly configurable, which will be explained in detail.
 
 ****Building NeuWillow:****
-[Building NeuWillow] (./src/docs/BUILD.md)
+[Building NeuWillow](./src/docs/BUILD.md)
 
 ****General Workflow:****
-[General Workflow] (./src/docs/WORKFLOW.md)
+[General Workflow](./src/docs/WORKFLOW.md)
 
 ****Current Limitations=:****
-[Current Limitations] (./src/docs/LIMITATIONS.md)
+[Current Limitations](./src/docs/LIMITATIONS.md)
