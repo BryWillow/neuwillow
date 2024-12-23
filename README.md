@@ -41,4 +41,4 @@ or create your own models from scratch. All simulations are highly configurable,
 [Configuration Options] (CONFIGURATION.md)
 
 ****Current Limitations:****
-[Current Limitations] (LIMITATIONS.md)
+[Current Limitations](./LIMITATIONS.md)
