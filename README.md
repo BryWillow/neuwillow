@@ -6,9 +6,9 @@ Based on extensive configuration, which is defined in [SimulationParameters](./s
 
 [NeuWillow Project Background](./src/markdown/BACKGROUND.md)
 
-[HOW TO: Configure NeuWillow](./src/markdown/CONFIGURATION.md)
-
 [HOW TO: Build NeuWillow](./src/markdown/BUILD.md)
+
+[HOW TO: Configure NeuWillow](./src/markdown/CONFIGURATION.md)
 
 [General Workflow](./src/markdown/WORKFLOW.md)
 
