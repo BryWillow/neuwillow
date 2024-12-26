@@ -1,6 +1,6 @@
 #include "../include/Simulation.hpp"
 
-#include <spdlog>
+//#include <spdlog>
 
 int main()
 {
