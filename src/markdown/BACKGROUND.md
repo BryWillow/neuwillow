@@ -1,5 +1,5 @@
 
-The Weeping Willow is my favorite tree. <br />
+The Weeping Willow is my favorite tree. <br /><br />
 I find them fascinating as often times they can grow so tall, with branches so long,<br /> 
 they touch the ground and form a canopy we can't see inside. When you part the branches,<br />
 walk inside, you can often disappear in the silence. You become aware of all its intricacies,<br />
