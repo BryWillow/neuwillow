@@ -5,7 +5,7 @@
 #include <map>
 #include <memory>
 
-#include "../Observers/IObserver.hpp"
+#include "IObserver.hpp"
 
 //
 // This is an implementation of the Observer pattern. 

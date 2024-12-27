@@ -1,4 +1,4 @@
-#include "../../include/Myelin/Internode.hpp"
+#include "../include/Myelin/Internode.hpp"
 
 namespace neuwillow
 {

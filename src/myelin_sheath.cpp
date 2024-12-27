@@ -1,4 +1,4 @@
-#include "../../include/Myelin/MyelinSheath.hpp"
+#include "../include/Myelin/MyelinSheath.hpp"
 
 namespace neuwillow
 {

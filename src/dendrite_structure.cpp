@@ -6,21 +6,9 @@ namespace neuwillow
   {
     namespace dendrite
     {
-      Dendrite::Dendrite(
-        unsigned long dendriteId, 
-        std::vector<std::shared_ptr<DendriteReceptor> > dendriteReceptors)
-      {
-        _dendriteId = dendriteId;
-      }
-
-      Dendrite::~Dendrite()
-      {
-
-      }
-
       std::shared_ptr<Dendrite> DendriteFactory::create()
       {
-          unsigned long dendriteId = _idGenerator.generateId();
+          uint32_t dendriteId = _idGenerator.generateId();
 
           // Add a dendrite's receptors.
           // TODO: Read the dendrite receptor count from config.
@@ -35,7 +23,7 @@ namespace neuwillow
           return newDendrite;
       }    
 
-      std::shared_ptr<Dendrite> DendriteFactory::find(unsigned long dendriteId)
+      std::shared_ptr<Dendrite> DendriteFactory::find(uint32_t dendriteId)
       {
           auto it = _createdDendrites.find(dendriteId);
           if (it == _createdDendrites.end())
@@ -43,7 +31,7 @@ namespace neuwillow
           return it->second;
       }
 
-      bool DendriteFactory::destroy(unsigned long dendriteId)
+      bool DendriteFactory::destroy(uint32_t dendriteId)
       {
           auto it = _createdDendrites.find(dendriteId);
           if (it == _createdDendrites.end())

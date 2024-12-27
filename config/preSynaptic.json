@@ -1,0 +1,12 @@
+{
+  "Neuron": {
+    "Name": {
+     "Component": {
+      "Dendrite": {
+        "Count": "999",
+         "ReceptorSites": "9999"
+      }
+    }
+  }
+}
+}

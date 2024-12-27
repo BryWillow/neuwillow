@@ -29,17 +29,17 @@ namespace neuwillow
         public:
           Dendrite(
             unsigned long dendriteId, 
-            std::vector<std::shared_ptr<DendriteReceptor>> receptors);
+            std::vector<std::shared_ptr<DendriteReceptor> > receptors);
           ~Dendrite();
 
-          unsigned long getDendriteId() const { return _id; }
+          uint32_t getDendriteId() const { return _dendriteId; }
 
           // The number of a Dendrite's receptors changes over time.
           void addReceptor(DendriteReceptor receptor);
           //bool killReceptor(unsigned long dendriteReceptorId);
 
         private:
-          unsigned long _dendriteId;
+          uint32_t _dendriteId;
           std::vector<std::shared_ptr<DendriteReceptorSite>> _receptors;
       };
 
@@ -61,13 +61,13 @@ namespace neuwillow
       class DendriteReceptorSite
       {
         public:
-          DendriteReceptorSite(unsigned long uniqueId);
+          DendriteReceptorSite(uint32_t uniqueId);
           ~DendriteReceptorSite();
 
-          unsigned long getId() const { return _id; }
+          uint32_t getId() const { return _id; }
 
         private:
-          unsigned long _id;
+          uint32_t _id;
       };
 
       class IDendriteModel
@@ -87,11 +87,11 @@ namespace neuwillow
       {
         public:
           std::shared_ptr<Dendrite> create();
-          std::shared_ptr<Dendrite> find(unsigned long dendriteId);
-          bool destroy(unsigned long dendriteId);
+          std::shared_ptr<Dendrite> find(uint32_t dendriteId);
+          bool destroy(uint32_t dendriteId);
 
         private:
-          std::unordered_map<unsigned long, std::shared_ptr<Dendrite> > _createdDendrites;
+          std::unordered_map<uint32_t, std::shared_ptr<Dendrite> > _createdDendrites;
           DendriteReceptorFactory _dendriteReceptorFactory;
           UniqueIdGenerator _idGenerator;
       }; 
@@ -99,8 +99,4 @@ namespace neuwillow
     } // namespace dendrite
   } // namespace postsynaptic
 } // namespace neuwillow
-
-
-}
-
 #endif

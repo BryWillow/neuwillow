@@ -1,4 +1,4 @@
-#include "../../include/Myelin/RanvierNode.hpp"
+#include "../include/Myelin/RanvierNode.hpp"
 
 namespace neuwillow
 {
