@@ -1,7 +1,7 @@
 #include "../include/Simulation.hpp"
 
-//#include <spdlog>
-
+#define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_INFO // All DEBUG/TRACE statements will be removed by the pre-processor
+#include "spdlog/spdlog.h"
 int main()
 {
 

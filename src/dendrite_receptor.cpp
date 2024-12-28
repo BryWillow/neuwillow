@@ -2,7 +2,6 @@
 #include "../include/Dendrite.hpp"
 #include "../include/DendriteReceptor.hpp"
 
-
 namespace neuwillow
 {
   namespace postsynapse

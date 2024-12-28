@@ -28,8 +28,6 @@ namespace neuwillow
   struct SimulationParameters
   {
     unsigned long PreSynapticNeuronSynapseCount = 0;
-
-
     unsigned long DendriteReceptorCount = 0;
     unsigned long DendriteCount = 0;
     unsigned long NeuronCount = 0;
