@@ -8,6 +8,7 @@
 
 namespace NeuWillow::Axons
 {
+
   class PreSynapticVesicle
   {
     public:
@@ -31,6 +32,7 @@ namespace NeuWillow::Axons
       std::unordered_map<uint64_t, std::shared_ptr<PreSynapticVesicle> > _createdPreSynapticVesicles;
       UniqueIdGenerator _idGenerator;
   };
-}
+
+} // namespace Axons::NeuWillow
 
 #endif

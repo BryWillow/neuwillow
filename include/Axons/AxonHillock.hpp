@@ -7,6 +7,7 @@
 
 namespace NeuWillow::Axons
 {
+
   class AxonHillock
   {
     public:
@@ -28,7 +29,8 @@ namespace NeuWillow::Axons
     private:
       std::unordered_map<uint64_t, std::shared_ptr<AxonHillock> > _createdAxonHillocks;
       UniqueIdGenerator _idGenerator;
-  }; 
-}
+  };
+
+} // namespace Axons::NeuWillow
 
 #endif

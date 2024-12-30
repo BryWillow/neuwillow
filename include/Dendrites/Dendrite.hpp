@@ -7,40 +7,39 @@
 #include "UniqueIdGenerator.hpp"
 #include "DendriteReceptor.hpp"
 
-namespace NeuWillow
+namespace NeuWillow::Dendrites
 {
-  namespace Dendrites
-  {  
-    class Dendrite
-    {
-      public:
-        Dendrite(
-          uint64_t dendriteId, 
-          std::vector<std::shared_ptr<DendriteReceptor> > receptors);
-        ~Dendrite();
 
-        uint64_t getDendriteId() const { return _dendriteId; }
-        void addReceptor(DendriteReceptor receptor);
-        bool killReceptor(uint64_t dendriteReceptorId);
+  class Dendrite
+  {
+    public:
+      Dendrite(
+        uint64_t dendriteId, 
+        std::vector<std::shared_ptr<DendriteReceptor> > receptors);
+      ~Dendrite();
 
-      private:
-        uint64_t _dendriteId;
-        std::vector<std::shared_ptr<DendriteReceptorSite>> _receptors;
-    };
+      uint64_t getDendriteId() const { return _dendriteId; }
+      void addReceptor(DendriteReceptor receptor);
+      bool killReceptor(uint64_t dendriteReceptorId);
 
-    class DendriteFactory
-    {
-      public:
-        std::shared_ptr<Dendrite> create();
-        std::shared_ptr<Dendrite> find(uint64_t dendriteId);
-        bool destroy(uint64_t dendriteId);
+    private:
+      uint64_t _dendriteId;
+      std::vector<std::shared_ptr<DendriteReceptorSite>> _receptors;
+  };
 
-      private:
-        std::unordered_map<uint64_t, std::shared_ptr<Dendrite> > _createdDendrites;
-        DendriteReceptorFactory _dendriteReceptorFactory;
-        UniqueIdGenerator _idGenerator;
-    };
-  } // namespace Dendrites
-} // namespace NeuWillow
+  class DendriteFactory
+  {
+    public:
+      std::shared_ptr<Dendrite> create();
+      std::shared_ptr<Dendrite> find(uint64_t dendriteId);
+      bool destroy(uint64_t dendriteId);
+
+    private:
+      std::unordered_map<uint64_t, std::shared_ptr<Dendrite> > _createdDendrites;
+      DendriteReceptorFactory _dendriteReceptorFactory;
+      UniqueIdGenerator _idGenerator;
+  };
+  
+} // namespace Dendrites::NeuWillow
 
 #endif
