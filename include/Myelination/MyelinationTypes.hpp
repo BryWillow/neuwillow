@@ -1,13 +1,17 @@
-namespace NeuWillow
+#ifndef MYELINATION_TYPES_HPP
+#define MYELINATION_TYPES_HPP
+
+namespace NeuWillow::Myelination
 {
-  namespace Myelination
+
+  enum MyelinationTypes
   {
-    enum MyelinationTypes
-    {
-      Invalid,
-      GlialSchwann,
-      GlialOligodendrocytes,
-      NonMyelinated
-    };
-  }
-}
+    Invalid,
+    GlialSchwann,
+    GlialOligodendrocytes,
+    NonMyelinated
+  };
+
+} // namespace Myelination::NeuWillow
+
+#endif
