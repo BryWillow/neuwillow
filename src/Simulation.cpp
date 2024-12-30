@@ -1,7 +1,7 @@
 #include <iostream>
 #include "UniqueIdGenerator.hpp"
 #include "Dendrites/DendriteReceptor.hpp"
-#include "Simulations/Simulator.hpp"
+#include "Simulator.hpp"
  
 int main()
 {
