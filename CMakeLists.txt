@@ -8,7 +8,8 @@ include_directories(ext/spdlog/)
 
 set(SOURCES
     src/neuron_structure.cpp
-    src/dendrite_structure.cpp
+    src/Dendrite.cpp
+    src/DendriteFactory.cpp    
     src/dendrite_receptor.cpp
     src/ion_channel.cpp
     src/soma_structure.cpp

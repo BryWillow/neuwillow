@@ -1,12 +1,13 @@
-#pragma once
+#ifndef MYELIN_SHEATH_HPP
+#define MYELIN_SHEATH_HPP
 
 #include <vector>
 #include "Internode.hpp"
 #include "RanvierNode.hpp"
 
-namespace neuwillow
+namespace NeuWillow
 {
-  namespace myelination
+  namespace Myelination
   {
     /// Notes:
     ///
@@ -19,7 +20,7 @@ namespace neuwillow
     class MyelinSheath
     {
       public:
-        MyelinSheath(const std::vector<Internode> internodes);
+        MyelinSheath(const std::vector<InterNode> internodes);
         ~MyelinSheath();
     };
 
@@ -70,5 +71,5 @@ namespace neuwillow
     {
 
     };
-  };
+  }
 }

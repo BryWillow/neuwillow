@@ -15,11 +15,13 @@ namespace neuwillow
     /// A useful metaphor might be a train: 
     // the train is the sheath, each car an internode, and gaps between cars are the Nodes of Ranvier.
 
-    class Internode
+    class InterNode
     {
       public:
-        Internode(std::shared_ptr<RanvierNode> previousNode, std::shared_ptr<RanvierNode> nextNode);
-        ~Internode();
+        InterNode(
+          std::shared_ptr<RanvierNode> previousNode, 
+          std::shared_ptr<RanvierNode> nextNode);
+        ~InterNode();
 
       private:
         // Null if this is the first node in the sheath.

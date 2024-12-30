@@ -1,8 +1,8 @@
-#include "../include/Axon.hpp"
+#include "Axons/Axon.hpp"
 
-namespace neuwillow
+namespace NeuWillow::Axons
 {
-  Axon::Axon(unsigned long uniqueId)
+  Axon::Axon(uint64_t uniqueId)
   {
     _id = uniqueId;
   }
@@ -11,15 +11,15 @@ namespace neuwillow
   {
 
   }
-
-  unsigned long Axon::getId() const
+  
+  uint64_t Axon::getId() const
   {
     return _id;
   }
 
   std::shared_ptr<Axon> AxonFactory::create()
   {
-      unsigned long axonId = _idGenerator.generateId();
+      uint64_t axonId = _idGenerator.generateId();
       std::shared_ptr<Axon> newAxon = std::make_shared<Axon>(axonId);
       _createdAxons[axonId] = newAxon;
 
@@ -29,7 +29,7 @@ namespace neuwillow
       return newAxon;
   }    
 
-  std::shared_ptr<Axon> AxonFactory::find(unsigned long axonId)
+  std::shared_ptr<Axon> AxonFactory::find(uint64_t axonId)
   {
       auto it = _createdAxons.find(axonId);
       if (it == _createdAxons.end())
@@ -37,7 +37,7 @@ namespace neuwillow
       return it->second;
   }
 
-  bool AxonFactory::destroy(unsigned long axonId)
+  bool AxonFactory::destroy(uint64_t axonId)
   {
       auto it = _createdAxons.find(axonId);
       if (it == _createdAxons.end())
@@ -45,4 +45,4 @@ namespace neuwillow
       _createdAxons.erase(it);
       return true;
   }
-}
+} // namespace Axons::NeuWillow

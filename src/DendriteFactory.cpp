@@ -1,20 +1,20 @@
-#include "../include/Dendrite.hpp"
+#include "Dendrite/DendriteFactory.hpp"
 
 namespace neuwillow
 {
   namespace postsynapse
   {
     namespace dendrite
-    {
+    { 
       std::shared_ptr<Dendrite> DendriteFactory::create()
       {
           uint32_t dendriteId = _idGenerator.generateId();
 
           // Add a dendrite's receptors.
           // TODO: Read the dendrite receptor count from config.
-          const int HARDCODED_RECEPTOR_COUNT = 10;
+          const uint32_t HARDCODED_RECEPTOR_COUNT = 10;
           std::vector< std::shared_ptr<DendriteReceptor> > receptors(HARDCODED_RECEPTOR_COUNT);
-          for(int i = 0; i < HARDCODED_RECEPTOR_COUNT; i++)
+          for(uint32_t i = 0; i < HARDCODED_RECEPTOR_COUNT; i++)
           {
             receptors[i] = _dendriteReceptorFactory.create();
           }

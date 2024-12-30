@@ -8,6 +8,24 @@
 
 namespace neuwillow
 {
+  // TBD:
+  //
+  ////////////////////////////////////////////////////////////////////////
+  // (1) Neurons
+  // (2) Glial Cells outnumber neurons by 10:1. Types are:
+  //      CNS: Brain & Spinal Cord:
+  //        (a) Astrocytes: 
+  //              i.  Most abundant
+  //              ii. Anchor neurons to blood supply
+  //             iii. Exchange materials between neurons and capillaries
+  //        (b) Microglial Cells: Immune defense
+  //        (c) Ependymal Cells
+  //        (d) Oligendrocytes
+  //      PNS: Nerve Cells branching off from your brain:
+  //        (a) Satellite Cells
+  //        (b) Schwann Cells
+  ////////////////////////////////////////////////////////////////////////
+
   class Neuron
   {      
     public:

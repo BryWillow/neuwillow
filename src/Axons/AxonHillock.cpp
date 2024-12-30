@@ -1,8 +1,8 @@
-#include "../include/AxonHillock.hpp"
+#include "Axons/AxonHillock.hpp"
 
-namespace neuwillow
+namespace NeuWillow::Axons
 {
-  AxonHillock::AxonHillock(unsigned long uniqueId)
+  AxonHillock::AxonHillock(uint64_t uniqueId)
   {
     _id = uniqueId;
   }
@@ -12,20 +12,20 @@ namespace neuwillow
 
   }
 
-  unsigned long AxonHillock::getId() const
+  uint64_t AxonHillock::getId() const
   {
     return _id;
   }
 
   std::shared_ptr<AxonHillock> AxonHillockFactory::create()
   {
-      unsigned long axonHillockId = _idGenerator.generateId();
+      uint64_t axonHillockId = _idGenerator.generateId();
       std::shared_ptr<AxonHillock> newAxon = std::make_shared<AxonHillock>(axonHillockId);
       _createdAxonHillocks[axonHillockId] = newAxon;
       return newAxon;
   }    
 
-  std::shared_ptr<AxonHillock> AxonHillockFactory::find(unsigned long axonHillockId)
+  std::shared_ptr<AxonHillock> AxonHillockFactory::find(uint64_t axonHillockId)
   {
       auto it = _createdAxonHillocks.find(axonHillockId);
       if (it == _createdAxonHillocks.end())
@@ -33,7 +33,7 @@ namespace neuwillow
       return it->second;
   }
 
-  bool AxonHillockFactory::destroy(unsigned long axonHillockId)
+  bool AxonHillockFactory::destroy(uint64_t axonHillockId)
   {
       auto it = _createdAxonHillocks.find(axonHillockId);
       if (it == _createdAxonHillocks.end())
@@ -41,4 +41,4 @@ namespace neuwillow
       _createdAxonHillocks.erase(it);
       return true;
   }
-}
+} // namespace Axons::NeuWillow
