@@ -4,7 +4,7 @@
 #include <string.h>
 #include "Neuron.hpp"
 
-namespace NeuWillow
+namespace neuwillow
 {
   class Simulation
   {

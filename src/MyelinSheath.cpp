@@ -1,6 +1,6 @@
 #include "MyelinSheath.hpp"
 
-namespace NeuWillow::Myelination
+namespace neuwillow::Myelination
 {
 
   MyelinSheath::MyelinSheath(const std::vector<Internode> internodes)

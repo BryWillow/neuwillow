@@ -5,7 +5,7 @@
 
 namespace neuwillow
 {
-  namespace myelination
+  namespace Myelination
   {
     /// Notes:
     ///

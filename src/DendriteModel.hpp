@@ -1,7 +1,7 @@
 #ifndef DENDRITE_MODEL_HPP
 #define DENDRITE_MODEL_HPP
 
-namespace NeuWillow::Dendrites
+namespace neuwillow::Dendrites
 {
   
   class IDendriteModel

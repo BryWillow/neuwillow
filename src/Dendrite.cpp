@@ -1,6 +1,6 @@
 #include "Dendrite.hpp"
 
-namespace NeuWillow::Dendrite
+namespace neuwillow::Dendrite
 {
 
   std::shared_ptr<Dendrite> DendriteFactory::create()

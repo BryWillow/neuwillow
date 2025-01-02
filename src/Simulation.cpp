@@ -30,14 +30,16 @@ int main()
 
   ///Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/
   std::cout << "Starting..." << std::endl;
-   NeuWillow::Dendrites::DendriteReceptor* d = new NeuWillow::Dendrites::DendriteReceptor(100);
+   neuwillow::Dendrites::DendriteReceptor* d = new neuwillow::Dendrites::DendriteReceptor(100);
 }
 
-namespace NeuWillow
+namespace neuwillow
 {
   bool Simulation::start(const std::string& configurationFile)
   {
     //spdlog::log << "Simulation starting...";
+
+    Neu
     return true;
   }
 

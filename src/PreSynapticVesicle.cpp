@@ -1,6 +1,6 @@
 #include "PreSynapticVesicle.hpp"
 
-namespace NeuWillow::Axons
+namespace neuwillow::Axons
 {
   PreSynapticVesicle::PreSynapticVesicle(uint64_t uniqueId)
   {

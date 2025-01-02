@@ -5,7 +5,7 @@
 #include <memory.h>
 #include "UniqueIdGenerator.hpp"
 
-namespace NeuWillow::Axons
+namespace neuwillow::Axons
 {
 
   class AxonHillock

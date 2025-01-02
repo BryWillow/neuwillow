@@ -1,7 +1,7 @@
 #ifndef _NEUROTRANSMITTER_H
 #define _NEUROTRANSMITTER_H
 
-namespace NeuWillow
+namespace neuwillow
 {
   namespace Neurotransmitters
   {

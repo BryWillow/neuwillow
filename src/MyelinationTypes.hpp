@@ -1,7 +1,7 @@
 #ifndef MYELINATION_TYPES_HPP
 #define MYELINATION_TYPES_HPP
 
-namespace NeuWillow::Myelination
+namespace neuwillow::Myelination
 {
 
   enum MyelinationTypes

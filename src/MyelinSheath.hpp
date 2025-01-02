@@ -5,7 +5,7 @@
 #include "Internode.hpp"
 #include "RanvierNode.hpp"
 
-namespace NeuWillow::Myelination
+namespace neuwillow::Myelination
 {
 
   /// Notes:

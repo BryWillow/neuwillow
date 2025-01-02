@@ -1,6 +1,6 @@
 #include "AxonHillock.hpp"
 
-namespace NeuWillow::Axons
+namespace neuwillow::Axons
 {
   AxonHillock::AxonHillock(uint64_t uniqueId)
   {

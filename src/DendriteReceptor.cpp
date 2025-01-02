@@ -2,7 +2,7 @@
 #include "Dendrite.hpp"
 #include "DendriteReceptor.hpp"
 
-namespace NeuWillow::Dendrite
+namespace neuwillow::Dendrite
 {
   DendriteReceptor::DendriteReceptor(unsigned long long uniqueId)
   {

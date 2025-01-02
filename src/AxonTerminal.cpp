@@ -1,6 +1,6 @@
 #include "AxonTerminal.hpp"
 
-namespace NeuWillow::Axons
+namespace neuwillow::Axons
 {
     AxonTerminal::AxonTerminal(uint64_t uniqueId)
     {

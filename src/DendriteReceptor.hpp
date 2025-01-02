@@ -5,7 +5,7 @@
 #include <memory.h>
 #include "UniqueIdGenerator.hpp"
 
-namespace NeuWillow::Dendrites
+namespace neuwillow::Dendrites
 {
 
   class DendriteReceptorSite

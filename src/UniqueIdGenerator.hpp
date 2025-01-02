@@ -1,7 +1,7 @@
 #ifndef _UNIQUE_ID_GENERATOR_H
 #define _UNIQUE_ID_GENERATOR_H
 
-namespace NeuWillow
+namespace neuwillow
 {
   class UniqueIdGenerator
   {

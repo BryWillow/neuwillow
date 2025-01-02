@@ -1,7 +1,7 @@
 #ifndef NEUROTRANSMITTER_TYPES_HPP
 #define NEUROTRANSMITTER_TYPES_HPP
 
-namespace NeuWillow
+namespace neuwillow
 {
   namespace Neurotransmitters
   {

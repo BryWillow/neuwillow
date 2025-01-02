@@ -6,7 +6,7 @@
 #include "UniqueIdGenerator.hpp"
 #include "Neurotransmitter.hpp"
 
-namespace NeuWillow::Axons
+namespace neuwillow::Axons
 {
 
   class PreSynapticVesicle
