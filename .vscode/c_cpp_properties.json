@@ -1,11 +1,10 @@
 {
-    "env": {
-        "myDefines": ["DEBUG", "MY_FEATURE=1"]
-      },    
     "configurations": [
         {
             "name": "Mac",
-            "includePath": ["${workspaceFolder}/**"],
+            "includePath": [
+                "${workspaceFolder}/include", 
+                "${workspaceFolder}/**"],
             "defines": [],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"

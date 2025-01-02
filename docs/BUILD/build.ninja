@@ -126,13 +126,6 @@ build CMakeFiles/neuwillow.dir/src/neuron/axon/myelination/myelin_sheath.cpp.o: 
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/neuron/axon/myelination
 
-build CMakeFiles/neuwillow.dir/src/neuron/axon/myelination/ranvier_node.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/neuron/axon/myelination/ranvier_node.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/neuron/axon/myelination/ranvier_node.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
-  OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/neuron/axon/myelination
-
 build CMakeFiles/neuwillow.dir/src/neuron/synapse/chemical_synapse.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/neuron/synapse/chemical_synapse.cpp || cmake_object_order_depends_target_neuwillow
   DEP_FILE = CMakeFiles/neuwillow.dir/src/neuron/synapse/chemical_synapse.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk

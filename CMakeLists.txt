@@ -1,32 +1,31 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 3.31.3)
 
 project(neuwillow)
 
-set(SPDLOG_FMT_EXTERNAL_HO, TRUE)
+set(CMAKE_CXX_STANDARD 17)
+set(CXX_STANDARD_REQUIRED ON)
 
-include_directories(ext/spdlog/)
+include_directories(include)
 
 set(SOURCES
-    src/neuron_structure.cpp
+    src/Neuron.cpp
     src/Dendrite.cpp
-    src/DendriteFactory.cpp    
-    src/dendrite_receptor.cpp
-    src/ion_channel.cpp
-    src/soma_structure.cpp
+    src/DendriteReceptor.cpp
+    src/IonChannel.cpp
+    src/Soma.cpp
     src/action_potential_trigger.cpp
-    src/axon_structure.cpp
-    src/axon_hillock.cpp
-    src/axon_terminal.cpp
-    src/internode.cpp
-    src/myelin_sheath.cpp
-    src/ranvier_node.cpp
-    src/chemical_synapse.cpp
-    src/pre_synaptic_vesicle.cpp
-    src/neurotransmitter.cpp
+    src/Axons/Axon.cpp
+    src/Axons/AxonHillock.cpp
+    src/Axons/AxonTerminal.cpp
+    src/InterNode.cpp
+    src/MyelinSheath.cpp
+    src/ChemicaclSynapse.cpp
+    src/PreSynapticVesicle.cpp
+    src/Neurotransmitter.cpp
     src/synapse_fired.cpp
     src/action_potential_fired.cpp    
-    src/unique_id_generator.cpp
-    src/simulator.cpp
+    src/UniqueIdGenerator.cpp
+    src/Simulation.cpp
 )
 
 add_executable(neuwillow ${SOURCES})

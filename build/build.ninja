@@ -49,143 +49,129 @@ cmake_ninja_workdir = /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build/
 
 build cmake_object_order_depends_target_neuwillow: phony || .
 
-build CMakeFiles/neuwillow.dir/src/neuron_structure.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/neuron_structure.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/neuron_structure.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Neurons/NeuronStructure.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neurons/NeuronStructure.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Neurons/NeuronStructure.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/Neurons
 
-build CMakeFiles/neuwillow.dir/src/Dendrite.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrite.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/Dendrite.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Dendrites/Dendrite.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrites/Dendrite.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Dendrites/Dendrite.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/Dendrites
 
-build CMakeFiles/neuwillow.dir/src/DendriteFactory.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/DendriteFactory.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/DendriteFactory.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Dendrites/DendriteReceptor.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Dendrites/DendriteReceptor.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Dendrites/DendriteReceptor.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
-
-build CMakeFiles/neuwillow.dir/src/dendrite_receptor.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/dendrite_receptor.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/dendrite_receptor.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
-  OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/Dendrites
 
 build CMakeFiles/neuwillow.dir/src/ion_channel.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ion_channel.cpp || cmake_object_order_depends_target_neuwillow
   DEP_FILE = CMakeFiles/neuwillow.dir/src/ion_channel.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
 
 build CMakeFiles/neuwillow.dir/src/soma_structure.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/soma_structure.cpp || cmake_object_order_depends_target_neuwillow
   DEP_FILE = CMakeFiles/neuwillow.dir/src/soma_structure.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
 
 build CMakeFiles/neuwillow.dir/src/action_potential_trigger.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/action_potential_trigger.cpp || cmake_object_order_depends_target_neuwillow
   DEP_FILE = CMakeFiles/neuwillow.dir/src/action_potential_trigger.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
 
-build CMakeFiles/neuwillow.dir/src/axon_structure.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/axon_structure.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/axon_structure.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Axons/AxonStructure.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axons/AxonStructure.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Axons/AxonStructure.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/Axons
 
-build CMakeFiles/neuwillow.dir/src/axon_hillock.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/axon_hillock.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/axon_hillock.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Axons/AxonHillock.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axons/AxonHillock.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Axons/AxonHillock.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/Axons
 
-build CMakeFiles/neuwillow.dir/src/axon_terminal.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/axon_terminal.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/axon_terminal.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Axons/AxonTerminal.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axons/AxonTerminal.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Axons/AxonTerminal.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/Axons
 
 build CMakeFiles/neuwillow.dir/src/internode.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/internode.cpp || cmake_object_order_depends_target_neuwillow
   DEP_FILE = CMakeFiles/neuwillow.dir/src/internode.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
 
-build CMakeFiles/neuwillow.dir/src/myelin_sheath.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/myelin_sheath.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/myelin_sheath.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Myelination/MyelinSheath.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Myelination/MyelinSheath.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Myelination/MyelinSheath.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
-
-build CMakeFiles/neuwillow.dir/src/ranvier_node.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/ranvier_node.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/ranvier_node.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
-  OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/Myelination
 
 build CMakeFiles/neuwillow.dir/src/chemical_synapse.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/chemical_synapse.cpp || cmake_object_order_depends_target_neuwillow
   DEP_FILE = CMakeFiles/neuwillow.dir/src/chemical_synapse.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
 
-build CMakeFiles/neuwillow.dir/src/pre_synaptic_vesicle.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/pre_synaptic_vesicle.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/pre_synaptic_vesicle.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Axons/PreSynapticVesicle.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Axons/PreSynapticVesicle.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Axons/PreSynapticVesicle.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/Axons
 
-build CMakeFiles/neuwillow.dir/src/neurotransmitter.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/neurotransmitter.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/neurotransmitter.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Neurotransmitters/Neurotransmitter.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Neurotransmitters/Neurotransmitter.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Neurotransmitters/Neurotransmitter.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
-  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src/Neurotransmitters
 
 build CMakeFiles/neuwillow.dir/src/synapse_fired.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/synapse_fired.cpp || cmake_object_order_depends_target_neuwillow
   DEP_FILE = CMakeFiles/neuwillow.dir/src/synapse_fired.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
 
 build CMakeFiles/neuwillow.dir/src/action_potential_fired.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/action_potential_fired.cpp || cmake_object_order_depends_target_neuwillow
   DEP_FILE = CMakeFiles/neuwillow.dir/src/action_potential_fired.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
 
-build CMakeFiles/neuwillow.dir/src/unique_id_generator.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/unique_id_generator.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/unique_id_generator.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/UniqueIdGenerator.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/UniqueIdGenerator.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/UniqueIdGenerator.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
 
-build CMakeFiles/neuwillow.dir/src/simulator.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/simulator.cpp || cmake_object_order_depends_target_neuwillow
-  DEP_FILE = CMakeFiles/neuwillow.dir/src/simulator.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/ext/spdlog
+build CMakeFiles/neuwillow.dir/src/Simulation.cpp.o: CXX_COMPILER__neuwillow_unscanned_Debug /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/src/Simulation.cpp || cmake_object_order_depends_target_neuwillow
+  DEP_FILE = CMakeFiles/neuwillow.dir/src/Simulation.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  INCLUDES = -I/Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/include
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   OBJECT_FILE_DIR = CMakeFiles/neuwillow.dir/src
 
@@ -197,7 +183,7 @@ build CMakeFiles/neuwillow.dir/src/simulator.cpp.o: CXX_COMPILER__neuwillow_unsc
 #############################################
 # Link the executable neuwillow
 
-build neuwillow: CXX_EXECUTABLE_LINKER__neuwillow_Debug CMakeFiles/neuwillow.dir/src/neuron_structure.cpp.o CMakeFiles/neuwillow.dir/src/Dendrite.cpp.o CMakeFiles/neuwillow.dir/src/DendriteFactory.cpp.o CMakeFiles/neuwillow.dir/src/dendrite_receptor.cpp.o CMakeFiles/neuwillow.dir/src/ion_channel.cpp.o CMakeFiles/neuwillow.dir/src/soma_structure.cpp.o CMakeFiles/neuwillow.dir/src/action_potential_trigger.cpp.o CMakeFiles/neuwillow.dir/src/axon_structure.cpp.o CMakeFiles/neuwillow.dir/src/axon_hillock.cpp.o CMakeFiles/neuwillow.dir/src/axon_terminal.cpp.o CMakeFiles/neuwillow.dir/src/internode.cpp.o CMakeFiles/neuwillow.dir/src/myelin_sheath.cpp.o CMakeFiles/neuwillow.dir/src/ranvier_node.cpp.o CMakeFiles/neuwillow.dir/src/chemical_synapse.cpp.o CMakeFiles/neuwillow.dir/src/pre_synaptic_vesicle.cpp.o CMakeFiles/neuwillow.dir/src/neurotransmitter.cpp.o CMakeFiles/neuwillow.dir/src/synapse_fired.cpp.o CMakeFiles/neuwillow.dir/src/action_potential_fired.cpp.o CMakeFiles/neuwillow.dir/src/unique_id_generator.cpp.o CMakeFiles/neuwillow.dir/src/simulator.cpp.o
+build neuwillow: CXX_EXECUTABLE_LINKER__neuwillow_Debug CMakeFiles/neuwillow.dir/src/Neurons/NeuronStructure.cpp.o CMakeFiles/neuwillow.dir/src/Dendrites/Dendrite.cpp.o CMakeFiles/neuwillow.dir/src/Dendrites/DendriteReceptor.cpp.o CMakeFiles/neuwillow.dir/src/ion_channel.cpp.o CMakeFiles/neuwillow.dir/src/soma_structure.cpp.o CMakeFiles/neuwillow.dir/src/action_potential_trigger.cpp.o CMakeFiles/neuwillow.dir/src/Axons/AxonStructure.cpp.o CMakeFiles/neuwillow.dir/src/Axons/AxonHillock.cpp.o CMakeFiles/neuwillow.dir/src/Axons/AxonTerminal.cpp.o CMakeFiles/neuwillow.dir/src/internode.cpp.o CMakeFiles/neuwillow.dir/src/Myelination/MyelinSheath.cpp.o CMakeFiles/neuwillow.dir/src/chemical_synapse.cpp.o CMakeFiles/neuwillow.dir/src/Axons/PreSynapticVesicle.cpp.o CMakeFiles/neuwillow.dir/src/Neurotransmitters/Neurotransmitter.cpp.o CMakeFiles/neuwillow.dir/src/synapse_fired.cpp.o CMakeFiles/neuwillow.dir/src/action_potential_fired.cpp.o CMakeFiles/neuwillow.dir/src/UniqueIdGenerator.cpp.o CMakeFiles/neuwillow.dir/src/Simulation.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/neuwillow.dir
   POST_BUILD = :
@@ -240,6 +226,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build
 
+build codegen: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/build
+
 build all: phony neuwillow
 
 # =============================================================================
@@ -249,14 +242,14 @@ build all: phony neuwillow
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/UnixPaths.cmake /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.1/CMakeCCompiler.cmake CMakeFiles/3.31.1/CMakeCXXCompiler.cmake CMakeFiles/3.31.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/UnixPaths.cmake /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.3/CMakeCCompiler.cmake CMakeFiles/3.31.3/CMakeCXXCompiler.cmake CMakeFiles/3.31.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/UnixPaths.cmake /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.1/CMakeCCompiler.cmake CMakeFiles/3.31.1/CMakeCXXCompiler.cmake CMakeFiles/3.31.1/CMakeSystem.cmake: phony
+build /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Linker/AppleClang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang.cmake /Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/UnixPaths.cmake /Users/bryancamp/SoftwareDevelopment/cpp/neuWillow/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.3/CMakeCCompiler.cmake CMakeFiles/3.31.3/CMakeCXXCompiler.cmake CMakeFiles/3.31.3/CMakeSystem.cmake: phony
 
 
 #############################################

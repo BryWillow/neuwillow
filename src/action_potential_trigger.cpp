@@ -1,4 +1,4 @@
-#include "../include/ActionPotential.hpp"
+#include "ActionPotential.hpp"
 
 namespace neuwillow
 {

@@ -1,6 +1,6 @@
-#include <iostream>
-#include <fstream>
-#include "../include/Configuration.hpp"
+#include <iostream.h>
+#include <fstream.h>
+#include "Configuration.hpp"
 
 namespace neuwillow
 {

@@ -1,0 +1,12 @@
+VSCode predefined variables, e.g. ${fileDirname}, ${workspaceFolder}, ...:
+https://code.visualstudio.com/docs/editor/variables-reference
+
+What do you like best about C++ 17 & 23?
+- how you can combine nested namespaces with a double ::
+- <stacktrace>
+- <expected>
+
+- byteswap reverses bytes (fails if padding) for big/little endian
+  big endian is default byte order
+
+- what is atomic

@@ -1,4 +1,4 @@
-#include "../include/Logger.hpp"
+#include "Logger.hpp"
 //#include "spdlog/sinks/stdout_color_sinks.h"
 
 namespace neuwillow
