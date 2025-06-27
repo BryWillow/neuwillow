@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNeuro.Console", "OpenNeuro.Console\OpenNeuro.Console.csproj", "{A0C073D4-47F2-4A8A-9B03-479AE3E6A320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNeuro.Transmissoin", "OpenNeuro.Transmissoin\OpenNeuro.Transmissoin.csproj", "{1EFB5DA9-829A-4121-8E03-AEA2AA7209CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNeuro.NeuroTransmission", "OpenNeuro.NeuroTransmission\OpenNeuro.NeuroTransmission.csproj", "{A7F3BF79-2332-4A70-9661-78DA6CBE412F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0C073D4-47F2-4A8A-9B03-479AE3E6A320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C073D4-47F2-4A8A-9B03-479AE3E6A320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C073D4-47F2-4A8A-9B03-479AE3E6A320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C073D4-47F2-4A8A-9B03-479AE3E6A320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFB5DA9-829A-4121-8E03-AEA2AA7209CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFB5DA9-829A-4121-8E03-AEA2AA7209CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFB5DA9-829A-4121-8E03-AEA2AA7209CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFB5DA9-829A-4121-8E03-AEA2AA7209CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F3BF79-2332-4A70-9661-78DA6CBE412F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F3BF79-2332-4A70-9661-78DA6CBE412F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F3BF79-2332-4A70-9661-78DA6CBE412F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F3BF79-2332-4A70-9661-78DA6CBE412F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
