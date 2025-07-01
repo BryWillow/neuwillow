@@ -12,4 +12,4 @@ The goal of NeuWillow is to interpret [EEG](https://en.wikipedia.org/wiki/Electr
   - Rather EEG output will measure [Postsynaption Potentials](https://en.wikipedia.org/wiki/Postsynaptic_potential) or PSPs.
   - NeuWillow will provide a way of creating and recording a set of [Action Potentials](https://en.wikipedia.org/wiki/Action_potential) and corresponding metadata.
   - Identify the specific cause(s) and result(s) of manually of an action potential created manually.
-  - Identify what [neurotransmitters]I(https://en.wikipedia.org/wiki/Neurotransmitter) bind to postsysynaptic neurons, and which are selected as part of the reuptake process.
+  - Identify what [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter) bind to postsysynaptic neurons, and which are selected as part of the reuptake process.
