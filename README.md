@@ -1,5 +1,5 @@
 # neuwillow
-The goal of NeuWillow is to interpret [EEG](https://en.wikipedia.org/wiki/Electroencephalography) and [fMRI](https://en.wikipedia.org/wiki/Electroencephalography) datasets and to detect abnormalities.
+The goal of NeuWillow is to interpret [EEG](https://en.wikipedia.org/wiki/Electroencephalography) and [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging) datasets and to detect abnormalities.
   - Datasets must use follow the industry standard [BIDS Format](https://bids.neuroimaging.io).
   - Datasets will come from reputable open source databases. This list is exhaustive, and will be updated as more sources are added.
     - [OpenNeuro](https://openneuro.org/)
