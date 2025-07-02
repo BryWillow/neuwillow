@@ -23,6 +23,11 @@ public class NeurotransmitterVesicles
 
     public void Release(Calcium calcium)
     {
-        return;
+        if (calcium == null)
+        {
+            throw new ArgumentNullException
+        }
+
+            return;
     }
 }
