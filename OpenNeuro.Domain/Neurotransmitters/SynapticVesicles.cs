@@ -23,6 +23,6 @@ public class NeurotransmitterVesicles
 
     public void Release(Calcium calcium)
     {
-        
+        return;
     }
 }
