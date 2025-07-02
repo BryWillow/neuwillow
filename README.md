@@ -1,15 +1,25 @@
 # neuwillow
-The goal of NeuWillow is to provide both [EEG](https://en.wikipedia.org/wiki/Electroencephalography) and [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging) datasets from the same patient and to detect abnormalities and comorbidities in the human brain. EEGs use electrodes on the scalp to measure electrical discharges in the brain. 
 
-# Background
-- The [EEG](https://en.wikipedia.org/wiki/Electroencephalography), in much simplified terms, is designed to capture electrical impulses within the brain. Specifically, abnormal discharges, and sharp spike and wave patterns assosciated with epilepsy. An EEG can, however, be used to diagnose other conditions such as brain tumors and strokes. Approximately 2/3 of those taking anti-epileptic medicatiosns, experience seizure control. Approximately 1/3 do not. Currently, we know, based on the type of seizure, which medication a patient will respond to. But stil, many do not. It is unclear whether certain medications, or combinations therof cause brain injury, whether short term, long term, or permanent. We need to better define seizure control means, and understand what types of brain injuries anti-epileptic medications can cause.
+# Overview
+NeuWillow is a study of a specific class of mood-regulations, [Selective Serotonin Reuptake Inhibitors (SSRIs)](https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor). Some drugs in this category are:
+- [Fluoxetine (Prozac)](https://www.ncbi.nlm.nih.gov/books/NBK459223/)
+- [Sertaline (Zoloft)](https://www.ncbi.nlm.nih.gov/books/NBK547689/)
+- [Paroxetine (Paxil)](https://www.ncbi.nlm.nih.gov/books/NBK526022/)
+- [Trazodone](https://www.ncbi.nlm.nih.gov/books/NBK470560/)
+Specifically, to note their efficacy using both the [EEG](https://en.wikipedia.org/wiki/Electroencephalography) and [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging).
+Some important questions to answer:
+- Identify what conditions a patient has for a particular medication to be more effective.
+- Do any of these medications cause brain injury over an extended period of time?
+- Are any of these medications more effective when a patient has a chronic illness like [epilepsy](https://en.wikipedia.org/wiki/Epilepsy?
 
-- The [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging), in much simplified terms, is designed to create a mapping of the brain, and, given specific stimulii, show the flow of blood to specific regions of the brain. While this can help surgeons create a presurgical plan, it can also help us understand the efficacy of certain medication regimens, and specific brain injuries that have been caused.
-
-# Goals 
-  - To interepret EEG and fMRI datasets.
-  - Datasets must use follow the industry standard [BIDS Format](https://bids.neuroimaging.io).
-  - Datasets will come from reputable open source databases. This list is exhaustive, and will be updated as more sources are added.
+# Testing Methods
+- The [Electroencephalography (EEG)](https://en.wikipedia.org/wiki/Electroencephalography)
+- The [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging)
+  
+# Goals
+  - Tp study the same patients over time.
+  - To correctly interepret EEG and fMRI open source datasets in the industry standart [BIDS Format](https://bids.neuroimaging.io).
+  - Collect data from reputable sources:
     - [OpenNeuro](https://openneuro.org/)
     - [OpenBCI](https://openbci.com/community/publicly-available-eeg-datasets/)
     - [Frontiers](https://www.frontiersin.org/articles/10.3389/fnins.2021.755817/full)
