@@ -1,16 +1,17 @@
 # neuwillow
 
 # Overview
-NeuWillow is a study of a specific class of mood-regulations, [Selective Serotonin Reuptake Inhibitors (SSRIs)](https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor). Some drugs in this category are:
+NeuWillow is a study of a specific class of mood-regulating medications, [Selective Serotonin Reuptake Inhibitors (SSRIs)](https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor). Some drugs in this category are:
 - [Fluoxetine (Prozac)](https://www.ncbi.nlm.nih.gov/books/NBK459223/)
 - [Sertaline (Zoloft)](https://www.ncbi.nlm.nih.gov/books/NBK547689/)
 - [Paroxetine (Paxil)](https://www.ncbi.nlm.nih.gov/books/NBK526022/)
 - [Trazodone](https://www.ncbi.nlm.nih.gov/books/NBK470560/)
+  
 Specifically, to note their efficacy using both the [EEG](https://en.wikipedia.org/wiki/Electroencephalography) and [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging).
 Some important questions to answer:
 - Identify what conditions a patient has for a particular medication to be more effective.
 - Do any of these medications cause brain injury over an extended period of time?
-- Are any of these medications more effective when a patient has a chronic illness like [epilepsy](https://en.wikipedia.org/wiki/Epilepsy?
+- Are any of these medications more effective when a patient has a chronic illness like [epilepsy](https://en.wikipedia.org/wiki/Epilepsy)?
 
 # Testing Methods
 - The [Electroencephalography (EEG)](https://en.wikipedia.org/wiki/Electroencephalography)
