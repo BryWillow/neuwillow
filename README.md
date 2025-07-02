@@ -38,4 +38,4 @@ Some important questions to answer:
 - [Christopher Mulert: Simultaneous EEG and fMRI](https://pmc.ncbi.nlm.nih.gov/articles/PMC3811108/)
 - [Abreu R, Leal A, Figueiredo P: EEG-Informed fMRI](https://pubmed.ncbi.nlm.nih.gov/29467634/)
 - [Christoph M Michel  1 , Micah M Murray: Towards the utilization of EEG as a brain imaging tool](https://pubmed.ncbi.nlm.nih.gov/22227136/)
-- [Rodolfo Abreu: EEG-Informed fMRI](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.20
+- [Rodolfo Abreu: EEG-Informed fMRI](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.20)
