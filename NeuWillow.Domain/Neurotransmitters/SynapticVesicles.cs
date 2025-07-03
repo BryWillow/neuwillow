@@ -25,7 +25,7 @@ public class NeurotransmitterVesicles
     {
         if (calcium == null)
         {
-            throw new ArgumentNullException
+            throw new ArgumentNullException();
         }
 
             return;
