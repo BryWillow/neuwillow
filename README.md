@@ -1,6 +1,6 @@
 # neuwillow
 
-# Overview
+## Overview
 NeuWillow is a study of a specific class of mood-regulating medications, [Selective Serotonin Reuptake Inhibitors (SSRIs)](https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor). Some drugs in this category are:
 - [Fluoxetine (Prozac)](https://www.ncbi.nlm.nih.gov/books/NBK459223/)
 - [Sertaline (Zoloft)](https://www.ncbi.nlm.nih.gov/books/NBK547689/)
@@ -13,11 +13,11 @@ Some important questions to answer:
 - Do any of these medications cause brain injury over an extended period of time?
 - Are any of these medications more effective when a patient has a chronic illness like [epilepsy](https://en.wikipedia.org/wiki/Epilepsy)?
 
-# Testing Methods
+## Testing Methods
 - The [Electroencephalography (EEG)](https://en.wikipedia.org/wiki/Electroencephalography)
 - The [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging)
   
-# Goals
+## Goals
   - Tp study the same patients over time.
   - To correctly interepret EEG and fMRI open source datasets in the industry standart [BIDS Format](https://bids.neuroimaging.io).
   - Collect data from reputable sources:
@@ -33,7 +33,7 @@ Some important questions to answer:
   - Identify the specific cause(s) and result(s) of manually of an action potential created manually.
   - Identify what [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter) bind to postsysynaptic neurons, and which are selected as part of the reuptake process.
 
-# Most Relevant Publications and Studies
+## Most Relevant Publications and Studies
 - [Tracy Warbrick: Simultaneous EEG and fMRI](https://pmc.ncbi.nlm.nih.gov/articles/PMC8952790/) 
 - [Christopher Mulert: Simultaneous EEG and fMRI](https://pmc.ncbi.nlm.nih.gov/articles/PMC3811108/)
 - [Abreu R, Leal A, Figueiredo P: EEG-Informed fMRI](https://pubmed.ncbi.nlm.nih.gov/29467634/)
