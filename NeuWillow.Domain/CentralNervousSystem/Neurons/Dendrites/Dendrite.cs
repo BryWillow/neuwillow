@@ -1,6 +1,8 @@
-using NeuWillow.Anatomy.Brain.Neurotransmitters;
+using NeuWillow.Domain.Neurons;
+using NeuWillow.Domain.Neurons.Dendrites;
+using OpenNeuro.Domain;
 
-namespace NeuWillow.Anatomy.Brain.Neurons.Dendrites;
+namespace NeuWillow.Domain.CentralNervousSystem.Neurons.Dendrites;
 
 public class Dendrite
 {
@@ -13,10 +15,10 @@ public class Dendrite
     /// A single dendrite can receive multiple neurotransmitters simultaneously
     /// </summary>
     /// <param name="neuroTransmitter"></param>
-    //public void Process(NeurotransmitterType neuroTransmitter)
-    //{
-    //
-    //}
+    public void Process(Neurotransmitter neuroTransmitter)
+    {
+    
+    }
 
     /// <summary>
     /// A single dendrite can process different types of neurotransmitters simultaneously.
@@ -25,6 +27,7 @@ public class Dendrite
     /// <param name="neuroTransmitter"></param>
     public void Process(IEnumerable<Neurotransmitter> neurotransmitters)
     {
-        fullStats = File.ReadLines(csv_file).Skip(1).Select(line => new DayStats(line.Split(","))).ToList( );
+        // TODO: Implement processing logic for neurotransmitters
+        // Example: foreach (var nt in neurotransmitters) { ... }
     }
 }

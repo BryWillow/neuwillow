@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NeuWillow.Anatomy.Brain.Neurons.Axons;
+namespace NeuWillow.Domain.Neurons.Axons;
 
 public class Axon(decimal length, bool isMylenated)
 {

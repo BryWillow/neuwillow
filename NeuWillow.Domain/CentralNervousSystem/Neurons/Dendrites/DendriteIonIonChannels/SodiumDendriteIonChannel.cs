@@ -1,4 +1,4 @@
-namespace NeuWillow.Anatomy.Brain.Neurons.Dendrites;
+namespace NeuWillow.Domain.Neurons.Dendrites;
 
 public class SodiumDendriteIonChannel
 {

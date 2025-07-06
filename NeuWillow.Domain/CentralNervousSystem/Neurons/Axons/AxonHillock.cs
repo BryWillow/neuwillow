@@ -1,4 +1,4 @@
-namespace NeuWillow.Anatomy.Brain.Neurons.Axons;
+namespace NeuWillow.Domain.Neurons.Axons;
 
 public class AxonHillock
 {

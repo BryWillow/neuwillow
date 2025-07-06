@@ -1,4 +1,4 @@
-namespace NeuWillow.Anatomy.Brain.Neurons.Ions;
+namespace NeuWillow.Domain.Neurons.Ions;
 
 public enum IonGateType
 {

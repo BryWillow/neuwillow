@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NeuWillow.Anatomy.Brain.Neurons.Dendrites;
+namespace NeuWillow.Domain.Neurons.Dendrites;
 
 public interface INeurotransmitterDispatcher
 {

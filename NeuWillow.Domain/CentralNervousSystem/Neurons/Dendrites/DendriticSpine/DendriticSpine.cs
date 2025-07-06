@@ -1,6 +1,6 @@
-using NeuWillow.Anatomy.Brain.Neurotransmitters;
+using OpenNeuro.Domain;
 
-namespace NeuWillow.Anatomy.Brain.Neurons.Dendrites;
+namespace NeuWillow.Domain.Neurons.Dendrites;
 
 /// <summary>
 /// A dendritic spine is a single neurotransmitter binding site on a dendrite. 
@@ -23,7 +23,7 @@ namespace NeuWillow.Anatomy.Brain.Neurons.Dendrites;
 /// </summary>
 public class DendriticSpine
 {
-    public void Process(NeurotransmitterType neurotransmitter)
+    public void Process(Neurotransmitter neurotransmitter)
     {
 
     }

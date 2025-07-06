@@ -1,5 +1,3 @@
-using OpenNeuro.Domain.Ions;
-
 namespace OpenNeuro.Domain;
 
 /// <summary>
@@ -19,15 +17,5 @@ public class NeurotransmitterVesicles
     public NeurotransmitterVesicles(IEnumerable<Neurotransmitter> neurotransmitters)
     {
 
-    }
-
-    public void Release(Calcium calcium)
-    {
-        if (calcium == null)
-        {
-            throw new ArgumentNullException();
-        }
-
-            return;
     }
 }

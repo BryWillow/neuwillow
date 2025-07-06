@@ -1,8 +1,14 @@
-namespace NeuWillow.Anatomy.Brain.Neurons.Neurons;
+namespace NeuWillow.Domain.Neurons.NeuronTypes;
 
-public static const int NeuronRestingPotential = -70;
-
+/// <summary>
+/// The multipolar neuron is the most common in the brain.
+/// </summary>
 public class MultipolarNeuron
 {
+  public static int NeuronRestingPotential = -70;
 
+  private void ManageDendrites()
+  {
+
+  }
 }

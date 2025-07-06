@@ -1,4 +1,4 @@
-namespace NeuWillow.Anatomy.Brain.Neurons.Neurons;
+namespace NeuWillow.Domain.Neurons.Neurons;
 
 /// <summary>
 /// Bipolar neurons are sensory neurons.
