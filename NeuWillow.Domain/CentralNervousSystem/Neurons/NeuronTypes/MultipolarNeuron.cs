@@ -5,10 +5,14 @@ namespace NeuWillow.Domain.CentralNervousSystem.Neurons.NeuronTypes;
 /// </summary>
 public class MultipolarNeuron
 {
-  public static int NeuronRestingPotential = -70;
+  private static readonly int RestingPotential = -70;
 
-  private void ManageDendrites()
-  {
-
-  }
+  
+  // Dendrites
+  // Ion Channels / Sodium / Potassium
+  // Soma
+  // Action Potential
+  // Synapse
+  // Axon Terminal / Myelinated
+  // SynapticVesicles / Neurotransmitters
 }
