@@ -1,4 +1,4 @@
-namespace NeuWillow.Domain.Neurons.NeuronTypes;
+namespace NeuWillow.Domain.CentralNervousSystem.Neurons.NeuronTypes;
 
 /// <summary>
 /// The multipolar neuron is the most common in the brain.

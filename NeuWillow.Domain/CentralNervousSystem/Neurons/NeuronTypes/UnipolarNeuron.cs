@@ -1,12 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+namespace NeuWillow.Domain.CentralNervousSystem.Neurons.NeuronTypes;
 
-namespace NeuWillow.Domain.Neurons.Neurons
+/// <summary>
+/// Sensory neurons that have one "structure" extending from the soma.
+/// I don't believe they have traditional dendrites?
+/// If necessary, further research this type of neuron.
+/// </summary>
+public class UnipolarNeuron
 {
-    public class UnipolarNeuron
-    {
-        
-    }
+
 }

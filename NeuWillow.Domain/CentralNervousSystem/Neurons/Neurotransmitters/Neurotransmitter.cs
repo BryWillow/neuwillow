@@ -1,53 +1,84 @@
-namespace OpenNeuro.Domain;
+namespace NeuWillow.Domain.CentralNervousSystem.Neurons.Neurotransmitters;
 
-/// <summary>
-/// General Properties:
-/// 1. They are stored in a neuron's Axon Terminal.
-///.   a. Specifically many are stored in sac-like structures called Synaptic Vesicles.
-/// 
-/// </summary>
-/// 
-/// 
-/// 
-
-public class NeurotransmitterFactory
+public class Neurotransmitter(
+  Neurotransmitter.CommonName name,
+  Neurotransmitter.ChemicalStructure chemicalStructure,
+  Neurotransmitter.MoleculeType moleculeType)
 {
-  private readonly Dictionary<NeurotransmitterClass, HashSet<NeurotransmitterName>> _classToNames = [];
-
-  public NeurotransmitterFactory()
+  /// <summary>
+  /// Just starting with the fundamentals.
+  /// Over 100 have been identified.
+  /// </summary>
+  public enum CommonName
   {
-    _classToNames[NeurotransmitterClass.AminoAcid]
+    Invalid,
+    Acetylcholine,
+    Dopamine,
+    Endorphins,
+    Epinephrine,
+    Gaba,
+    Glutamate,
+    Histamine,
+    Serotonin
+  }
+
+  public enum ChemicalStructure
+  {
+    Invalid,
+    AminoAcid, // Small Molecule
+    Monoamine, // Small Molecule
+    Peptide,   // Large Molecule
+    Other
+  }
+
+  public enum MoleculeType
+  {
+    Invalid,
+    Neuropeptide,
+    SmallMolecule
   }
   
+  public ChemicalStructure ChemicalClass => chemicalStructure;
+  public CommonName Name => name;
+  public MoleculeType MoleculeSize => moleculeType;
 
-  Neurotransmitter Create()
-  {
-    _classToNames[NeurotransmitterClass.AminoAcid] = new HashSet<NeurotransmitterName>
-    {
-      NeurotransmitterName.Dopamine,
-      NeurotransmitterName.Glutamate
-    };
+  public static readonly Neurotransmitter Acetylcholine = new(
+    CommonName.Acetylcholine,
+    ChemicalStructure.Monoamine,
+    MoleculeType.SmallMolecule);
 
-    return new Neurotransmitter(NeurotransmitterClass.AminoAcid);
-  }
-}
+  public static readonly Neurotransmitter Dopamine = new(
+    CommonName.Dopamine,
+    ChemicalStructure.Monoamine,
+    MoleculeType.SmallMolecule);
 
-public enum NeurotransmitterClass
-{
-  Invalid,
-  AminoAcid,
-  Monoamine,
-  Peptide,
-  Other
-}
+  public static readonly Neurotransmitter Endorphins = new(
+    CommonName.Dopamine,
+    ChemicalStructure.Peptide,
+    MoleculeType.Neuropeptide);
 
-public enum NeurotransmitterName
-{
-  Invalid,
-  Dopamine,
-}
+  public static readonly Neurotransmitter Epinephrine = new(
+    CommonName.Epinephrine,
+    ChemicalStructure.Monoamine,
+    MoleculeType.SmallMolecule);
 
-public class Neurotransmitter(NeurotransmitterClass neurotransmitterClass)
-{
-  public NeurotransmitterClass Class => neurotransmitterClass;
+  public static readonly Neurotransmitter Gaba = new(
+    CommonName.Gaba,
+    ChemicalStructure.AminoAcid,
+    MoleculeType.SmallMolecule);
+
+  public static readonly Neurotransmitter Glutamate = new(
+    CommonName.Glutamate,
+    ChemicalStructure.AminoAcid,
+    MoleculeType.SmallMolecule);
+
+  public static readonly Neurotransmitter Histamine = new(
+     CommonName.Histamine,
+     ChemicalStructure.Monoamine,
+     MoleculeType.SmallMolecule);
+
+ public static readonly Neurotransmitter Serotonin = new(
+    CommonName.Serotonin,
+    ChemicalStructure.Monoamine,
+    MoleculeType.SmallMolecule);        
 }

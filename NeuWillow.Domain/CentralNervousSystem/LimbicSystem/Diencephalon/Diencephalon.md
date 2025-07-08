@@ -9,4 +9,4 @@ The Diencephalon is a   cluster of gray matter deep within the Cerebrum. Its maj
 - [Hypothalamus](https://en.wikipedia.org/wiki/Hypothalamus)
 
 ## Useful Links
-[Video: Diencephalon with Focus on Hypothalmus](https://www.youtube.com/watch?v=hgoa_ZxX5Sg)
+[YouTube Video: Diencephalon with Focus on Hypothalmus](https://www.youtube.com/watch?v=hgoa_ZxX5Sg)

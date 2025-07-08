@@ -1,8 +1,7 @@
-namespace NeuWillow.Domain.Neurons.Neurons;
+namespace NeuWillow.Domain.CentralNervousSystem.Neurons.NeuronTypes;
 
 /// <summary>
-/// Bipolar neurons are sensory neurons.
-/// They have one dendrite and one axon.
+/// Bipolar neurons are sensory neurons with one dendrite and one axon.
 /// </summary>
 public class BipolarNeuron
 {
