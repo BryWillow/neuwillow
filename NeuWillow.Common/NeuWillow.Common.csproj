@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\NeuWillow.Common\NeuWillow.Common.csproj" />
-  </ItemGroup>
-
 </Project>
- 

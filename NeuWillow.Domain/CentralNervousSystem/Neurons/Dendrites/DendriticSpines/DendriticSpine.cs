@@ -1,3 +1,4 @@
+using NeuWillow.Common;
 using NeuWillow.Domain.CentralNervousSystem.Neurons.Neurotransmitters;
 using NeuWillow.Domain.Neurons.Dendrites;
 
@@ -20,7 +21,9 @@ public class DendriticSpine(IEnumerable<IDendriteIonChannel> ionChannels)
 
     public void Process(Neurotransmitter neurotransmitter)
     {
-        // Evaluate which ioni channels are open.
+        neurotransmitter.ThrowIfNull(nameof(neurotransmitter), $"{neurotransmitter}");
+        // This neurotransmitter should be excitatory.
+        // Evaluate which ion channels are open.
     }
 
     /// <summary>
