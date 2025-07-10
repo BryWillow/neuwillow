@@ -2,7 +2,7 @@
 
 public static class Extensions
 {
-  public static T ThrowIfNull<T>(this T value, string parameterName, string? message) where T : class
+  public static T ThrowIfArgumentNull<T>(this T value, string parameterName, string? message = "") where T : class
   {
     if (value == null)
     {
