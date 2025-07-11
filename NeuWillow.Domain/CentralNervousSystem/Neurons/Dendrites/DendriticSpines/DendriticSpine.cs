@@ -23,9 +23,24 @@ public class DendriticSpine
 
     public IEnumerable<IDendriteIonChannel> IonChannels { get; private set; }
 
+    public decimal VolumeMicrons { get; private set; }
+
     public void Process(Neurotransmitter neurotransmitter)
     {
         neurotransmitter.ThrowIfArgumentNull(nameof(neurotransmitter));
+    }
+
+    private void AdjustVolume(Neurotransmitter neurotransmitter)
+    {
+        // RESEARCH: Dendrite spines grow and shrink dynamically based on several factors including: 
+        //           (1) the "strength" of the synapse, i.e., how many neurotransmitters it is binding to.
+        //           (2) if it has a TrkB receptor, then BDNF can flow inside and impact the entire dendrite.
+        //           (3) the length of the dendrite.
+        //
+        // NOTES:    (1) This information is related is related to neuroplasticity, and heavily being researchced.
+        //           (2) Dendrite spines with TrkB receptors are not isolated to specific regions in the brain.
+        //           (3) I don't believe (but could be wrong) we know why some spines have TrkB receptors and some don't.
+        //
     }
 
     /// <summary>
