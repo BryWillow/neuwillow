@@ -5,6 +5,14 @@ using NeuWillow.Neurons.Neurotransmitters;
 namespace NeuWillow.Neurons.Dendrites.DendriticSpines;
 
 /// <summary>
+
+/// </summary>
+public class ExcitatoryPostsynapticPotential
+{
+
+}
+
+/// <summary>
 /// Important facts:
 /// Dendritic spines receive primarily excitatory inupt.
 /// Dendritic spines receive 2-4% of GABA.
@@ -16,10 +24,28 @@ namespace NeuWillow.Neurons.Dendrites.DendriticSpines;
 /// </summary>
 public class DendriticSpine
 {
+    // TODO: Read this from configuration. And it should likely be a range. 
+    // RESEARCH: There is much study and debate in the scientific community re: the electrical properties
+    /// of a dendritic spine. It's estimated a 2-20 millivolts can cause synaptic activity.
+    /// However, up to 40 millivolts has been measured at the head of the spine. Spines are so
+    /// small that we don't yet have the technology to measure all of the nuances with definitive acccuracy.    
+    private int ThresholdMillivoltsForEpsp = 20;
+
+    // RESEARCH: Which excitatory neurotransmitters generate how many millivolts based on the 
+    //           state of the dendrite spine. For now we'll use this common constant.
+    //           So, for now, this is a "magic" number.
+    private decimal NeurotransmitterVoltage = 0.01m;
+
+    private decimal _accumulatedVoltage = 0m;
+
     public DendriticSpine(IEnumerable<IDendriteIonChannel> ionChannels)
     {
+        // TODO: implement IonChannel functionality.
+        // RESEARCH: Which types of ion channels are applicable to dendritic spines.
         IonChannels = ionChannels.ThrowIfArgumentNull(nameof(ionChannels));
     }
+
+    public event EventHandler<ExcitatoryPostsynapticPotential> OnDendriteSpinePotentialReceived;
 
     public IEnumerable<IDendriteIonChannel> IonChannels { get; private set; }
 
@@ -28,6 +54,12 @@ public class DendriticSpine
     public void Process(Neurotransmitter neurotransmitter)
     {
         neurotransmitter.ThrowIfArgumentNull(nameof(neurotransmitter));
+        _accumulatedVoltage += NeurotransmitterVoltage;
+        if (_accumulatedVoltage >= ThresholdMillivoltsForEpsp)
+        {
+            ExcitatoryPostsynapticPotential epsp = new();
+            OnDendriteSpinePotentialReceived?.Invoke(this, epsp);            
+        }
     }
 
     private void AdjustVolume(Neurotransmitter neurotransmitter)
@@ -44,7 +76,7 @@ public class DendriticSpine
     }
 
     /// <summary>
-    /// Limits diffusion?
+    /// RESEARCH: Limits diffusion?
     /// </summary>
     public decimal SpineNeckNarrowing { get; set; }
 }
