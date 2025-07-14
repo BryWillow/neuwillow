@@ -4,12 +4,15 @@ using NeuWillow.Neurons.Neurotransmitters;
 
 namespace NeuWillow.Neurons.Dendrites.DendriticSpines;
 
+
 /// <summary>
-
+/// Instances of this class will eventually be propagated up to the dendrite, which
+/// will have an impact on whether an action potential is fired.
 /// </summary>
-public class ExcitatoryPostsynapticPotential
+public class ExcitatoryPostsynapticPotential(DendriticSpine dendriteSpine, decimal voltageCausingPotential)
 {
-
+    public DendriticSpine Origin => dendriteSpine;
+    public decimal VoltageOfPotential => voltageCausingPotential;
 }
 
 /// <summary>
@@ -29,12 +32,12 @@ public class DendriticSpine
     /// of a dendritic spine. It's estimated a 2-20 millivolts can cause synaptic activity.
     /// However, up to 40 millivolts has been measured at the head of the spine. Spines are so
     /// small that we don't yet have the technology to measure all of the nuances with definitive acccuracy.    
-    private int ThresholdMillivoltsForEpsp = 20;
+    private const int ThresholdMillivoltsForEpsp = 20;
 
     // RESEARCH: Which excitatory neurotransmitters generate how many millivolts based on the 
     //           state of the dendrite spine. For now we'll use this common constant.
     //           So, for now, this is a "magic" number.
-    private decimal NeurotransmitterVoltage = 0.01m;
+    private const decimal NeurotransmitterVoltage = 0.01m;
 
     private decimal _accumulatedVoltage = 0m;
 
@@ -48,8 +51,9 @@ public class DendriticSpine
     public event EventHandler<ExcitatoryPostsynapticPotential> OnDendriteSpinePotentialReceived;
 
     public IEnumerable<IDendriteIonChannel> IonChannels { get; private set; }
-
     public decimal VolumeMicrons { get; private set; }
+    /// RESEARCH: Limits diffusion?
+    public decimal SpineNeckNarrowing { get; set; }
 
     public void Process(Neurotransmitter neurotransmitter)
     {
@@ -57,7 +61,8 @@ public class DendriticSpine
         _accumulatedVoltage += NeurotransmitterVoltage;
         if (_accumulatedVoltage >= ThresholdMillivoltsForEpsp)
         {
-            ExcitatoryPostsynapticPotential epsp = new();
+            ExcitatoryPostsynapticPotential epsp = new(this, _accumulatedVoltage);
+            _accumulatedVoltage = 0m;
             OnDendriteSpinePotentialReceived?.Invoke(this, epsp);            
         }
     }
@@ -74,9 +79,4 @@ public class DendriticSpine
         //           (3) I don't believe (but could be wrong) we know why some spines have TrkB receptors and some don't.
         //
     }
-
-    /// <summary>
-    /// RESEARCH: Limits diffusion?
-    /// </summary>
-    public decimal SpineNeckNarrowing { get; set; }
 }

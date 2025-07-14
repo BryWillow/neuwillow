@@ -8,7 +8,7 @@
   </PropertyGroup>
 
     <ItemGroup>
-    <ProjectReference Include="..\NeuWillow.Domain\NeuWillow.Domain.csproj" />
+    <ProjectReference Include="..\NeuWillow.Neurons\NeuWillow.Neurons.csproj" />
   </ItemGroup>
   
 </Project>
