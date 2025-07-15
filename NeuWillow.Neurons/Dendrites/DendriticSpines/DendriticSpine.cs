@@ -9,10 +9,14 @@ namespace NeuWillow.Neurons.Dendrites.DendriticSpines;
 /// Instances of this class will eventually be propagated up to the dendrite, which
 /// will have an impact on whether an action potential is fired.
 /// </summary>
-public class ExcitatoryPostsynapticPotential(DendriticSpine dendriteSpine, decimal voltageCausingPotential)
+public class ExcitatoryPostsynapticPotential(
+    DendriticSpine dendriteSpine,
+    Neurotransmitter neurotransmitterTriggeringPotential,
+    decimal voltageCausingPotential)
 {
     public DendriticSpine Origin => dendriteSpine;
-    public decimal VoltageOfPotential => voltageCausingPotential;
+    public Neurotransmitter Trigger => neurotransmitterTriggeringPotential;
+    public decimal Voltage => voltageCausingPotential;
 }
 
 /// <summary>
@@ -61,7 +65,7 @@ public class DendriticSpine
         _accumulatedVoltage += NeurotransmitterVoltage;
         if (_accumulatedVoltage >= ThresholdMillivoltsForEpsp)
         {
-            ExcitatoryPostsynapticPotential epsp = new(this, _accumulatedVoltage);
+            ExcitatoryPostsynapticPotential epsp = new(this, neurotransmitter, _accumulatedVoltage);
             _accumulatedVoltage = 0m;
             OnDendriteSpinePotentialReceived?.Invoke(this, epsp);            
         }
