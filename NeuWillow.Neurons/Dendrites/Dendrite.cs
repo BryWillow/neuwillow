@@ -7,6 +7,14 @@ namespace NeuWillow.Neurons.Dendrites;
 
 public class Dendrite
 {
+    const int DefaultNumberOfSpines = 10000;
+    int _numberOfSpines;
+
+    public Dendrite(int numberOfSpines = DefaultNumberOfSpines)
+    {
+        _numberOfSpines = numberOfSpines;
+    }
+
     private List<IDendriteReceptor> _receptorSites = [];
     private List<DendriticSpine> _spines = [];
 

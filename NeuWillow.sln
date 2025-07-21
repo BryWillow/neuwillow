@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuWillow.Neurons", "NeuWil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuWillow.LimbicSystem", "NeuWillow.LimbicSystem\NeuWillow.LimbicSystem.csproj", "{74FBFC59-32E7-48A2-A2BD-ADAB6BE42F64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuWillow.GlialCells", "NeuWillow.GlialCells\NeuWillow.GlialCells.csproj", "{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{74FBFC59-32E7-48A2-A2BD-ADAB6BE42F64}.Release|x64.Build.0 = Release|Any CPU
 		{74FBFC59-32E7-48A2-A2BD-ADAB6BE42F64}.Release|x86.ActiveCfg = Release|Any CPU
 		{74FBFC59-32E7-48A2-A2BD-ADAB6BE42F64}.Release|x86.Build.0 = Release|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Debug|x64.Build.0 = Debug|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Debug|x86.Build.0 = Debug|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Release|x64.ActiveCfg = Release|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Release|x64.Build.0 = Release|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Release|x86.ActiveCfg = Release|Any CPU
+		{09036CFF-211E-4F4C-B21C-4C5FC8D51F54}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
