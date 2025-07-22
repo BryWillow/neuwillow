@@ -1,6 +1,7 @@
 ## Hypothalamus: Purpose, Structure, Behavior Control
 
-#### Some basic behavior controls:
+Body Impact
+---
 - Body temperature
 - Hunger, Thirst
 - Sleep, Fatigue
@@ -8,6 +9,18 @@
 - Parenting and maternal attachment
 - Behaviors: Social, Sexual, Aggressiveness
 
+Code Organization
+---
+I have organized the code by zones and regions:
+
+- Zone (e.g., Lateral)
+  - Zone Properties
+  - Zone Nuclei
+- Region (e.g., Anterior)
+  - Region Properties
+  - Region Nuclei
+
+A good visual is on [Wikipedia](https://en.wikipedia.org/wiki/Hypothalamus).
 
 
 References
