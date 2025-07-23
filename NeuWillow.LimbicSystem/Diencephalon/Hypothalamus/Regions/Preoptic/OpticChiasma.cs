@@ -1,6 +1,4 @@
-
-
-namespace NeuWillow.Anatomy.Brain.Regions.Diencephalon.Hypothalamus;
+namespace NeuWillow.LimbicSystem.Diencephalon.Hypothalamus.Regions.Preoptic;
 
 public class OpticChiasma
 {

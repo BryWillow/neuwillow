@@ -1,4 +1,4 @@
-namespace NeuWillow.Anatomy.Brain.Regions.Diencephalon.Hypothalamus;
+namespace NeuWillow.LimbicSystem.Diencephalon.Hypothalamus.Regions.Mammalary.Nuclei;
 
 public class PosteriorHypothalamicNucleus
 {

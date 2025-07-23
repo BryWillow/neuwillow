@@ -1,12 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+namespace NeuWillow.LimbicSystem.Diencephalon.Hypothalamus.Regions.Anterior.Nuclei;
 
-namespace NeuWillow.LimbicSystem.Diencephalon.Hypothalamus.Regions.Anterior.Lateral
+public class LateralNucleus
 {
-    public class LateralNucleus
-    {
-        
-    }
+
 }

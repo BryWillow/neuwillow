@@ -1,4 +1,4 @@
-namespace NeuWillow.LimbicSystem.Diencephalon.Hypothalamus.Medial.Zones.SupraOpticZone.Nuclei;
+namespace NeuWillow.LimbicSystem.Diencephalon.Hypothalamus.Regions.Mammalary.Nuclei;
 
 public class SupraOpticNucleus
 {

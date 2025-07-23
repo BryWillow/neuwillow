@@ -1,4 +1,4 @@
-namespace NeuWillow.LimbicSystem.Diencephalon.Hypothalamus.Medial.Zones.TuberalZone.Nuclei;
+namespace NeuWillow.LimbicSystem.Diencephalon.Hypothalamus.Regions.Tuberal.Nuclei;
 
 public class VentralMedialNucleus
 {
