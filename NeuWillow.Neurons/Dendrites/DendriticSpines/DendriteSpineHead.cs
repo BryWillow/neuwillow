@@ -1,17 +1,15 @@
 using NeuWillow.Neurons.Synapses;
+using UnitsNet;
 
 namespace NeuWillow.Neurons.Dendrites.DendriticSpines;
 
-public class DendriteSpineHead(Synapse synapse, decimal initialDiameter, decimal initialVolume)
+public class DendriteSpineHead(Synapse synapse, Length initialDiameter, Volume initialVolume)
 {
     private Synapse _synapse = synapse;
-    private decimal _diameter = initialDiameter;
-    private decimal _volume = initialVolume;
+    private Length _diameter = initialDiameter;
+    private Volume _volume = initialVolume;
 
-    /// <summary>
-    /// The synapse with the pre-synaptic neuron.
-    /// </summary>
     public Synapse Synapse => _synapse;
-    public decimal Diameter => _diameter;
-    public decimal Volume => _volume;
+    public Length Diameter => _diameter;
+    public Volume Volume => _volume;
 }
