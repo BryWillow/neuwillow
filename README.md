@@ -1,13 +1,17 @@
 # neuwillow
 
 ## Overview
-NeuWillow is a study of a specific class of mood-regulating medications, [Selective Serotonin Reuptake Inhibitors (SSRIs)](https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor). Some drugs in this category are:
-- [Fluoxetine (Prozac)](https://www.ncbi.nlm.nih.gov/books/NBK459223/)
-- [Sertaline (Zoloft)](https://www.ncbi.nlm.nih.gov/books/NBK547689/)
-- [Paroxetine (Paxil)](https://www.ncbi.nlm.nih.gov/books/NBK526022/)
-- [Trazodone](https://www.ncbi.nlm.nih.gov/books/NBK470560/)
-  
-Specifically, to note their efficacy using both the [EEG](https://en.wikipedia.org/wiki/Electroencephalography) and [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging).
+NeuWillow is a neuroscience-based research project that studies regions of the brain associated with neurological disorders and comorbid mental illnesses. The project gets its name "Neu" for neuron, and "Willow" for the tree-like structure of dendrite connections. It aims to model the regions of the brain impacted by these disorders and illnesses. To simulate dendrite activity, neurotransmitter receptors, action potentials, axons, synapses and general neuronal communication. And subsequently study the impact caused by the below AED and SSRI medications:
+|Class|Brand|Generic| 
+|-----|-------|-----|
+|AED|[Lamictal](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Lamotrigine
+|AED|[Zonegran](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Zonasimide
+|AED|[Depakote](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Valporic Acid
+|SSRI|[Paxil](https://www.ncbi.nlm.nih.gov/books/NBK526022/)|Paroxetine
+|SSRI|[Zoloft](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Sertraline
+|SSRI|[Prozac](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Prozac
+|
+
 Some important questions to answer:
 - Identify what conditions a patient has for a particular medication to be more effective.
 - Do any of these medications cause brain injury over an extended period of time?
