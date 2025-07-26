@@ -2,6 +2,12 @@ using UnitsNet;
 
 namespace NeuWillow.Neurons.Dendrites.DendriticSpines;
 
+/// <summary>
+/// This abstraction is becoming too complicated and needs to be split up.
+/// </summary>
+/// <param name="neckLength"></param>
+/// <param name="neckDiameter"></param>
+/// <param name="spineHead"></param>
 public class DendriteSpineNeck(
   Length neckLength,
   Length neckDiameter,
