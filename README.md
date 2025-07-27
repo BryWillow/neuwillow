@@ -26,14 +26,17 @@ NeuWillow is a neuroscience-based research project that studies regions of the b
     - Persistent Depressive Disorder
     - Bipolar Depression
 ## Medications
-|Class|Brand|Generic| 
-|-----|-------|-----|
-|AED|[Lamictal](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Lamotrigine
-|AED|[Zonegran](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Zonasimide
-|AED|[Depakote](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Valporic Acid
-|SSRI|[Paxil](https://www.ncbi.nlm.nih.gov/books/NBK526022/)|Paroxetine
-|SSRI|[Zoloft](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Sertraline
-|SSRI|[Prozac](https://www.ncbi.nlm.nih.gov/books/NBK547689/)|Prozac
+|Class|Brand|Substance|Treats 
+|-----|-------|-----|----|
+|[Antiepileptic Drugs](https://en.wikipedia.org/wiki/Anticonvulsant)|[Lamictal](https://medlineplus.gov/druginfo/meds/a695007.html)|[Lamotrigine](https://medlineplus.gov/druginfo/meds/a695007.html)|[Epilepsy](https://www.ninds.nih.gov/health-information/disorders/epilepsy-and-seizures)
+|[Antiepileptic Drugs](https://en.wikipedia.org/wiki/Anticonvulsant)|[Zonegran](https://medlineplus.gov/druginfo/meds/a603008.html)|[Zonasimide](https://medlineplus.gov/druginfo/meds/a603008.html)|[Epilepsy](https://www.ninds.nih.gov/health-information/disorders/epilepsy-and-seizures)
+|[Antiepileptic Drugs](https://en.wikipedia.org/wiki/Anticonvulsant)|[Depakote](https://medlineplus.gov/druginfo/meds/a682412.html)|[Valporic Acid](https://medlineplus.gov/druginfo/meds/a682412.html)| [Epilepsy](https://www.ninds.nih.gov/health-information/disorders/epilepsy-and-seizures)
+|[Cholinesterase Inhibitors](https://en.wikipedia.org/wiki/Cholinesterase_inhibitor)|[Aricept](https://medlineplus.gov/druginfo/meds/a697032.html)|[Donepezil](https://medlineplus.gov/druginfo/meds/a697032.html)|[Dementia](https://medlineplus.gov/dementia.html)
+|[Cholinesterase Inhibitors](https://en.wikipedia.org/wiki/Cholinesterase_inhibitor)|[Exelon](https://medlineplus.gov/druginfo/meds/a699058.html)|[Rivastigmine](https://medlineplus.gov/druginfo/meds/a699058.html)|[Dementia](https://medlineplus.gov/dementia.html)
+|[Cholinesterase Inhibitors](https://en.wikipedia.org/wiki/Cholinesterase_inhibitor)|[Galantamine](https://medlineplus.gov/druginfo/meds/a699058.html)|[Galantamine](https://medlineplus.gov/druginfo/meds/a699058.html)|[Dementia](https://medlineplus.gov/dementia.html)
+|[Selective Serotonin Reuptake Inhibitors](https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor)|[Zoloft](https://medlineplus.gov/druginfo/meds/a697048.html)|[Sertraline](https://medlineplus.gov/druginfo/meds/a697048.html)|[Anxiety](https://medlineplus.gov/anxiety.html), [Depression](https://medlineplus.gov/depression.html)
+|[Selective Serotonin Reuptake Inhibitors](https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor)|[Prozac](https://medlineplus.gov/druginfo/meds/a689006.html)|[Prozac](https://medlineplus.gov/druginfo/meds/a689006.html)|[Anxiety](https://medlineplus.gov/anxiety.html), [Depression](https://medlineplus.gov/depression.html)
+|[Selective Serotonin Reuptake Inhibitors](https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor)|[Paxil](https://medlineplus.gov/druginfo/meds/a698032.html)|[Paroxetine](https://medlineplus.gov/druginfo/meds/a698032.html)|[Anxiety](https://medlineplus.gov/anxiety.html), [Depression](https://medlineplus.gov/depression.html) 
 |||
 ## Objectives
   - Model regions of the brain impacted by the above neurological disorders and mental illnesses.
