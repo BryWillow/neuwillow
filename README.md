@@ -1,15 +1,28 @@
 # neuwillow: neurological disorders and comorbidities
 
 
-NeuWillow is a neuroscience-based research project that studies regions of the brain associated with neurological disorders and comorbid mental illnesses. The project gets its name "Neu" for neuron, and "Willow" for the tree-like structure of dendrite connections. It aims to model the regions of the brain impacted by these disorders and illnesses. To simulate dendrite activity, neurotransmitter receptors, action potentials, axons, synapses and general neuronal communication. And subsequently study the impact caused by the below AED and SSRI medications.
+NeuWillow is a [neuroscience](https://en.wikipedia.org/wiki/Neuroscience)-based research project that studies regions of the brain associated with [neurological disorders](https://en.wikipedia.org/wiki/Neurological_disorder) and comorbid [mental illnesses](https://en.wikipedia.org/wiki/Mental_disorder). The project gets its name "Neu" for [neuron](https://en.wikipedia.org/wiki/Neuron), and "Willow" for the tree-like structure of [dendrite](https://en.wikipedia.org/wiki/Dendrite) connections. It aims to model the regions of the brain impacted by these disorders and illnesses, and untangle any relationships. At a birds-eye view NeuWillow does the following: 
+
+- Simulate [post-synaptic](https://en.wikipedia.org/wiki/Postsynaptic_potential) activity in [dendrites](https://en.wikipedia.org/wiki/Dendrite) with different types of inhibitory and excitatory [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter). A few relevant neurotransmitters include [Acetylcholine](https://en.wikipedia.org/wiki/Acetylcholine) (memory and convulsions), [Dopamine](https://en.wikipedia.org/wiki/Dopamine) (mental illnesses), [GABA](https://en.wikipedia.org/wiki/GABA), and [Glutamate](https://en.wikipedia.org/wiki/Glutamate_neurotransmitter) (learning and memory).
+
+- Activate [neurotransmitter receptors](https://en.wikipedia.org/wiki/) and open [ion channels](https://en.wikipedia.org/wiki/Ion_channel).
+
+- Identify causes of [dendrite spine head and neck](https://www.sciencedirect.com/topics/immunology-and-microbiology/dendritic-spine) morphology and its relationship to [neuroplasticity](https://en.wikipedia.org/wiki/Neuroplasticity).
+
+- Generate [action potentials](https://en.wikipedia.org/wiki/Action_potential), track their paths down [axons](https://en.wikipedia.org/wiki/Axon) to [synaptic vesicles](https://en.wikipedia.org/wiki/Synaptic_vesicle).
+
+- Simulate what neurotransmitters pass through the [axon terminal](https://en.wikipedia.org/wiki/Axon_terminal) into the [synapse]()  between the post-synaptic neuron. What neurotransmitters are part of the [reuptake process](https://en.wikipedia.org/wiki/Reuptake), float away and degraged by [enzymes](https://en.wikipedia.org/wiki/Enzyme_inhibitor), or bind to post-synaptic receptor sites.
+
+- When the modeling process is complete, and based on the data available, we will begin to define more specific criteria, for evaluating medications such as age, gender, race, height, weight, etc.
+
+- Many technical details are involved in reading open-source EEG, MRI, fMRI test data into NeuWillow. For example, EEGs and a handful of other tests use the [BIDS](https://bids-specification.readthedocs.io/en/stable/) standard for formatting datasets. Many datasources, and datasets from reputable sources are freely available. This part of the project is still TBD.
 
 ## Primary Areas of Study
 - The <u>_**primary**_</u> neurological conditions we will study are Epilepsy and Dementia. Specifically, the relationship between these two conditions, and whether they exacerbate one another.
-  - Epilepsy will be separated into the four recognized categories:
-    - Focal
-    - Generalized
-    - Combined Focal and Generalized
-    - Unknown
+  - Epilepsy has many known nuances, overlapping characteristics, and subcategories. However, most types, which we will study, fall into at least one (or more) of the below recognized categories:
+    - [Generalized](https://en.wikipedia.org/wiki/Generalized_epilepsy)
+    - [Focal](https://en.wikipedia.org/wiki/Focal_seizure)
+    - [Combined Focal and Generalized](https://pubmed.ncbi.nlm.nih.gov/39352258/)
   - Dementia will be separated into the the five most common categories:
     - Alzheimer's Disease
     - Vascular Dementia
