@@ -1,4 +1,4 @@
-### <u>Overvie</u>
+### <u>Overview</u>
 ***
 NeuWillow is a [Computational Neuroscience](https://en.wikipedia.org/wiki/Computational_neuroscience) research project. The project gets its name from combining the words [neuron](https://en.wikipedia.org/wiki/Neuron) and [willow](https://en.wikipedia.org/wiki/Willow), as in the tree. The willow tree has an intricate branch structure, which, to me, resembles [dendrites](https://en.wikipedia.org/wiki/Dendrite). There is much [symbolism](https://www.betterplaceforests.com/blog/willow-tree-symbolism/) surrounding the willow tree. Specifically, [sorrow, resilience, and rebirth](https://medium.com/@heningeralexander/willow-tree-78b1c71d4275). I liken these qualities, metaphorically speaking, to the human brain.
 
