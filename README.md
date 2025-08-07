@@ -18,8 +18,11 @@ and its most common comorbidities to be:
 - [Depressive Disorders](https://en.wikipedia.org/wiki/Depression_(mood))[10]: including [Major Depressive](https://en.wikipedia.org/wiki/Major_depressive_disorder)[11], [Persistent](https://www.mayoclinic.org/diseases-conditions/persistent-depressive-disorder/symptoms-causes/syc-20350929)[10], and [Bipolar I/II](https://en.wikipedia.org/wiki/Bipolar_disorder) (Controversial)[12].
 - [Neurodegenerative Diseases](https://en.wikipedia.org/wiki/Neurodegenerative_disease)[13]: including [Dementia](https://en.wikipedia.org/wiki/Dementia)[14] and [Alzheimer's Disease](https://en.wikipedia.org/wiki/Alzheimer%27s_disease)[15].
 
+What's important is to understand how neurons communicate, their excitability, and how this excitability spreads. Below is an image of how neurons communicate, specifically through neurotransmitters
+
 The Pre-Synaptic Neuron:
-img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/14a110c3-5f9e-4adb-af4f-6c1a4d70c6be" />
+<img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/14a110c3-5f9e-4adb-af4f-6c1a4d70c6be" />
+<img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/94611a69-6b99-464f-880d-b74a3a021511" />
 
 
 That's ***a lot***. 
