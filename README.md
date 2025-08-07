@@ -18,7 +18,8 @@ and its most common comorbidities to be:
 - [Depressive Disorders](https://en.wikipedia.org/wiki/Depression_(mood))[10]: including [Major Depressive](https://en.wikipedia.org/wiki/Major_depressive_disorder)[11], [Persistent](https://www.mayoclinic.org/diseases-conditions/persistent-depressive-disorder/symptoms-causes/syc-20350929)[10], and [Bipolar I/II](https://en.wikipedia.org/wiki/Bipolar_disorder) (Controversial)[12].
 - [Neurodegenerative Diseases](https://en.wikipedia.org/wiki/Neurodegenerative_disease)[13]: including [Dementia](https://en.wikipedia.org/wiki/Dementia)[14] and [Alzheimer's Disease](https://en.wikipedia.org/wiki/Alzheimer%27s_disease)[15].
 
-https://private-user-images.githubusercontent.com/168703221/471698860-b74b2037-292c-4540-b28b-384a688028ef.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQ1OTIwNzEsIm5iZiI6MTc1NDU5MTc3MSwicGF0aCI6Ii8xNjg3MDMyMjEvNDcxNjk4ODYwLWI3NGIyMDM3LTI5MmMtNDU0MC1iMjhiLTM4NGE2ODgwMjhlZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgwN1QxODM2MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMjI5ZTY0OTZjOTE1ZTE2MjUxZDNkYjUyYjc5M2FjNThlMWQ2MGNlNGIwNDlhNzNhMTBmNjJlYmVkNTM3YzEwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.q_4LALTk6NDad2VySlgtAZzis3GnoH_Gc-T81g33A0A<img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/14a110c3-5f9e-4adb-af4f-6c1a4d70c6be" />
+The Pre-Synaptic Neuron:
+img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/14a110c3-5f9e-4adb-af4f-6c1a4d70c6be" />
 
 
 That's ***a lot***. 
