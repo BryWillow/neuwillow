@@ -21,7 +21,8 @@ and its most common comorbidities to be:
 What's important is to understand how neurons communicate, their excitability, and how this excitability spreads. Below is an image of how neurons communicate, specifically through neurotransmitters
 
 The Pre-Synaptic Neuron:
-<img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/14a110c3-5f9e-4adb-af4f-6c1a4d70c6be" />
+<img width="500" height="1078" alt="image" src="https://github.com/user-attachments/assets/bb879591-d1a2-4e8e-bd92-7b07533e9065" />
+<img width="500" height="1078" alt="image" src="https://github.com/user-attachments/assets/14a110c3-5f9e-4adb-af4f-6c1a4d70c6be" />
 <img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/94611a69-6b99-464f-880d-b74a3a021511" />
 
 
