@@ -19,6 +19,7 @@ and its most common comorbidities to be:
 - [Neurodegenerative Diseases](https://en.wikipedia.org/wiki/Neurodegenerative_disease)[13]: including [Dementia](https://en.wikipedia.org/wiki/Dementia)[14] and [Alzheimer's Disease](https://en.wikipedia.org/wiki/Alzheimer%27s_disease)[15].
 
 What's important is to understand how neurons communicate, their excitability, and how this excitability spreads. Below is an image of how neurons communicate, specifically through neurotransmitters
+<img width="12004" height="1188" alt="image" src="https://github.com/user-attachments/assets/2c93fa55-f224-4d29-8a5a-30fa81142b24" />
 
 The Pre-Synaptic Neuron:
 <img width="500" height="1078" alt="image" src="https://github.com/user-attachments/assets/bb879591-d1a2-4e8e-bd92-7b07533e9065" />
