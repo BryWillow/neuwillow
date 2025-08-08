@@ -24,9 +24,7 @@ The brain communicates with itself through nerve cells, called [neurons](https:/
 
 <img width="12004" height="1188" alt="image" src="https://github.com/user-attachments/assets/2c93fa55-f224-4d29-8a5a-30fa81142b24" />  
 
-Below is an image of how neuron's communicate via neurotransmitters. We need to undertand:
-- Why neurons become so excited for an extended period of time.
-- What causes this excitement to spreda.
+More specifically, neurons communicate by releasing [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter). This process is outlined in great detail in ihe Wiki. Below is an image of how neurotransmitters are passed from one neuron to the next:
 
 <img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/94611a69-6b99-464f-880d-b74a3a021511" />
 
