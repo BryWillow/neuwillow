@@ -18,16 +18,24 @@ and its most common comorbidities to be:
 - [Depressive Disorders](https://en.wikipedia.org/wiki/Depression_(mood))[10]: including [Major Depressive](https://en.wikipedia.org/wiki/Major_depressive_disorder)[11], [Persistent](https://www.mayoclinic.org/diseases-conditions/persistent-depressive-disorder/symptoms-causes/syc-20350929)[10], and [Bipolar I/II](https://en.wikipedia.org/wiki/Bipolar_disorder) (Controversial)[12].
 - [Neurodegenerative Diseases](https://en.wikipedia.org/wiki/Neurodegenerative_disease)[13]: including [Dementia](https://en.wikipedia.org/wiki/Dementia)[14] and [Alzheimer's Disease](https://en.wikipedia.org/wiki/Alzheimer%27s_disease)[15].
 
-#### <u>Neurons Communication</u>
+#### <u>Neurons</u>
 ***
+Neurons are the fundamental units of the [Central Nervous System](https://en.wikipedia.org/wiki/Central_nervous_system), which will be a large focus of this project. A neuron is an excitable nerve cell that is part of a larger network. The brain is known to have around 86 billion neurons, and the spinal cord to have several million more. The anatomy of a neuron, and all of its structures are quite complex. Each component relevant to this project is outlined in the [Wiki](https://github.com/BryWillow/neuwillow/wiki). Below is an image of a single neuron, with all of its structures clearly labeled:
+
+<img width="12004" height="1188" alt="image" src="https://github.com/user-attachments/assets/2c93fa55-f224-4d29-8a5a-30fa81142b24" /> 
+
+#### <u>Neural Networks</u>
+***
+
 The brain communicates with itself through nerve cells, called [neurons](https://en.wikipedia.org/wiki/Neuron). A neuron has distinct parts, each with very different purposes. For further information, see the "Anatomy" pages in the Wiki. Below is an image of a single neuron, which points out all of the specific anatomy:  
   
-<br>
-<img width="12004" height="1188" alt="image" src="https://github.com/user-attachments/assets/2c93fa55-f224-4d29-8a5a-30fa81142b24" />  
+  
 
-<br>
+#### <u>Neurotransmitter Communication</u>
+***
 More specifically, neurons communicate by releasing [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter). This process is outlined in great detail in ihe Wiki. Below is an image of how neurotransmitters are passed from one neuron to the next:  
-<br>
+
 <img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/94611a69-6b99-464f-880d-b74a3a021511" />
-<br>
+
+
 The Wiki goes through this process in detail.
