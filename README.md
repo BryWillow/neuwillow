@@ -22,18 +22,12 @@ and its most common comorbidities to be:
 ***
 The brain communicates with itself through nerve cells, called [neurons](https://en.wikipedia.org/wiki/Neuron). A neuron has distinct parts, each with very different purposes. For further information, see the "Anatomy" pages in the Wiki. Below is an image of a single neuron, which points out all of the specific anatomy:  
   
+<br>
 <img width="12004" height="1188" alt="image" src="https://github.com/user-attachments/assets/2c93fa55-f224-4d29-8a5a-30fa81142b24" />  
 
-
-
-
-
-
+<br>
 More specifically, neurons communicate by releasing [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter). This process is outlined in great detail in ihe Wiki. Below is an image of how neurotransmitters are passed from one neuron to the next:  
-
-  
-
-
+<br>
 <img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/94611a69-6b99-464f-880d-b74a3a021511" />
-
+<br>
 The Wiki goes through this process in detail.
