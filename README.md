@@ -18,9 +18,9 @@ and its most common comorbidities to be:
 - [Depressive Disorders](https://en.wikipedia.org/wiki/Depression_(mood))[10]: including [Major Depressive](https://en.wikipedia.org/wiki/Major_depressive_disorder)[11], [Persistent](https://www.mayoclinic.org/diseases-conditions/persistent-depressive-disorder/symptoms-causes/syc-20350929)[10], and [Bipolar I/II](https://en.wikipedia.org/wiki/Bipolar_disorder) (Controversial)[12].
 - [Neurodegenerative Diseases](https://en.wikipedia.org/wiki/Neurodegenerative_disease)[13]: including [Dementia](https://en.wikipedia.org/wiki/Dementia)[14] and [Alzheimer's Disease](https://en.wikipedia.org/wiki/Alzheimer%27s_disease)[15].
 
-#### <u>Neurons Communication/u>
+#### <u>Neurons Communication</u>
 ***
-Below is a detailed image of a neuron:  
+The brain communicates with itself through nerve cells, called [neurons](https://en.wikipedia.org/wiki/Neuron). A neuron, has distinct parts, each with very different purposes. For further information, see the "Anatomy" pages in the Wiki. Below is an image of a neuron, which points out all of the specific anatomy:  
 
 <img width="12004" height="1188" alt="image" src="https://github.com/user-attachments/assets/2c93fa55-f224-4d29-8a5a-30fa81142b24" />  
 
