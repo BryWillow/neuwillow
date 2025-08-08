@@ -24,8 +24,8 @@ The brain communicates with itself through nerve cells, called [neurons](https:/
 
 
 <img width="12004" height="1188" alt="image" src="https://github.com/user-attachments/assets/2c93fa55-f224-4d29-8a5a-30fa81142b24" />  
-
-
+  
+    
 More specifically, neurons communicate by releasing [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter). This process is outlined in great detail in ihe Wiki. Below is an image of how neurotransmitters are passed from one neuron to the next:  
 
 
