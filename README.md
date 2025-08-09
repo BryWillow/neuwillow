@@ -4,7 +4,7 @@ NeuWillow is a [Computational Neuroscience](https://en.wikipedia.org/wiki/Comput
 
 #### <u>Causes and Comorbidities</u>
 ***
-This project zooms in on [Generalized Epilepsy](https://en.wikipedia.org/wiki/Generalized_epilepsy). Most epilepsies are[idiopathic](https://en.wikipedia.org/wiki/Idiopathic_disease)[1], and this project will place most emphasis in this category. Note that these types of epilepsies are always [under research](https://www.cureepilepsy.org).  
+This project zooms in on [Generalized Epilepsy](https://en.wikipedia.org/wiki/Generalized_epilepsy). Most epilepsies are [idiopathic](https://en.wikipedia.org/wiki/Idiopathic_disease)[1], and this project will place most emphasis in this category. Note that these types of epilepsies are always [under research](https://www.cureepilepsy.org).  
 
 We think we know today the primary causes of idiopathic epilepsies to be:
 - [Genetics](https://en.wikipedia.org/wiki/Genetics)[2].
