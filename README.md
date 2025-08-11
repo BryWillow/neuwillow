@@ -33,7 +33,9 @@ Neurons communicate with one another through , called [neurons](https://en.wikip
 
 #### <u>Neurotransmitter Communication</u>
 ***
-More specifically, neurons communicate by releasing [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter). This process is outlined in great detail in ihe Wiki. Below is an image of how neurotransmitters are passed from one neuron to the next.  The [Wiki](https://github.com/BryWillow/neuwillow/wiki) goes through this process in detail.  
-
+More specifically, neurons communicate by releasing [neurotransmitters](https://en.wikipedia.org/wiki/Neurotransmitter). This process is outlined in great detail in ihe Wiki. Below is an image of how neurotransmitters are passed from one neuron to the next:  
 
 <img width="1108" height="1078" alt="image" src="https://github.com/user-attachments/assets/94611a69-6b99-464f-880d-b74a3a021511" />
+
+
+The Wiki goes through this process in detail.
