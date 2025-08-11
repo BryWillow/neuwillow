@@ -27,7 +27,7 @@ and its most common comorbidities to be:
 ### <u>Neuron Communication</u>
 ***
 
-Neurons communicate with one another through , called [neurons](https://en.wikipedia.org/wiki/Neuron). A neuron has distinct parts, each with very different purposes. For further information, see the "Anatomy" pages in the Wiki. Below is an image of a single neuron, which points out all of the specific anatomy:  
+Neurons communicate with one another through , called [neurons](https://en.wikipedia.org/wiki/Neuron). A neuron has distinct parts, each with very different purposes. For further information, see the [Neuron Anatomy](https://github.com/BryWillow/neuwillow/wiki/Anatomy:-Neuron) page in the Wiki. Below is an image of a single neuron, which points out all of the specific anatomy:  
   
   
 
